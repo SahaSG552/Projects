@@ -1,6 +1,8 @@
-name = 'роскомнадзор'
-letters = [_ for _ in set(name)]
+name = 'госдеп'
+word = name + ' запретил букву'
+letters = [_ for _ in set(word) if _.isalpha()]
 letters.sort()
+
 for i in letters:
-    print('')
-print(letters)
+    print(word, i)
+    word = word.replace(i, '').strip(' ').replace('  ', ' ')
