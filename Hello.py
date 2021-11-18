@@ -1,12 +1,21 @@
-figure = ["ножницы", "бумага", "камень", "ящерица", "Спок"]
-name = ("Тимур", "Руслан")
-# t_figure, r_figure = input(), input()
-t_figure, r_figure = "камень", "бумага"
-# сдвигаем список так, чтобы то, что показывает Тимур было первым в списке
-# из этого списка выбираем 2 элемента от 1 индекса с шагом 2 - Тимур побеждает, если Руслан показывает что то из этих 2х элементов
-win = [(figure[figure.index(t_figure):]+figure[:figure.index(t_figure)])[i] for i in range(1, len(figure), 2)]
-
-if t_figure == r_figure:
-    print("ничья")
-else:
-    print(name[r_figure not in win])
+n = int(input())
+refrigerators = []
+b = [c for c in 'anton']
+for virus in range(n):
+    #отсеиваем лишние символы
+    a = [i for i in input() if i.isalpha() and i in b]
+    i = 0
+    k = 0
+    count = 0
+    while i < len(a):
+        if count == 5: 
+            count = 0
+            refrigerators.append(virus)
+            break
+        if a[i] == b[k]:
+            k +=1
+            count += 1
+            continue
+        else:
+            i += 1
+print(*refrigerators)
