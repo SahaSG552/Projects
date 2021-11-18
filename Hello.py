@@ -1,4 +1,4 @@
-name = 'Роскомнадзор'
+name = 'васёк'
 word = name + ' запретил букву'
 letters = [_ for _ in set(word) if _.isalpha()]
 letters.sort()
