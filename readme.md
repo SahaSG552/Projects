@@ -1,3 +1,1 @@
-# Git and Github Course
-Crash course for Git Yo
-IDK why it's not working?!
+Oh Wow! Now it's working!
