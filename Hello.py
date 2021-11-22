@@ -1,9 +1,19 @@
-a = input().split()
+def print_matrix(matrix, n, width):
+    for r in range(n):
+        for c in range(n):
+            print(str(matrix[r][c]).ljust(width), end=' ')
+        print()
 
-my_list = [[]]
-for k in range(1,len(a)):
-    for i in range(len(a)):
-        if len(a[i:i+k]) == k:
-            my_list.append(a[i:i+k])
-my_list.append(a[:])
-print(my_list)
+matrix  = [[277, -93, 11, 0],
+           [9, 43, 6, 87],
+           [4567, 8, 290, 7]]
+n = len(matrix)
+width = max([max(j) for j in [[len(str(k)) for k in matrix[i]] for i in range(len(matrix))]]) + 1
+
+# s = 0
+# for li in matrix:
+#     for i in range(len(li)):
+#         if len(str(li[i])) > s:
+#             s = len(str(li[i]))
+
+# print_matrix(matrix,n,width)
