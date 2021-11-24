@@ -17,3 +17,10 @@ width = max([max(j) for j in [[len(str(k)) for k in matrix[i]] for i in range(le
 #             s = len(str(li[i]))
 
 # print_matrix(matrix,n,width)
+
+cols = 2
+rows = 4
+cols, rows = int(input()), int(input())
+a = [[input() for _ in range(rows)] for _ in range(cols)]
+for i in range(len(a)):
+    print(*a[i], end='\n')
