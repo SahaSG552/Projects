@@ -1,26 +1,17 @@
-def print_matrix(matrix, n, width):
-    for r in range(n):
-        for c in range(n):
-            print(str(matrix[r][c]).ljust(width), end=' ')
-        print()
+rows, cols = 3, 4
+matrix = ['0 1 -2 4'.split(),
+        '1 2 5 5'.split(),
+        '5 1 8 9'.split()]
+matrix = [[int(i) for i in matrix[k]] for k in range(rows)]
 
-matrix  = [[277, -93, 11, 0],
-           [9, 43, 6, 87],
-           [4567, 8, 290, 7]]
-n = len(matrix)
-width = max([max(j) for j in [[len(str(k)) for k in matrix[i]] for i in range(len(matrix))]]) + 1
 
-# s = 0
-# for li in matrix:
-#     for i in range(len(li)):
-#         if len(str(li[i])) > s:
-#             s = len(str(li[i]))
 
-# print_matrix(matrix,n,width)
+# rows, cols = int(input()), int(input())
+# matrix = [[int(i) for i in input().split()] for _ in range(rows)]
+maximum = -9999999999
+for i in range(rows):
+	if max(matrix[i]) > maximum:
+		maximum = max(matrix[i])
+		find_row, find_col = i, matrix[i].index(maximum)
 
-cols = 2
-rows = 4
-cols, rows = int(input()), int(input())
-a = [[input() for _ in range(rows)] for _ in range(cols)]
-for i in range(len(a)):
-    print(*a[i], end='\n')
+print(find_row, find_col)
