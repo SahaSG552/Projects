@@ -1,16 +1,21 @@
-rows, cols = 3, 4
-matrix = ['11 12 13 14'.split(),
-        '21 22 23 24'.split(),
-        '31 32 33 34'.split()]
-matrix = [[int(i) for i in matrix[k]] for k in range(rows)]
-swap_cols = "0 1"
-swap_cols = [int(i) for i in swap_cols.split()]
-
-# rows, cols = int(input()), int(input())
-# matrix = [[int(i) for i in input().split()] for _ in range(rows)]
-# swap_cols = [int(i) for i in input().split()]
+# cr = int(input())
+a = 4
+cr = ["5 3 7 1",
+"3 5 4 5",
+"7 4 4 8",
+"1 5 8 5"]
+matrix = [[int(i) for i in cr[k].split()] for k in range(len(cr))]
+print (*matrix,sep="\n")
 
 
-for k in range(rows):
-	matrix[k][swap_cols[0]], matrix[k][swap_cols[1]] = matrix[k][swap_cols[1]], matrix[k][swap_cols[0]]
-	print(*matrix[k], sep=' ')
+
+# a = int(input())
+# matrix = [[int(i) for i in input().split()] for _ in range(a)]
+
+flag = 1
+for i in range (a):
+    for k in range(i):
+        if matrix[i][k] != matrix[k][i]:
+            flag = 0
+            break
+print("YES" if flag else "NO")
