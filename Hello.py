@@ -1,13 +1,9 @@
 # cr = int(input())
-a = 4
-cr = ["5 3 7 1",
-"3 5 4 5",
-"7 4 4 8",
-"1 5 8 5"]
+cr = ["0 1 2",
+      "1 2 3",
+      "2 3 4"]
 matrix = [[int(i) for i in cr[k].split()] for k in range(len(cr))]
 print (*matrix,sep="\n")
-
-
 
 # a = int(input())
 # matrix = [[int(i) for i in input().split()] for _ in range(a)]
