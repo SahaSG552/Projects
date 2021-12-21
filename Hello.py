@@ -1,17 +1,19 @@
-# cr = int(input())
-cr = ["0 1 2",
-      "1 2 3",
-      "2 3 4"]
-matrix = [[int(i) for i in cr[k].split()] for k in range(len(cr))]
-print (*matrix,sep="\n")
+a = "d6"
+n = 8
+c = []
+[c.append(chr(97+i)) for i in range(n)]
+# n = int(input())
+# matrix = [[int(i) for i in input().split()] for _ in range(n)]
+matrix = [["."]*n for _ in range(n)]
+matrix[n-int(a[1])][c.index(a[0])] = "N"
+x = n-int(a[1])
+y = c.index(a[0])
 
-# a = int(input())
-# matrix = [[int(i) for i in input().split()] for _ in range(a)]
+INX = 0
+for i in range(n):
+    for j in range(n):
+        INX = (x - j) * (y - i)
+        if INX == 2 or INX == -2:
+            matrix[j][i] = "*"
 
-flag = 1
-for i in range (a):
-    for k in range(i):
-        if matrix[i][k] != matrix[k][i]:
-            flag = 0
-            break
-print("YES" if flag else "NO")
+[print(*r) for r in matrix]
