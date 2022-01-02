@@ -1,33 +1,41 @@
-# n = int(input())
-# matrix = [[int(i) for i in input().split()] for _ in range(n)]
-n = 3
-cr = ["3 8 1",
-      "2 4 6",
-      "7 0 5"
-     ]
-matrix = [[int(i) for i in cr[k].split()] for k in range(n)]     
-matrix1 =[]
-flag = 0
-a = 0
-b = 0
-c = 0
-d = 0
-for i in range (n):
-    c += matrix[i][i]
-    d += matrix[i][n-i-1]
-    for k in range (n):
-        matrix1.append(matrix[i][k])
-        a += matrix[i][k]
-        b += matrix[k][i]
-    if sum(matrix[0]) != a or sum(matrix[0]) != b:
-        flag = 1
-    a = 0
-    b = 0
-if sum(matrix[0]) != c or sum(matrix[0]) != d:
-    flag = 1
+# r, c = map(int, input().split())
+r, c = 6, 7
+matrix = [[0 for _ in range(c)] for _ in range(r)]
 
-matrix2 = [i for i in range (1, n*n+1)]
-if sorted(matrix1) != matrix2:
-    flag = 1
+def print_matrix(rows, cols):
+    for i in range (rows):
+        for j in range (cols):
+            print(str(matrix[i][j]).ljust(len(str(rows*cols))), end=' ')
+        print()
 
-print("NO" if flag else "YES")
+n = 1
+low_c = 0
+high_c = c - 1
+low_r = 0
+high_r = r - 1
+
+for i in range(int(c // 2 + 1)):
+    
+    for j in range(low_c, high_c + 1):
+        if n > r * c: break
+        matrix[low_c][j] = n
+        n += 1
+    for j in range(low_r + 1, high_r + 1):
+        if n > r * c: break
+        matrix[j][high_c] = n
+        n += 1
+    for j in range(high_c - 1, low_c - 1, -1):
+        if n > r * c: break
+        matrix[high_r][j] = n
+        n += 1
+    for j in range(high_r - 1, low_r, -1):
+        if n > r * c: break
+        matrix[j][low_r] = n
+        n += 1
+     
+
+    low_c += 1
+    high_c -= 1
+    low_r += 1
+    high_r -= 1
+print_matrix(r, c)
