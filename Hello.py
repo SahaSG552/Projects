@@ -1,41 +1,32 @@
-# r, c = map(int, input().split())
-r, c = 6, 7
-matrix = [[0 for _ in range(c)] for _ in range(r)]
-
-def print_matrix(rows, cols):
+def print_matrix(rows, cols, matr):
     for i in range (rows):
         for j in range (cols):
-            print(str(matrix[i][j]).ljust(len(str(rows*cols))), end=' ')
+            print(str(matr[i][j]).ljust(len(str(666))), end=' ')
         print()
+        
+# r1, c1 = map(int, input().split())
+# matrix1 = [[int(i) for i in input().split()] for _ in range(r1)]
+# input()
+# r2, c2 = map(int, input().split())
+# matrix2 = [[int(i) for i in input().split()] for _ in range(r2)]
+# matrix = [[0 for _ in range(c2)] for _ in range(r1)]
 
-n = 1
-low_c = 0
-high_c = c - 1
-low_r = 0
-high_r = r - 1
+r1, c1 = 4, 3
+r2, c2 = 3, 4
+matrix1 = [[6, 2, 5], 
+           [4, 3, 5],
+           [1, 2, 8],
+           [4, 3, 9],
+           ]
+matrix2 = [[1, 2, 8, 4], 
+           [6, 1, 5, 2],
+           [4, 4, 5, 7],
+           ]
+matrix = [[0 for _ in range(c2)] for _ in range(r1)]
 
-for i in range(int(c // 2 + 1)):
-    
-    for j in range(low_c, high_c + 1):
-        if n > r * c: break
-        matrix[low_c][j] = n
-        n += 1
-    for j in range(low_r + 1, high_r + 1):
-        if n > r * c: break
-        matrix[j][high_c] = n
-        n += 1
-    for j in range(high_c - 1, low_c - 1, -1):
-        if n > r * c: break
-        matrix[high_r][j] = n
-        n += 1
-    for j in range(high_r - 1, low_r, -1):
-        if n > r * c: break
-        matrix[j][low_r] = n
-        n += 1
-     
+for i in range (r1):
+    for j in range (c2):
+        for k in range (c1):
+            matrix[i][j] += matrix1[i][k] * matrix2[k][j]
 
-    low_c += 1
-    high_c -= 1
-    low_r += 1
-    high_r -= 1
-print_matrix(r, c)
+print_matrix(r1, c2, matrix)
