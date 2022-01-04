@@ -4,29 +4,30 @@ def print_matrix(rows, cols, matr):
             print(str(matr[i][j]).ljust(len(str(666))), end=' ')
         print()
         
-# r1, c1 = map(int, input().split())
+# r = int(input())
+# c = r
 # matrix1 = [[int(i) for i in input().split()] for _ in range(r1)]
-# input()
-# r2, c2 = map(int, input().split())
-# matrix2 = [[int(i) for i in input().split()] for _ in range(r2)]
-# matrix = [[0 for _ in range(c2)] for _ in range(r1)]
+# m = int(input())
+import copy
+r = 3
+c = r
+m = 5
+matrix1 = [
+           [1, 2, 1], 
+           [3, 3, 3],
+           [1, 2, 1],
+          ]
+# matrix2 = copy.deepcopy(matrix1)
+matrix2 = list(matrix1)
 
-r1, c1 = 4, 3
-r2, c2 = 3, 4
-matrix1 = [[6, 2, 5], 
-           [4, 3, 5],
-           [1, 2, 8],
-           [4, 3, 9],
-           ]
-matrix2 = [[1, 2, 8, 4], 
-           [6, 1, 5, 2],
-           [4, 4, 5, 7],
-           ]
-matrix = [[0 for _ in range(c2)] for _ in range(r1)]
+matrix = [[0 for _ in range(c)] for _ in range(r)]
 
-for i in range (r1):
-    for j in range (c2):
-        for k in range (c1):
-            matrix[i][j] += matrix1[i][k] * matrix2[k][j]
+for l in range (m-1):
+    for i in range (r):
+        for j in range (r):
+            for k in range (r):
+                matrix[i][j] += matrix1[i][k] * matrix2[k][j]
+    matrix2 = matrix
+    matrix = [[0 for _ in range(c)] for _ in range(r)]            
 
-print_matrix(r1, c2, matrix)
+print_matrix(r, c, matrix2)
