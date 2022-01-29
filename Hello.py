@@ -1,19 +1,12 @@
-identificators = "a a a a a a a aa a a a a a aa a a! b b2 b4 b3 a4 a9 a1 a a!".split()
+a = ['Вижу зверей', 'Живу резвей']
+#a = [sorted([i.lower() for i in a if i.isalnum()]) for _ in range(2)]
+#print("YES" if a[0] == a[1] else "NO")
 
-result = {}
-for word in identificators:
-    result[word] = result.get(word, -1) + 1
-    if result[word] == 0:
-        print(word, end=" ")
-    else:
-        print(word + "_" + str(result[word]), end=" ")
-print()
 
-for i in identificators:
-    count = 0
-    for j in range(len(identificators)):
-        if identificators[j] == i:
-            identificators[j] += "_" + str(count)
-            count +=1
-            identificators[j] = identificators[j].replace("_0","")
-print(*identificators)
+def dicts(sentence):
+    my_dict = {}
+    for i in sentence.lower():
+        if i.isalpha():
+            my_dict[i] = my_dict.get(i, 0) + 1
+    return(my_dict)
+print(("NO", "YES")[dicts('Вижу зверей') == dicts('Живу резвей')])
