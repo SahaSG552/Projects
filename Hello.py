@@ -1,6 +1,13 @@
-def info_kwargs(**kwargs):
-    for k, v in sorted(kwargs.items()):
-        print(f"{k}: {v}")
+def func_apply(func, items):
+    return [func(item) for item in items]
 
 
-info_kwargs(first_name="Timur", last_name="Guev", age=28, job="teacher")
+def add3(x):
+    return x + 3
+
+
+def mul7(x):
+    return x * 7
+
+
+print(func_apply(mul7, [1, 2, 3, 4, 5, 6]))
