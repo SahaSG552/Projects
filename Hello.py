@@ -1,13 +1,7 @@
-def func_apply(func, items):
-    return [func(item) for item in items]
+def is_valid(ip_address):
+    return list(map(lambda x: x.isdigit()
+           and 0 <= int(x) <= 256, 
+           ip_address.split(".")))
 
 
-def add3(x):
-    return x + 3
-
-
-def mul7(x):
-    return x * 7
-
-
-print(func_apply(mul7, [1, 2, 3, 4, 5, 6]))
+print(all(is_valid("12.90.dddd.1")))
