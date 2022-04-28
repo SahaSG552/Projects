@@ -1,7 +1,6 @@
-def is_valid(ip_address):
-    return list(map(lambda x: x.isdigit()
-           and 0 <= int(x) <= 256, 
-           ip_address.split(".")))
+def rgb(r, g, b):
+    round = lambda x: min(255, max(x, 0))
+    return ("{:02X}" * 3).format(round(r), round(g), round(b))
 
 
-print(all(is_valid("12.90.dddd.1")))
+print(rgb(25, 255, 3))
