@@ -1,6 +1,4 @@
-def rgb(r, g, b):
-    round = lambda x: min(255, max(x, 0))
-    return ("{:02X}" * 3).format(round(r), round(g), round(b))
-
-
-print(rgb(25, 255, 3))
+with open("lines.txt", "r", encoding="utf-8") as f:
+    a = [i.strip() for i in f.readlines()]
+    b = list(filter(lambda x: len(x.strip()) == max(map(len, a)), a))
+    print(*b, sep="\n")
