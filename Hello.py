@@ -1,4 +1,10 @@
-with open("lines.txt", "r", encoding="utf-8") as f:
-    a = [i.strip() for i in f.readlines()]
-    b = list(filter(lambda x: len(x.strip()) == max(map(len, a)), a))
-    print(*b, sep="\n")
+def read_csv():
+    with open("data.csv", "r", encoding="utf-8") as f:
+        keys, values = f.readline().strip().split(","), [
+            i.strip().split(",") for i in f.readlines()
+        ]
+        d = [dict(zip(keys, v)) for v in values]
+    return d
+
+
+print(read_csv())
