@@ -1,10 +1,6 @@
 from random import choices
 
-#%%
-import sys
 
-print("hello, my name is ", sys.argv[1])
-#%%
 def get_int(message):
     while True:
         try:
