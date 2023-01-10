@@ -12,7 +12,6 @@ bxf_paths = askopenfilenames(
     title="Choose a file",
     filetypes=[("BXF2", "*.bxf2")],
 )
-print(bxf_paths)
 
 
 new_bxf_path = (
@@ -22,26 +21,41 @@ new_bxf_path = (
     + ".bxf2"
 )
 
-
+x, y, z = 0, 0, 0
+move_x = []  # move every next detail to x
 for i, bxf_path in enumerate(bxf_paths):
     machining = []
-
+    partlinks = []
     with open(bxf_path, "r") as bxf, open(new_bxf_path, "w") as new_bxf:
-        line = bxf.readline()
-        # define x & y values
-        while line:
-            line = bxf.readline()
-            if "<machining " in line:
-                machining.append(line.rstrip("\n"))
-            if "<extent>" in line:
-                x, y, z = list(
-                    map(
-                        float,
-                        (
-                            (line.lstrip("<extent>")).rstrip("</extent>\n")
-                        ).split(" "),
+        try:
+            for line in bxf:
+                if "<machining " in line:
+                    machining.append(line.rstrip("\n"))
+                if "<partLink " in line:
+                    partlinks.append(line.rstrip("\n"))
+                    partlinks.append(
+                        f'<transformations>\n<transformation translation="{sum(move_x)} 0 0"/>\n</transformations>\n</partLink>'
                     )
-                )
-        machining = list(set(machining))
-        print(machining)
-        print(x, y, z)
+                if "<extent>" in line:
+                    x, y, z = list(
+                        map(
+                            float,
+                            (
+                                (line.lstrip("<extent>")).rstrip("</extent>\n")
+                            ).split(" "),
+                        )
+                    )
+                    move_x.append((x + 150) * (i > 0))
+                    move_x[i] = sum(move_x)
+
+            next(bxf)
+        except StopIteration:
+
+            print(move_x[i])
+            print(x, y, z)
+            print(move_x)
+            machining = list(set(machining))
+            print(*machining, sep="\n")
+            print()
+            print(*partlinks)
+            print()
