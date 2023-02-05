@@ -1,19 +1,23 @@
 import contextlib
 import tkinter as tk
 import os
-
-# from tkinter import filedialog   # from tkinter import Tk for Python 3.x
 from tkinter.filedialog import askopenfilenames
 
-with contextlib.suppress(IndexError):
+
+def open_bxf_files():
     root = tk.Tk()
     root.withdraw()
-    bxf_paths = askopenfilenames(
+    return askopenfilenames(
         parent=root,
         initialdir="",
         title="Choose bxf2 files",
         filetypes=[("BXF2", "*.bxf2")],
     )
+
+
+# if user cancel to open files, don't raise an error
+with contextlib.suppress(IndexError):
+    bxf_paths = open_bxf_files()
 
     order_name = bxf_paths[0].split("/")[-2]
     order_path = ("/").join((bxf_paths[0].split("/"))[:-1])
@@ -23,35 +27,32 @@ with contextlib.suppress(IndexError):
     machinings = []
     partlinks = []
     parts = []
+    offset = 150
 
-    x, y, z = 0, 0, 0  # detail coordinates
+    x, y, z = 0, 0, 0  # detail dimensions
     move_x = [0]  # move every detail next to previous + 150 along x axis
-    move_xx = [0]
+    zero_x = [0]  # calculate x coordinate of each detail
     for i, bxf_path in enumerate(bxf_paths):
         machining = []
         partlink = []
         part = []
-        with open(
-            bxf_path, "r"
-        ) as bxf:  # , open(new_bxf_path, "w") as new_bxf
+        with open(bxf_path, "r") as bxf:
             counter = 0  # counting down lines in file
-            part_counter = 1000000000  # var to check where to start record part information
+            part_counter = (
+                1000000000  # flag when to start record part information
+            )
             line = bxf.readline()
-            while "</part>" not in line:
+            while (
+                "</part>" not in line
+            ):  # in this case no nead to read the rest lines
                 line = bxf.readline()
+                # collecting machinning operations of part
                 if "<machining " in line:
                     machining.append(line.rstrip("\n"))
+                # collecting part name
                 if "<partLink " in line:
                     partlink.append(line.rstrip("\n"))
-                    [
-                        partlink.append(j)
-                        for j in [
-                            "<transformations>",
-                            "",
-                            "</transformations>",
-                            "</partLink>",
-                        ]
-                    ]
+                # collecting part dimensions
                 if "<extent>" in line:
                     x, y, z = list(
                         map(
@@ -61,31 +62,41 @@ with contextlib.suppress(IndexError):
                             ).split(" "),
                         )
                     )
-                    move_x.append(x + 150)
-                    move_xx.append(sum(move_x))
+                    move_x.append(x + offset)
+                    # accumulate offsets to get x coordinate of part
+                    zero_x.append(sum(move_x))
+
+                # collecting multiline data about machining position
                 if "<part " in line:
                     part_counter = counter
                 if part_counter <= counter:
                     part.append(line.rstrip("\n"))
                 counter += 1
 
-        partlink[2] = f'<transformation translation="{move_xx[i]} 0 0"/>'
+        # writing down zero_x coordinate to partlink
+        [
+            partlink.append(j)
+            for j in [
+                "<transformations>",
+                f'<transformation translation="{zero_x[i]} 0 0"/>',
+                "</transformations>",
+                "</partLink>",
+            ]
+        ]
+
         machining = list(set(machining))
         machinings.extend(machining)
         machinings = list(set(machinings))
         partlinks.extend(partlink)
         parts.extend(part)
-        # print(*machinings, sep="\n")
-        # print()
-        # print(*partlinks, sep="\n")
-        # print()
-        # print(*parts, sep="\n")
-        # print()
 
-    with open("Header.txt", "r") as header, open(new_bxf_path, "w") as new_bxf:
-        line = header.readline()
+    # open template file, complete missing parts and save as new_bxf
+    with open("Template.txt", "r") as template, open(
+        new_bxf_path, "w"
+    ) as new_bxf:
+        line = template.readline()
         while line:
-            line = header.readline()
+            line = template.readline()
             if "MACHININGS" in line:
                 line = "\n".join(machinings)
             if "PARTLINKS" in line:
@@ -93,4 +104,4 @@ with contextlib.suppress(IndexError):
             if "PARTS" in line:
                 line = "\n".join(parts)
             new_bxf.write(line)
-        os.startfile(order_path)  # open destination folder
+        os.startfile(order_path)  # open destination folder after processing
