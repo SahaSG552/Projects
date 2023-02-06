@@ -30,8 +30,8 @@ with contextlib.suppress(IndexError):
     offset = 150
 
     x, y, z = 0, 0, 0  # detail dimensions
-    move_x = [0]  # move every detail next to previous + 150 along x axis
-    zero_x = [0]  # calculate x coordinate of each detail
+    move_x = [0.0]  # move every detail + 150 mm next to previous along x axis
+    zero_x = [0.0]  # calculate x coordinate of each detail after moving
     for i, bxf_path in enumerate(bxf_paths):
         machining = []
         partlink = []
@@ -62,7 +62,7 @@ with contextlib.suppress(IndexError):
                             ).split(" "),
                         )
                     )
-                    move_x.append(x + offset)
+                    move_x.append(x + offset)  # offset
                     # accumulate offsets to get x coordinate of part
                     zero_x.append(sum(move_x))
 
