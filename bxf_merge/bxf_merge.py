@@ -38,13 +38,9 @@ with contextlib.suppress(IndexError):
         part = []
         with open(bxf_path, "r") as bxf:
             counter = 0  # counting down lines in file
-            part_counter = (
-                1000000000  # flag when to start record part information
-            )
+            part_flag = 0  # flag when to start record part information
             line = bxf.readline()
-            while (
-                "</part>" not in line
-            ):  # in this case no nead to read the rest lines
+            while "</part>" not in line:  # in this case no need to read the rest lines
                 line = bxf.readline()
                 # collecting machinning operations of part
                 if "<machining " in line:
@@ -52,39 +48,28 @@ with contextlib.suppress(IndexError):
                 # collecting part name
                 if "<partLink " in line:
                     partlink.append(line.rstrip("\n"))
+                    
                 # collecting part dimensions
                 if "<extent>" in line:
-                    x, y, z = list(
-                        map(
-                            float,
-                            (
-                                (line.lstrip("<extent>")).rstrip("</extent>\n")
-                            ).split(" "),
-                        )
+                    x, y, z = map(
+                        float,
+                        (
+                            (line.lstrip("<extent>")).rstrip("</extent>\n")
+                        ).split(" "),
                     )
                     move_x.append(x + offset)  # offset
                     # accumulate offsets to get x coordinate of part
                     zero_x.append(sum(move_x))
 
                 # collecting multiline data about machining position
-                if "<part " in line:
-                    part_counter = counter
-                if part_counter <= counter:
-                    part.append(line.rstrip("\n"))
-                counter += 1
+                if "<part " in line: part_flag = 1
+                if part_flag: part.append(line.rstrip("\n"))
 
-        # writing down zero_x coordinate to partlink
-        [
-            partlink.append(j)
-            for j in [
-                "<transformations>",
-                f'<transformation translation="{zero_x[i]} 0 0"/>',
-                "</transformations>",
-                "</partLink>",
-            ]
-        ]
+            # writing down zero_x coordinate to partlink
+            partlink.extend(["<transformations>",
+                             f'<transformation translation="{zero_x[i]} 0 0"/>',
+                             "</transformations>", "</partLink>",])
 
-        machining = list(set(machining))
         machinings.extend(machining)
         machinings = list(set(machinings))
         partlinks.extend(partlink)
