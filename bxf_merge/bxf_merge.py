@@ -48,7 +48,6 @@ with contextlib.suppress(IndexError):
                 # collecting part name
                 if "<partLink " in line:
                     partlink.append(line.rstrip("\n"))
-                    
                 # collecting part dimensions
                 if "<extent>" in line:
                     x, y, z = map(
