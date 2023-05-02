@@ -7,7 +7,7 @@ class Position:
     name: str
     x: float
     y: float
-    
+
 
 city = Position("Norge", 25.3, 46.5)
 
