@@ -44,10 +44,10 @@ class Manager(Employee):
             self.employees.append(emp)
 
     def remove_emp(self, emp):
-        if emp not in self.employees:
+        if emp in self.employees:
             self.employees.remove(emp)
 
-    def print_emp(self):
+    def print_emps(self):
         for emp in self.employees:
             print(f"---> {emp.fullname()}")
 
@@ -57,6 +57,8 @@ emp_2 = Employee("Andrew", "Bernard", 50000)
 emp_3 = Employee.from_string("Stanley-Huddson-1000")
 dev_1 = Developer.from_string("Meredith-Palmer-70000-Python")
 man_1 = Manager('Angela', 'Martin', 40000, [emp_1])
-print(*list(man_1.__dict__.items()), sep="\n")
-man_1.print_emp
+man_1.add_emp(emp_2)
 man_1.add_emp(dev_1)
+man_1.remove_emp(emp_2)
+print(*list(man_1.__dict__.items()), sep="\n")
+man_1.print_emps()
