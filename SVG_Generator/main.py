@@ -75,20 +75,26 @@ def generate_svg_html():
     shapes.add(hlines)
     shapes.fill('blue', opacity=0.1).stroke('black', width=1).dasharray([5, 5])
 
-    paragraph = dwg.add(dwg.g(font_size=20, fill='black'))
-    paragraph.add(dwg.text(width_validation(), start_point(width_validation()/2-10, -5)))
-    paragraph.add(dwg.text(round(depth_validation(), None), start_point(-35, depth_validation()/2)))
-    paragraph.add(dwg.text(round(r_side_validation(), None), start_point(width_validation()+5, r_side_validation()/2 + 5)))
-    paragraph.add(dwg.text(f'{open_degree}°', start_point(width_validation() - r_side_thickness - 40, r_side_validation() - 5)))
+    annotations = dwg.add(dwg.g(font_size=20, fill='black', id='annotations'))
+    annotations.add(dwg.text(width_validation(), start_point(width_validation()/2-10, -5)))
+    annotations.add(dwg.text(round(depth_validation(), None), start_point(-35, depth_validation()/2)))
+    annotations.add(dwg.text(round(r_side_validation(), None), start_point(width_validation()+5, r_side_validation()/2 + 5)))
+    annotations.add(dwg.text(f'{open_degree}°', start_point(width_validation() - r_side_thickness - 40, r_side_validation() - 5)))
 
+    
     # Add JavaScript code to update SVG attributes based on slider values
     js_code = '''
     <script>
         function updateRectSize() {
-            var rect = document.getElementById('myRectangle');
-            rect.setAttribute('width', document.getElementById('slider1').value);
-            rect.setAttribute('height', document.getElementById('slider2').value);
+            var rect = document.getElementById('leftSide');
+            rect.setAttribute('height', document.getElementById('slider1').value);
+            rect.setAttribute('width', document.getElementById('slider2').value);
 
+            var rect2 = document.getElementById('rightSide');
+            rect2.setAttribute('height', document.getElementById('slider1').value);
+            rect2.setAttribute('width', document.getElementById('slider3').value);
+            
+            
             // Update current value labels
             var currentValue1 = document.getElementById('currentValue1');
             var currentValue2 = document.getElementById('currentValue2');
@@ -143,12 +149,12 @@ def generate_svg_html():
         <h1>Corner kitchen cabinet calculation</h1>
         <div class="slider-container">
             <div class="slider-value">
-                <span id="startValue1">16</span>
-                <span id="endValue1">25</span>
+                <span id="startValue1">150</span>
+                <span id="endValue1">1000</span>
             </div>
-            <input type="range" id="slider1" min="16" max="25" value="16" oninput="updateRectSize()">
+            <input type="range" id="slider1" min="150" max="1000" value="340" oninput="updateRectSize()">
             <div class="slider-value">
-                <span id="currentValue1" class="slider-current-value">16</span>
+                <span id="currentValue1" class="slider-current-value">340</span>
             </div>
         </div>
         <div class="slider-container">
@@ -156,9 +162,9 @@ def generate_svg_html():
                 <span id="startValue2">200</span>
                 <span id="endValue2">1000</span>
             </div>
-            <input type="range" id="slider2" min="200" max="1000" value="300" oninput="updateRectSize()">
+            <input type="range" id="slider2" min="16" max="25" value="16" oninput="updateRectSize()">
             <div class="slider-value">
-                <span id="currentValue2" class="slider-current-value">300</span>
+                <span id="currentValue2" class="slider-current-value">16</span>
             </div>
         </div>
         <select name="degree" method="GET" action="/">

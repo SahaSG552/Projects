@@ -1,0 +1,15 @@
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.controls {
+    margin-bottom: 20px;
+}
+
+.graphics {
+    width: 100%;
+    height: 500px;
+    border: 1px solid #ccc;
+}

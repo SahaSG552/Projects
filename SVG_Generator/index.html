@@ -1,10 +1,15 @@
 
     <script>
         function updateRectSize() {
-            var rect = document.getElementById('myRectangle');
-            rect.setAttribute('width', document.getElementById('slider1').value);
-            rect.setAttribute('height', document.getElementById('slider2').value);
+            var rect = document.getElementById('leftSide');
+            rect.setAttribute('height', document.getElementById('slider1').value);
+            rect.setAttribute('width', document.getElementById('slider2').value);
 
+            var rect2 = document.getElementById('rightSide');
+            rect2.setAttribute('height', document.getElementById('slider1').value);
+            rect2.setAttribute('width', document.getElementById('slider3').value);
+            
+            
             // Update current value labels
             var currentValue1 = document.getElementById('currentValue1');
             var currentValue2 = document.getElementById('currentValue2');
@@ -56,12 +61,12 @@
         <h1>Corner kitchen cabinet calculation</h1>
         <div class="slider-container">
             <div class="slider-value">
-                <span id="startValue1">16</span>
-                <span id="endValue1">25</span>
+                <span id="startValue1">150</span>
+                <span id="endValue1">1000</span>
             </div>
-            <input type="range" id="slider1" min="16" max="25" value="16" oninput="updateRectSize()">
+            <input type="range" id="slider1" min="150" max="1000" value="340" oninput="updateRectSize()">
             <div class="slider-value">
-                <span id="currentValue1" class="slider-current-value">16</span>
+                <span id="currentValue1" class="slider-current-value">340</span>
             </div>
         </div>
         <div class="slider-container">
@@ -69,9 +74,9 @@
                 <span id="startValue2">200</span>
                 <span id="endValue2">1000</span>
             </div>
-            <input type="range" id="slider2" min="200" max="1000" value="300" oninput="updateRectSize()">
+            <input type="range" id="slider2" min="16" max="25" value="16" oninput="updateRectSize()">
             <div class="slider-value">
-                <span id="currentValue2" class="slider-current-value">300</span>
+                <span id="currentValue2" class="slider-current-value">16</span>
             </div>
         </div>
         <select name="degree" method="GET" action="/">
@@ -81,7 +86,7 @@
             {% endfor %}
         </select>
         <div id="svgContainer">
-            <svg baseProfile="full" height="400mm" version="1.1" width="400mm" xmlns="http://www.w3.org/2000/svg" xmlns:ev="http://www.w3.org/2001/xml-events" xmlns:xlink="http://www.w3.org/1999/xlink"><defs /><g id="hlines"><line x1="66" x2="254" y1="50" y2="50" /><line x1="66" x2="254" y1="65" y2="65" /><line x1="66" x2="254" y1="69" y2="69" /><line x1="66" x2="254" y1="139" y2="139" /></g><g fill="blue" fill-opacity="0.1" id="shapes" stroke="black" stroke-dasharray="5 5" stroke-width="1"><rect height="340" id="leftSide" width="16" x="50" y="50" /><rect height="152.00000000000003" id="rightSide" width="16" x="254" y="50" /><line x1="66" x2="254" y1="390" y2="202.00000000000003" /><g id="hlines"><line x1="66" x2="254" y1="50" y2="50" /><line x1="66" x2="254" y1="65" y2="65" /><line x1="66" x2="254" y1="69" y2="69" /><line x1="66" x2="254" y1="139" y2="139" /></g></g><g fill="black" font-size="20"><text x="150.0" y="45">220</text><text x="15" y="220.0">340</text><text x="275" y="131.0">152</text><text x="214" y="197.00000000000003">45°</text></g></svg>
+            <svg baseProfile="full" height="400mm" version="1.1" width="400mm" xmlns="http://www.w3.org/2000/svg" xmlns:ev="http://www.w3.org/2001/xml-events" xmlns:xlink="http://www.w3.org/1999/xlink"><defs /><g id="hlines"><line x1="66" x2="254" y1="50" y2="50" /><line x1="66" x2="254" y1="65" y2="65" /><line x1="66" x2="254" y1="69" y2="69" /><line x1="66" x2="254" y1="139" y2="139" /></g><g fill="blue" fill-opacity="0.1" id="shapes" stroke="black" stroke-dasharray="5 5" stroke-width="1"><rect height="340" id="leftSide" width="16" x="50" y="50" /><rect height="152.00000000000003" id="rightSide" width="16" x="254" y="50" /><line x1="66" x2="254" y1="390" y2="202.00000000000003" /><g id="hlines"><line x1="66" x2="254" y1="50" y2="50" /><line x1="66" x2="254" y1="65" y2="65" /><line x1="66" x2="254" y1="69" y2="69" /><line x1="66" x2="254" y1="139" y2="139" /></g></g><g fill="black" font-size="20" id="annotations"><text x="150.0" y="45">220</text><text x="15" y="220.0">340</text><text x="275" y="131.0">152</text><text x="214" y="197.00000000000003">45°</text></g></svg>
         </div>
     </body>
     </html>

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Dynamic Vector Graphics</title>
+    <link rel="stylesheet" type="text/css" href="/static/styles.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Dynamic Vector Graphics</h1>
+
+        <div class="controls">
+            <label for="k-width">Width:</label>
+            <input type="range" id="k-width" min="150" max="1000" value="230">
+
+            <label for="k-depth">Depth:</label>
+            <select id="k-depth">
+                <option value="1">290</option>
+                <option value="2">340</option>
+            </select>
+
+            <label for="l-side-thickness">Left Side Thickness:</label>
+            <select id="l-side-thickness">
+                <option value="1">16</option>
+                <option value="2">18</option>
+                <option value="3">19</option>
+                <option value="4">22</option>
+                <option value="5">25</option>
+            </select>
+
+            <label for="r-side-thickness">Right Side Thickness:</label>
+            <select id="r-side-thickness">
+                <option value="1">16</option>
+                <option value="2">18</option>
+                <option value="3">19</option>
+                <option value="4">22</option>
+                <option value="5">25</option>
+            </select>
+
+            <label for="open-degree">Open Degree:</label>
+            <select id="open-degree">
+                <option value="30">30</option>
+                <option value="45">45</option>
+            </select>
+        </div>
+
+        <div class="graphics">
+            <svg id="vector-graphics" width="500" height="500"></svg>
+        </div>
+    </div>
+
+    <script src="/static/script.js"></script>
+</body>
+
+</html>
