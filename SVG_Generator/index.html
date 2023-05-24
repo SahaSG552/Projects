@@ -6,17 +6,18 @@
     <style>
         #svg-container {
             width: 450px;
-            height: 450px;
+            height: 600px;
         }
 
         #controls {
-            position: absolute;
-            left: 50px;
+            position: relative;
+            left: 500px;
+            top: -550px;
             width: 200px;
             height: 120px;
             display: grid;
             grid-gap: 5px;
-            justify-items: start;
+            justify-items: end;
         }
     </style>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/snap.svg/0.5.1/snap.svg-min.js"></script>
@@ -30,11 +31,14 @@
         <input type="number" id="k-width-input" value="220">
 
         <label for="k-depth-select">Depth:</label>
+        <input type="number" id="k-depth-select" value="290">
+        <!--
+        < for="k-depth-select">Depth:</label>
         <select id="k-depth-select">
             <option value="290">290</option>
             <option value="340">340</option>
         </select>
-
+		-->
         <label for="l-side-select">L Side Thickness:</label>
         <select id="l-side-select">
             <option value="16">16</option>
@@ -46,6 +50,15 @@
 
         <label for="r-side-select">R Side Thickness:</label>
         <select id="r-side-select">
+            <option value="16">16</option>
+            <option value="18">18</option>
+            <option value="19">19</option>
+            <option value="22">22</option>
+            <option value="25">25</option>
+        </select>
+
+        <label for="facade-select">Facade Thickness:</label>
+        <select id="facade-select">
             <option value="16">16</option>
             <option value="18">18</option>
             <option value="19">19</option>

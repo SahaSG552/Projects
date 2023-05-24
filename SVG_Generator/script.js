@@ -3,6 +3,7 @@ document.addEventListener("DOMContentLoaded", function () {
     const kDepthSelect = document.getElementById("k-depth-select");
     const lSideSelect = document.getElementById("l-side-select");
     const rSideSelect = document.getElementById("r-side-select");
+    const facadeSelect = document.getElementById("facade-select");
     const openDegreeSelect = document.getElementById("open-degree-select");
     const svgContainer = document.getElementById("svg-container");
 
@@ -11,6 +12,7 @@ document.addEventListener("DOMContentLoaded", function () {
         const kDepth = parseInt(kDepthSelect.value);
         const lSideThickness = parseInt(lSideSelect.value);
         const rSideThickness = parseInt(rSideSelect.value);
+        const facadeThickness = parseInt(facadeSelect.value);
         const openDegree = parseInt(openDegreeSelect.value);
 
         const svgCode = generateSVGCode(
@@ -18,6 +20,7 @@ document.addEventListener("DOMContentLoaded", function () {
             kDepth,
             lSideThickness,
             rSideThickness,
+            facadeThickness,
             openDegree
         );
 
@@ -25,16 +28,17 @@ document.addEventListener("DOMContentLoaded", function () {
     }
 
     kWidthInput.addEventListener("input", updateSVGGraphics);
-    kDepthSelect.addEventListener("change", updateSVGGraphics);
+    kDepthSelect.addEventListener("input", updateSVGGraphics);
     lSideSelect.addEventListener("change", updateSVGGraphics);
     rSideSelect.addEventListener("change", updateSVGGraphics);
+    facadeSelect.addEventListener("change", updateSVGGraphics);
     openDegreeSelect.addEventListener("change", updateSVGGraphics);
 
     // Initial SVG graphics generation
     updateSVGGraphics();
 });
 
-function generateSVGCode(kWidth, kDepth, lSideThickness, rSideThickness, openDegree) {
+function generateSVGCode(kWidth, kDepth, lSideThickness, rSideThickness, facadeThickness, openDegree) {
     const bt_offset = 15;
     const bt_thickness = 4;
     const inner_safe_dist = 70;
@@ -49,7 +53,7 @@ function generateSVGCode(kWidth, kDepth, lSideThickness, rSideThickness, openDeg
     };
 
     function max_width() {
-        let inner_depth = kDepth - sum_offsets;
+        let inner_depth = depth_validation() - sum_offsets;
         return (inner_depth / Math.tan(openDegree * (Math.PI / 180))) + lSideThickness + rSideThickness;
     }
 
@@ -71,15 +75,20 @@ function generateSVGCode(kWidth, kDepth, lSideThickness, rSideThickness, openDeg
         return Math.ceil(num * precision) / precision
     }
 
+    const facadeWidth = () => {
+        const inner_width = width_validation() - 2 - rSideThickness;
+        return inner_width / Math.cos((openDegree * Math.PI) / 180);
+    };
+
     const offsets_addition = []
     let startY = 0;
     for (const y of offsets) { startY += y; offsets_addition.push(startY) }
 
-    return `<svg xmlns="http://www.w3.org/2000/svg" width="600" height="600">
+    return `<svg xmlns="http://www.w3.org/2000/svg" width="600" height="1000">
           <rect x="${start_point(0, 0)[0]}" y="${start_point(0, 0)[1]}" width="${lSideThickness}" height="${depth_validation()}" id="leftSide" style="fill:blue;fill-opacity:0.1;stroke:black;stroke-width:1;stroke-dasharray:5,5;opacity:1" />
           <rect x="${start_point(width_validation() - rSideThickness, 0)[0]}" y="${start_point(width_validation() - rSideThickness, 0)[1]}" width="${rSideThickness}" height="${r_side_validation()}" id="rightSide" style="fill:blue;fill-opacity:0.1;stroke:black;stroke-width:1;stroke-dasharray:5,5;opacity:1" />
-          <line x1="${start_point(lSideThickness, depth_validation())[0]}" y1="${start_point(lSideThickness, depth_validation())[1]}" x2="${start_point(width_validation() - rSideThickness, r_side_validation())[0]}" y2="${start_point(width_validation() - rSideThickness, r_side_validation())[1]}" style="stroke:black;stroke-width:1;stroke-dasharray:5,5" />
-          
+          <line x1="${start_point(lSideThickness, 0)[0]}" y1="${start_point(0, depth_validation())[1]}" x2="${start_point(width_validation() - rSideThickness, 0)[0]}" y2="${start_point(0, r_side_validation())[1]}" style="stroke:black;stroke-width:1;stroke-dasharray:5,5" />
+          <rect x="${start_point(width_validation() - rSideThickness, 0)[0]}" y="${start_point(0, r_side_validation())[1]}" width="${facadeThickness}" height="${facadeWidth()}" transform="rotate(${90 - openDegree}, ${start_point(width_validation() - rSideThickness, 0)[0]}, ${start_point(0, r_side_validation())[1]})" id="facade" style="fill:red;fill-opacity:0.1;stroke:black;stroke-width:1;stroke-dasharray:5,5;opacity:1" />
           ${offsets_addition
             .map(
                 (offset) =>
@@ -87,9 +96,12 @@ function generateSVGCode(kWidth, kDepth, lSideThickness, rSideThickness, openDeg
             )
             .join("\n")
         }
-          <text x="${start_point(width_validation() / 2 - 45, -5)[0]}" y="${start_point(width_validation() / 2 - 45, -5)[1]}">${roundUp(width_validation(), 0)} (max.${roundUp(max_width(), 0)})</text>
-          <text x="${start_point(-35, depth_validation() / 2)[0]}" y="${start_point(-35, depth_validation() / 2)[1]}">${roundUp(depth_validation(), 0)}</text>
-          <text x="${start_point(width_validation() + 5, r_side_validation() / 2 + 5)[0]}, " y="${start_point(width_validation() + 5, r_side_validation() / 2 + 5)[1]}">${roundUp(r_side_validation(), 0)}</text>
+          <text x="${start_point(width_validation() / 2, -5)[0]}" y="${start_point(width_validation() / 2, -5)[1]}" text-anchor="middle">${roundUp(width_validation(), 0)} (max.${roundUp(max_width(), 0)})</text>
+          <text x="${start_point(-5, depth_validation() / 2)[0]}" y="${start_point(-5, depth_validation() / 2)[1]}" text-anchor="end">${roundUp(depth_validation(), 0)}</text>
+          <text x="${start_point(width_validation() + 5, r_side_validation() / 2 + 5)[0]}, " y="${start_point(width_validation() + 5, r_side_validation() / 2 + 5)[1]}" text-anchor="start">${roundUp(r_side_validation(), 0)}</text>
           <text x="${start_point(width_validation() - rSideThickness - 40, r_side_validation() - 5)[0]}" y="${start_point(width_validation() - rSideThickness - 40, r_side_validation() - 5)[1]}">${openDegree}°</text>
-        </svg>`;
+          <text x="${start_point(width_validation() / 2, 0)[0]}" y="${start_point(0, (depth_validation() - r_side_validation()) / 2 + r_side_validation())[1] - 5}" text-anchor="middle" transform="rotate(${-openDegree}, ${start_point(width_validation() / 2, 0)[0]}, ${start_point(0, (depth_validation() - r_side_validation()) / 2 + r_side_validation())[1] - 5}) ">${roundUp(facadeWidth(), 0)}</text>
+          </svg > `;
 }
+//
+
