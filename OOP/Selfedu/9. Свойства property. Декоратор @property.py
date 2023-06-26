@@ -14,5 +14,4 @@ class Param:
 
 p = Param("semen", "sperm")
 p.old = 35
-p.name = "pidor"
 print(p.old, p.__dict__)
