@@ -36,7 +36,7 @@ with contextlib.suppress(IndexError):
         machining = []
         partlink = []
         part = []
-        with open(bxf_path, "r") as bxf:
+        with open(bxf_path, "r", encoding="utf-8") as bxf:
             counter = 0  # counting down lines in file
             part_flag = 0  # flag when to start record part information
             line = bxf.readline()
@@ -61,8 +61,10 @@ with contextlib.suppress(IndexError):
                     zero_x.append(sum(move_x))
 
                 # collecting multiline data about machining position
-                if "<part " in line: part_flag = 1
-                if part_flag: part.append(line.rstrip("\n"))
+                if "<part " in line:
+                    part_flag = 1
+                if part_flag:
+                    part.append(line.rstrip("\n"))
 
             # writing down zero_x coordinate to partlink
             partlink.extend(["<transformations>",
@@ -75,7 +77,7 @@ with contextlib.suppress(IndexError):
         parts.extend(part)
 
     # open template file, complete missing parts and save as new_bxf
-    with open("Template.txt", "r") as template, open(
+    with open("Template.txt", "r", encoding="utf-8") as template, open(
         new_bxf_path, "w"
     ) as new_bxf:
         line = template.readline()
