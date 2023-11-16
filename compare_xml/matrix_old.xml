@@ -1,0 +1,1719 @@
+
+
+<root> 
+   <bases>
+<base id="0" name="Нет" preview="1" reckey="010101001K0"/>
+<base id="1" name="Да" preview="1" reckey="010101001K1"/>
+
+       		
+    </bases>
+	<talls>
+<tall id="0" name="Нет" preview="1" reckey="010101001L0"/>
+<tall id="1" name="Да" preview="1" reckey="010101001L1"/>
+
+       		
+    </talls>
+	<walls>
+<wall id="0" name="Нет" preview="1" reckey="010101001M0"/>
+<wall id="1" name="Да" preview="1" reckey="010101001M1"/>
+
+       		
+    </walls>
+	<mezzs>
+<mezz id="0" name="Нет" preview="1" reckey="010101001N0"/>
+<mezz id="1" name="Да" preview="1" reckey="010101001N1"/>
+
+       		
+    </mezzs>
+
+    <basestyles>
+<basestyle id="1" name="AGT" preview="1" reckey="01010100000"/>
+<basestyle id="2" name="Alvic" preview="1" reckey="01010100001"/>
+<basestyle id="3" name="Egger-16мм" preview="1" reckey="01010100002"/>
+<basestyle id="4" name="Egger-18мм" preview="1" reckey="01010100003"/>
+<basestyle id="5" name="Alum MDM 19x20x19" preview="1" reckey="01010100005"/>
+<basestyle id="6" name="Alum MDM 45x20x8" preview="1" reckey="01010100006"/>
+<basestyle id="7" name="Alum MDM 45x20x20" preview="1" reckey="01010100007"/>
+<basestyle id="8" name="Без Фасада" preview="1" reckey="01010100004"/>
+       		
+    </basestyles>
+	<tallstyles>
+<tallstyle id="1" name="AGT" preview="1" reckey="01010100080"/>
+<tallstyle id="2" name="Alvic" preview="1" reckey="01010100081"/>
+<tallstyle id="3" name="Egger-16мм" preview="1" reckey="01010100082"/>
+<tallstyle id="4" name="Egger-18мм" preview="1" reckey="01010100083"/>
+<tallstyle id="5" name="Alum MDM 19x20x19" preview="1" reckey="01010100085"/>
+<tallstyle id="6" name="Alum MDM 45x20x8" preview="1" reckey="01010100086"/>
+<tallstyle id="7" name="Alum MDM 45x20x20" preview="1" reckey="01010100087"/>
+<tallstyle id="8" name="Без Фасада" preview="1" reckey="01010100084"/>
+       		
+    </tallstyles>
+	<wallstyles>
+<wallstyle id="1" name="AGT" preview="1" reckey="010101000G0"/>
+<wallstyle id="2" name="Alvic" preview="1" reckey="010101000G1"/>
+<wallstyle id="3" name="Egger-16мм" preview="1" reckey="010101000G2"/>
+<wallstyle id="4" name="Egger-18мм" preview="1" reckey="010101000G3"/>
+<wallstyle id="5" name="Alum MDM 19x20x19" preview="1" reckey="010101000G5"/>
+<wallstyle id="6" name="Alum MDM 45x20x8" preview="1" reckey="010101000G6"/>
+<wallstyle id="7" name="Alum MDM 45x20x20" preview="1" reckey="010101000G7"/>
+<wallstyle id="8" name="Без Фасада" preview="1" reckey="010101000G4"/>
+       		
+    </wallstyles>
+	<mezzstyles>
+<mezzstyle id="1" name="AGT" preview="1" reckey="010101000Q0"/>
+<mezzstyle id="2" name="Alvic" preview="1" reckey="010101000Q1"/>
+<mezzstyle id="3" name="Egger-16мм" preview="1" reckey="010101000Q2"/>
+<mezzstyle id="4" name="Egger-18мм" preview="1" reckey="010101000Q3"/>
+<mezzstyle id="5" name="Alum MDM 19x20x19" preview="1" reckey="010101000Q5"/>
+<mezzstyle id="6" name="Alum MDM 45x20x8" preview="1" reckey="010101000Q6"/>
+<mezzstyle id="7" name="Alum MDM 45x20x20" preview="1" reckey="010101000Q7"/>
+<mezzstyle id="8" name="Без Фасада" preview="1" reckey="010101000Q4"/>
+       		
+    </mezzstyles>
+    <basecolors>      	       
+		
+<basecolor id="1" basestyles="1" name="Bitter" preview="1" reckey="010101000100"/>
+<basecolor id="2" basestyles="1" name="Brezee Beige" preview="1" reckey="010101000101"/>
+<basecolor id="3" basestyles="1" name="Cloudy Grey" preview="1" reckey="010101000102"/>
+<basecolor id="4" basestyles="1" name="Dolphin Grey" preview="1" reckey="010101000103"/>
+<basecolor id="5" basestyles="1" name="Forest Green" preview="1" reckey="010101000104"/>
+<basecolor id="6" basestyles="1" name="Glamorous Pacific" preview="1" reckey="010101000105"/>
+<basecolor id="7" basestyles="1" name="Ice Grey" preview="1" reckey="010101000106"/>
+<basecolor id="8" basestyles="1" name="London Blues" preview="1" reckey="010101000107"/>
+<basecolor id="9" basestyles="1" name="Macaron Green" preview="1" reckey="010101000108"/>
+<basecolor id="10" basestyles="1" name="Moonlight" preview="1" reckey="010101000109"/>
+<basecolor id="11" basestyles="1" name="Pearl Black" preview="1" reckey="01010100010A"/>
+<basecolor id="12" basestyles="1" name="Pearl White" preview="1" reckey="01010100010B"/>
+<basecolor id="13" basestyles="1" name="Pebble Grey" preview="1" reckey="01010100010C"/>
+<basecolor id="14" basestyles="1" name="Pinky Daisy" preview="1" reckey="01010100010D"/>
+<basecolor id="15" basestyles="1" name="Royal Grey" preview="1" reckey="01010100010E"/>
+<basecolor id="16" basestyles="1" name="Rustic Red" preview="1" reckey="01010100010F"/>
+<basecolor id="17" basestyles="1" name="Safari Grey" preview="1" reckey="01010100010G"/>
+<basecolor id="18" basestyles="1" name="Sahara Cream" preview="1" reckey="01010100010H"/>
+<basecolor id="19" basestyles="1" name="Snow White" preview="1" reckey="01010100010I"/>
+<basecolor id="20" basestyles="1" name="Timeless Grey" preview="1" reckey="01010100010J"/>
+<basecolor id="21" basestyles="1" name="Глянец Бежевый" preview="1" reckey="01010100010K"/>
+<basecolor id="22" basestyles="1" name="Глянец Белый" preview="1" reckey="01010100010L"/>
+<basecolor id="23" basestyles="1" name="Глянец Бьянко" preview="1" reckey="01010100010M"/>
+<basecolor id="24" basestyles="1" name="Глянец Крем" preview="1" reckey="01010100010N"/>
+<basecolor id="25" basestyles="1" name="Суперматовый Белый" preview="1" reckey="01010100010O"/>
+
+<basecolor id="30" basestyles="2" name="Antracita Metaldeco" preview="1" reckey="01010100010Q"/>
+<basecolor id="31" basestyles="2" name="Antracita Supermat" preview="1" reckey="01010100010R"/>
+<basecolor id="32" basestyles="2" name="Antracita Глянец" preview="1" reckey="01010100010S"/>
+<basecolor id="33" basestyles="2" name="Basalto Metaldeco" preview="1" reckey="01010100010T"/>
+<basecolor id="34" basestyles="2" name="Basalto Pearl Effect Глянец" preview="1" reckey="01010100010U"/>
+<basecolor id="35" basestyles="2" name="Basalto Supermat" preview="1" reckey="01010100010V"/>
+<basecolor id="36" basestyles="2" name="Basalto Глянец" preview="1" reckey="01010100010W"/>
+<basecolor id="37" basestyles="2" name="Blanco Colonial Pearl Effect Глянец" preview="1" reckey="01010100010X"/>
+<basecolor id="38" basestyles="2" name="Blanco Metaldeco" preview="1" reckey="01010100010Y"/>
+<basecolor id="39" basestyles="2" name="Blanco Polar" preview="1" reckey="01010100010Z"/>
+<basecolor id="40" basestyles="2" name="Blanco Supermat" preview="1" reckey="010101000110"/>
+<basecolor id="41" basestyles="2" name="Blanco Глянец" preview="1" reckey="010101000111"/>
+<basecolor id="42" basestyles="2" name="Cachemir Metaldeco" preview="1" reckey="010101000112"/>
+<basecolor id="43" basestyles="2" name="Cachemir Глянец" preview="1" reckey="010101000113"/>
+<basecolor id="44" basestyles="2" name="Cashemire Supermat" preview="1" reckey="010101000114"/>
+<basecolor id="45" basestyles="2" name="Cuzco Cobre Глянец" preview="1" reckey="010101000115"/>
+<basecolor id="46" basestyles="2" name="Cuzco Grafitt Глянец" preview="1" reckey="010101000116"/>
+<basecolor id="47" basestyles="2" name="Cuzco Oro Глянец" preview="1" reckey="010101000117"/>
+<basecolor id="48" basestyles="2" name="Cuzco Silver Глянец" preview="1" reckey="010101000118"/>
+<basecolor id="49" basestyles="2" name="EVORA-3" preview="1" reckey="010101000119"/>
+<basecolor id="50" basestyles="2" name="EVORA-3 Гориз" preview="1" reckey="01010100011A"/>
+<basecolor id="51" basestyles="2" name="EVORA-4" preview="1" reckey="01010100011B"/>
+<basecolor id="52" basestyles="2" name="EVORA-4  Гориз" preview="1" reckey="01010100011C"/>
+<basecolor id="53" basestyles="2" name="Gris Nube Metaldeco" preview="1" reckey="01010100011D"/>
+<basecolor id="54" basestyles="2" name="Guayana Глянец" preview="1" reckey="01010100011E"/>
+<basecolor id="55" basestyles="2" name="Guayana Глянец Гориз" preview="1" reckey="01010100011F"/>
+<basecolor id="56" basestyles="2" name="ICE-CREAM-1" preview="1" reckey="01010100011G"/>
+<basecolor id="57" basestyles="2" name="ICE-CREAM-1 Гориз" preview="1" reckey="01010100011H"/>
+<basecolor id="58" basestyles="2" name="ICE-CREAM-2" preview="1" reckey="01010100011I"/>
+<basecolor id="59" basestyles="2" name="ICE-CREAM-2 Гориз" preview="1" reckey="01010100011J"/>
+<basecolor id="60" basestyles="2" name="ICE-CREAM-3" preview="1" reckey="01010100011K"/>
+<basecolor id="61" basestyles="2" name="ICE-CREAM-3 Гориз" preview="1" reckey="01010100011L"/>
+<basecolor id="62" basestyles="2" name="ICE-CREAM-4" preview="1" reckey="01010100011M"/>
+<basecolor id="63" basestyles="2" name="ICE-CREAM-4 Гориз" preview="1" reckey="01010100011N"/>
+<basecolor id="64" basestyles="2" name="Leather Melange-1" preview="1" reckey="01010100011O"/>
+<basecolor id="65" basestyles="2" name="Magnolia Metaldeco" preview="1" reckey="01010100011P"/>
+<basecolor id="66" basestyles="2" name="Magnolia Supermat" preview="1" reckey="01010100011Q"/>
+<basecolor id="67" basestyles="2" name="Magnolia Глянец" preview="1" reckey="01010100011R"/>
+<basecolor id="68" basestyles="2" name="Marfil Pearl Effect Глянец" preview="1" reckey="01010100011S"/>
+<basecolor id="69" basestyles="2" name="Melange 1 Глянец" preview="1" reckey="01010100011T"/>
+<basecolor id="70" basestyles="2" name="Negro Supermat" preview="1" reckey="01010100011U"/>
+<basecolor id="71" basestyles="2" name="Negro Глянец" preview="1" reckey="01010100011V"/>
+<basecolor id="72" basestyles="2" name="Olivo Глянец" preview="1" reckey="01010100011W"/>
+<basecolor id="73" basestyles="2" name="Olivo глянец Гориз" preview="1" reckey="01010100011X"/>
+<basecolor id="74" basestyles="2" name="Oxid-01" preview="1" reckey="01010100011Y"/>
+<basecolor id="75" basestyles="2" name="Oxid-04" preview="1" reckey="01010100011Z"/>
+<basecolor id="76" basestyles="2" name="Textil Dorado Глянец" preview="1" reckey="010101000120"/>
+<basecolor id="77" basestyles="2" name="Textil Plata Глянец" preview="1" reckey="010101000121"/>
+<basecolor id="78" basestyles="2" name="Муратти-1" preview="1" reckey="010101000122"/>
+<basecolor id="79" basestyles="2" name="Муратти-1 Гориз" preview="1" reckey="010101000123"/>
+<basecolor id="80" basestyles="2" name="Муратти-2" preview="1" reckey="010101000124"/>
+<basecolor id="81" basestyles="2" name="Муратти-2 Гориз" preview="1" reckey="010101000125"/>
+<basecolor id="82" basestyles="2" name="Муратти-3" preview="1" reckey="010101000126"/>
+<basecolor id="83" basestyles="2" name="Муратти-3 Гориз" preview="1" reckey="010101000127"/>
+<basecolor id="84" basestyles="2" name="Муратти-4" preview="1" reckey="010101000128"/>
+<basecolor id="85" basestyles="2" name="Муратти-4 Гориз" preview="1" reckey="010101000129"/>
+
+
+<basecolor id="90" basestyles="3" name="Бежевый Песок" preview="1" reckey="01010100012C"/>
+<basecolor id="91" basestyles="3" name="Белый Альпийский" preview="1" reckey="01010100012D"/>
+<basecolor id="92" basestyles="3" name="Белый Премиум" preview="1" reckey="01010100012E"/>
+<basecolor id="93" basestyles="3" name="Коттон Бежевый" preview="1" reckey="01010100012F"/>
+<basecolor id="94" basestyles="3" name="Нежный Черный" preview="1" reckey="01010100012G"/>
+<basecolor id="95" basestyles="3" name="Оникс Серый" preview="1" reckey="01010100012H"/>
+<basecolor id="96" basestyles="3" name="Светло-Серый" preview="1" reckey="01010100012I"/>
+<basecolor id="97" basestyles="3" name="Серый Камень" preview="1" reckey="01010100012J"/>
+<basecolor id="98" basestyles="3" name="Серый Пыльный" preview="1" reckey="01010100012K"/>
+<basecolor id="99" basestyles="3" name="Серый Уголь" preview="1" reckey="01010100012L"/>
+
+<basecolor id="110" basestyles="4" name="Бетон Чикаго Светло-Серый" preview="1" reckey="01010100012N"/>
+<basecolor id="111" basestyles="4" name="Бетон Чикаго Темно-Серый" preview="1" reckey="01010100012O"/>
+<basecolor id="112" basestyles="4" name="Дуб Бардолино Натуральный" preview="1" reckey="01010100012P"/>
+<basecolor id="113" basestyles="4" name="Дуб Галифакс Натуральный" preview="1" reckey="01010100012Q"/>
+<basecolor id="114" basestyles="4" name="Дуб Галифакс Табак" preview="1" reckey="01010100012R"/>
+<basecolor id="115" basestyles="4" name="Камень Пьетра Гриджиа Черный" preview="1" reckey="01010100012S"/>
+
+<basecolor id="116" basestyles="5;6;7" name="Черный" preview="1" reckey="01010100012X"/>
+<basecolor id="117" basestyles="5;6;7" name="Серебро" preview="1" reckey="01010100012Y"/>
+<basecolor id="118" basestyles="5;6" name="Графит" preview="1" reckey="01010100012Z"/>
+<basecolor id="119" basestyles="5;6;7" name="Золото брашированное" preview="1" reckey="010101000130"/>
+<basecolor id="120" basestyles="6" name="Бронза" preview="1" reckey="010101000131"/>
+
+<basecolor id="121" basestyles="8" name="нет" preview="1" reckey="01010100012V"/>
+
+<basecolor id="122" basestyles="1;2;3;4;5;6;7" name="Кастомный цвет" preview="1" reckey="010101000133"/>
+
+
+
+
+	
+
+    </basecolors>
+	<basecases>
+<basecase id="1" name="Бежевый Песок" preview="1" reckey="01010100020"/>
+<basecase id="2" name="Белый Альпийский" preview="1" reckey="01010100021"/>
+<basecase id="3" name="Белый Премиум" preview="1" reckey="01010100022"/>
+<basecase id="4" name="Коттон Бежевый" preview="1" reckey="01010100023"/>
+<basecase id="5" name="Нежный Черный" preview="1" reckey="01010100024"/>
+<basecase id="6" name="Оникс Серый" preview="1" reckey="01010100025"/>
+<basecase id="7" name="Светло-Серый" preview="1" reckey="01010100026"/>
+<basecase id="8" name="Серый Камень" preview="1" reckey="01010100027"/>
+<basecase id="9" name="Серый Пыльный" preview="1" reckey="01010100028"/>
+<basecase id="10" name="Серый Уголь" preview="1" reckey="01010100029"/>
+<basecase id="11" name="Белый Базовый" preview="1" reckey="0101010002A"/>
+<basecase id="12" name="Кастомный цвет" preview="1" reckey="0101010002B"/>
+
+
+
+       		
+    </basecases>
+	<basepulls>
+<basepull id="0" name="Без Ручек" preview="1" reckey="01010100030"/>
+<basepull id="1" name="Профиль Gola Алюминий" preview="1" reckey="01010100031"/>
+<basepull id="2" name="Профиль Gola Белый" preview="1" reckey="01010100032"/>
+<basepull id="3" name="Профиль Gola Золото" preview="1" reckey="01010100033"/>
+<basepull id="4" name="Профиль Gola Черный" preview="1" reckey="01010100034"/>
+<basepull id="5" name="TIP-ON белый" preview="1" reckey="0101010003G"/>
+<basepull id="6" name="TIP-ON серый" preview="1" reckey="0101010003H"/>
+<basepull id="7" name="TIP-ON черный" preview="1" reckey="0101010003I"/>
+<basepull id="8" name="Ручка С1 Алюминий" preview="1" reckey="01010100035"/>
+<basepull id="9" name="Ручка С1 Белый" preview="1" reckey="01010100036"/>
+<basepull id="10" name="Ручка С1 Золото" preview="1" reckey="01010100037"/>
+<basepull id="11" name="Ручка С1 Черный" preview="1" reckey="01010100038"/>
+<basepull id="12" name="Ручка С1 Шампань" preview="1" reckey="01010100039"/>
+<!-- <basepull id="13" name="Ручка текстура 5" preview="1" reckey="0101010003A"/> -->
+<!-- <basepull id="14" name="Ручка текстура 6" preview="1" reckey="0101010003B"/> -->
+<!-- <basepull id="15" name="Ручка текстура 7" preview="1" reckey="0101010003C"/> -->
+<!-- <basepull id="16" name="Ручка текстура 8" preview="1" reckey="0101010003D"/> -->
+<!-- <basepull id="17" name="Ручка текстура 9" preview="1" reckey="0101010003E"/> -->
+<!-- <basepull id="18" name="Ручка текстура 10" preview="1" reckey="0101010003F"/>     -->
+
+
+
+       		
+    </basepulls>
+	<basepospulls>
+<basepospull id="1" basepulls="5;6;7" name="5" preview="1" reckey="01010100040"/>
+<basepospull id="2" basepulls="1;2;3;4;5;6;7;8;9;10;11;12" name="6" preview="1" reckey="01010100041"/>
+<basepospull id="3" basepulls="5;6;7" name="8" preview="1" reckey="01010100043"/>
+<basepospull id="0" basepulls="0" name="none" preview="1" reckey="01010100044"/>
+       		
+    </basepospulls>
+	<basetypebacks>
+<basetypeback id="1" name="ДВП" preview="1" reckey="01010100050"/>
+<basetypeback id="2" name="Материал корпуса" preview="1" reckey="01010100055"/>
+<basetypeback id="3" name="ДСП" preview="1" reckey="01010100051"/>
+<basetypeback id="4" name="AGT" preview="1" reckey="01010100052"/>
+<basetypeback id="5" name="Alvic" preview="1" reckey="01010100053"/>
+<basetypeback id="6" name="Egger" preview="1" reckey="01010100054"/>
+
+    </basetypebacks>
+	<basecolorbacks>
+<basecolorback id="0" basetypebacks="1" name="Белый" preview="1" reckey="010101000600"/>
+<basecolorback id="1" basetypebacks="3" name="Бежевый Песок" preview="1" reckey="010101000601"/>
+<basecolorback id="2" basetypebacks="3" name="Белый Альпийский" preview="1" reckey="010101000602"/>
+<basecolorback id="3" basetypebacks="3" name="Белый Премиум" preview="1" reckey="010101000603"/>
+<basecolorback id="4" basetypebacks="3" name="Коттон Бежевый" preview="1" reckey="010101000604"/>
+<basecolorback id="5" basetypebacks="3" name="Нежный Черный" preview="1" reckey="010101000605"/>
+<basecolorback id="6" basetypebacks="3" name="Оникс Серый" preview="1" reckey="010101000606"/>
+<basecolorback id="7" basetypebacks="3" name="Светло-Серый" preview="1" reckey="010101000607"/>
+<basecolorback id="8" basetypebacks="3" name="Серый Камень" preview="1" reckey="010101000608"/>
+<basecolorback id="9" basetypebacks="3" name="Серый Пыльный" preview="1" reckey="010101000609"/>
+<basecolorback id="10" basetypebacks="3" name="Серый Уголь" preview="1" reckey="01010100060A"/>
+
+<basecolorback id="20" basetypebacks="4" name="Bitter" preview="1" reckey="01010100060C"/>
+<basecolorback id="21" basetypebacks="4" name="Brezee Beige" preview="1" reckey="01010100060D"/>
+<basecolorback id="22" basetypebacks="4" name="Cloudy Grey" preview="1" reckey="01010100060E"/>
+<basecolorback id="23" basetypebacks="4" name="Dolphin Grey" preview="1" reckey="01010100060F"/>
+<basecolorback id="24" basetypebacks="4" name="Forest Green" preview="1" reckey="01010100060G"/>
+<basecolorback id="25" basetypebacks="4" name="Glamorous Pacific" preview="1" reckey="01010100060H"/>
+<basecolorback id="26" basetypebacks="4" name="Ice Grey" preview="1" reckey="01010100060I"/>
+<basecolorback id="27" basetypebacks="4" name="London Blues" preview="1" reckey="01010100060J"/>
+<basecolorback id="28" basetypebacks="4" name="Macaron Green" preview="1" reckey="01010100060K"/>
+<basecolorback id="29" basetypebacks="4" name="Moonlight" preview="1" reckey="01010100060L"/>
+<basecolorback id="30" basetypebacks="4" name="Pearl Black" preview="1" reckey="01010100060M"/>
+<basecolorback id="31" basetypebacks="4" name="Pearl White" preview="1" reckey="01010100060N"/>
+<basecolorback id="32" basetypebacks="4" name="Pebble Grey" preview="1" reckey="01010100060O"/>
+<basecolorback id="33" basetypebacks="4" name="Pinky Daisy" preview="1" reckey="01010100060P"/>
+<basecolorback id="34" basetypebacks="4" name="Royal Grey" preview="1" reckey="01010100060Q"/>
+<basecolorback id="35" basetypebacks="4" name="Rustic Red" preview="1" reckey="01010100060R"/>
+<basecolorback id="36" basetypebacks="4" name="Safari Grey" preview="1" reckey="01010100060S"/>
+<basecolorback id="37" basetypebacks="4" name="Sahara Cream" preview="1" reckey="01010100060T"/>
+<basecolorback id="38" basetypebacks="4" name="Snow White" preview="1" reckey="01010100060U"/>
+<basecolorback id="39" basetypebacks="4" name="Timeless Grey" preview="1" reckey="01010100060V"/>
+<basecolorback id="40" basetypebacks="4" name="Глянец Бежевый" preview="1" reckey="01010100060W"/>
+<basecolorback id="41" basetypebacks="4" name="Глянец Белый" preview="1" reckey="01010100060X"/>
+<basecolorback id="42" basetypebacks="4" name="Глянец Бьянко" preview="1" reckey="01010100060Y"/>
+<basecolorback id="43" basetypebacks="4" name="Глянец Крем" preview="1" reckey="01010100060Z"/>
+<basecolorback id="44" basetypebacks="4" name="Суперматовый Белый" preview="1" reckey="010101000610"/>
+
+<basecolorback id="50" basetypebacks="5" name="Antracita Metaldeco" preview="1" reckey="010101000612"/>
+<basecolorback id="51" basetypebacks="5" name="Antracita Supermat" preview="1" reckey="010101000613"/>
+<basecolorback id="52" basetypebacks="5" name="Antracita Глянец" preview="1" reckey="010101000614"/>
+<basecolorback id="53" basetypebacks="5" name="Basalto Metaldeco" preview="1" reckey="010101000615"/>
+<basecolorback id="54" basetypebacks="5" name="Basalto Pearl Effect Глянец" preview="1" reckey="010101000616"/>
+<basecolorback id="55" basetypebacks="5" name="Basalto Supermat" preview="1" reckey="010101000617"/>
+<basecolorback id="56" basetypebacks="5" name="Basalto Глянец" preview="1" reckey="010101000618"/>
+<basecolorback id="57" basetypebacks="5" name="Blanco Colonial Pearl Effect Глянец" preview="1" reckey="010101000619"/>
+<basecolorback id="58" basetypebacks="5" name="Blanco Metaldeco" preview="1" reckey="01010100061A"/>
+<basecolorback id="59" basetypebacks="5" name="Blanco Polar" preview="1" reckey="01010100061B"/>
+<basecolorback id="60" basetypebacks="5" name="Blanco Supermat" preview="1" reckey="01010100061C"/>
+<basecolorback id="61" basetypebacks="5" name="Blanco Глянец" preview="1" reckey="01010100061D"/>
+<basecolorback id="62" basetypebacks="5" name="Cachemir Metaldeco" preview="1" reckey="01010100061E"/>
+<basecolorback id="63" basetypebacks="5" name="Cachemir Глянец" preview="1" reckey="01010100061F"/>
+<basecolorback id="64" basetypebacks="5" name="Cashemire Supermat" preview="1" reckey="01010100061G"/>
+<basecolorback id="65" basetypebacks="5" name="Cuzco Cobre Глянец" preview="1" reckey="01010100061H"/>
+<basecolorback id="66" basetypebacks="5" name="Cuzco Grafitt Глянец" preview="1" reckey="01010100061I"/>
+<basecolorback id="67" basetypebacks="5" name="Cuzco Oro Глянец" preview="1" reckey="01010100061J"/>
+<basecolorback id="68" basetypebacks="5" name="Cuzco Silver Глянец" preview="1" reckey="01010100061K"/>
+<basecolorback id="69" basetypebacks="5" name="EVORA-3" preview="1" reckey="01010100061L"/>
+<basecolorback id="70" basetypebacks="5" name="EVORA-3 Гориз" preview="1" reckey="01010100061M"/>
+<basecolorback id="71" basetypebacks="5" name="EVORA-4" preview="1" reckey="01010100061N"/>
+<basecolorback id="72" basetypebacks="5" name="EVORA-4  Гориз" preview="1" reckey="01010100061O"/>
+<basecolorback id="73" basetypebacks="5" name="Gris Nube Metaldeco" preview="1" reckey="01010100061P"/>
+<basecolorback id="74" basetypebacks="5" name="Guayana Глянец" preview="1" reckey="01010100061Q"/>
+<basecolorback id="75" basetypebacks="5" name="Guayana Глянец Гориз" preview="1" reckey="01010100061R"/>
+<basecolorback id="76" basetypebacks="5" name="ICE-CREAM-1" preview="1" reckey="01010100061S"/>
+<basecolorback id="77" basetypebacks="5" name="ICE-CREAM-1 Гориз" preview="1" reckey="01010100061T"/>
+<basecolorback id="78" basetypebacks="5" name="ICE-CREAM-2" preview="1" reckey="01010100061U"/>
+<basecolorback id="79" basetypebacks="5" name="ICE-CREAM-2 Гориз" preview="1" reckey="01010100061V"/>
+<basecolorback id="80" basetypebacks="5" name="ICE-CREAM-3" preview="1" reckey="01010100061W"/>
+<basecolorback id="81" basetypebacks="5" name="ICE-CREAM-3 Гориз" preview="1" reckey="01010100061X"/>
+<basecolorback id="82" basetypebacks="5" name="ICE-CREAM-4" preview="1" reckey="01010100061Y"/>
+<basecolorback id="83" basetypebacks="5" name="ICE-CREAM-4 Гориз" preview="1" reckey="01010100061Z"/>
+<basecolorback id="84" basetypebacks="5" name="Leather Melange-1" preview="1" reckey="010101000620"/>
+<basecolorback id="85" basetypebacks="5" name="Magnolia Metaldeco" preview="1" reckey="010101000621"/>
+<basecolorback id="86" basetypebacks="5" name="Magnolia Supermat" preview="1" reckey="010101000622"/>
+<basecolorback id="87" basetypebacks="5" name="Magnolia Глянец" preview="1" reckey="010101000623"/>
+<basecolorback id="88" basetypebacks="5" name="Marfil Pearl Effect Глянец" preview="1" reckey="010101000624"/>
+<basecolorback id="89" basetypebacks="5" name="Melange 1 Глянец" preview="1" reckey="010101000625"/>
+<basecolorback id="90" basetypebacks="5" name="Negro Supermat" preview="1" reckey="010101000626"/>
+<basecolorback id="91" basetypebacks="5" name="Negro Глянец" preview="1" reckey="010101000627"/>
+<basecolorback id="92" basetypebacks="5" name="Olivo Глянец" preview="1" reckey="010101000628"/>
+<basecolorback id="93" basetypebacks="5" name="Olivo глянец Гориз" preview="1" reckey="010101000629"/>
+<basecolorback id="94" basetypebacks="5" name="Oxid-01" preview="1" reckey="01010100062A"/>
+<basecolorback id="95" basetypebacks="5" name="Oxid-04" preview="1" reckey="01010100062B"/>
+<basecolorback id="96" basetypebacks="5" name="Textil Dorado Глянец" preview="1" reckey="01010100062C"/>
+<basecolorback id="97" basetypebacks="5" name="Textil Plata Глянец" preview="1" reckey="01010100062D"/>
+<basecolorback id="98" basetypebacks="5" name="Муратти-1" preview="1" reckey="01010100062E"/>
+<basecolorback id="99" basetypebacks="5" name="Муратти-1 Гориз" preview="1" reckey="01010100062F"/>
+<basecolorback id="100" basetypebacks="5" name="Муратти-2" preview="1" reckey="01010100062G"/>
+<basecolorback id="101" basetypebacks="5" name="Муратти-2 Гориз" preview="1" reckey="01010100062H"/>
+<basecolorback id="102" basetypebacks="5" name="Муратти-3" preview="1" reckey="01010100062I"/>
+<basecolorback id="103" basetypebacks="5" name="Муратти-3 Гориз" preview="1" reckey="01010100062J"/>
+<basecolorback id="104" basetypebacks="5" name="Муратти-4" preview="1" reckey="01010100062K"/>
+<basecolorback id="105" basetypebacks="5" name="Муратти-4 Гориз" preview="1" reckey="01010100062L"/>
+
+<basecolorback id="110" basetypebacks="6" name="Бетон Чикаго Светло-Серый" preview="1" reckey="01010100062N"/>
+<basecolorback id="111" basetypebacks="6" name="Бетон Чикаго Темно-Серый" preview="1" reckey="01010100062O"/>
+<basecolorback id="112" basetypebacks="6" name="Дуб Бардолино Натуральный" preview="1" reckey="01010100062P"/>
+<basecolorback id="113" basetypebacks="6" name="Дуб Галифакс Натуральный" preview="1" reckey="01010100062Q"/>
+<basecolorback id="114" basetypebacks="6" name="Дуб Галифакс Табак" preview="1" reckey="01010100062R"/>
+<basecolorback id="115" basetypebacks="6" name="Камень Пьетра Гриджиа Черный" preview="1" reckey="01010100062S"/>
+<basecolorback id="116" basetypebacks="6" name="Сосна Пасадена" preview="1" reckey="01010100062T"/>
+<basecolorback id="117" basetypebacks="2" name="В цвет корпуса" preview="1" reckey="010101000630"/>
+
+       		
+    </basecolorbacks>
+	
+    <tallcolors>      	       
+		
+<tallcolor id="1" tallstyles="1" name="Bitter" preview="1" reckey="010101000900"/>
+<tallcolor id="2" tallstyles="1" name="Brezee Beige" preview="1" reckey="010101000901"/>
+<tallcolor id="3" tallstyles="1" name="Cloudy Grey" preview="1" reckey="010101000902"/>
+<tallcolor id="4" tallstyles="1" name="Dolphin Grey" preview="1" reckey="010101000903"/>
+<tallcolor id="5" tallstyles="1" name="Forest Green" preview="1" reckey="010101000904"/>
+<tallcolor id="6" tallstyles="1" name="Glamorous Pacific" preview="1" reckey="010101000905"/>
+<tallcolor id="7" tallstyles="1" name="Ice Grey" preview="1" reckey="010101000906"/>
+<tallcolor id="8" tallstyles="1" name="London Blues" preview="1" reckey="010101000907"/>
+<tallcolor id="9" tallstyles="1" name="Macaron Green" preview="1" reckey="010101000908"/>
+<tallcolor id="10" tallstyles="1" name="Moonlight" preview="1" reckey="010101000909"/>
+<tallcolor id="11" tallstyles="1" name="Pearl Black" preview="1" reckey="01010100090A"/>
+<tallcolor id="12" tallstyles="1" name="Pearl White" preview="1" reckey="01010100090B"/>
+<tallcolor id="13" tallstyles="1" name="Pebble Grey" preview="1" reckey="01010100090C"/>
+<tallcolor id="14" tallstyles="1" name="Pinky Daisy" preview="1" reckey="01010100090D"/>
+<tallcolor id="15" tallstyles="1" name="Royal Grey" preview="1" reckey="01010100090E"/>
+<tallcolor id="16" tallstyles="1" name="Rustic Red" preview="1" reckey="01010100090F"/>
+<tallcolor id="17" tallstyles="1" name="Safari Grey" preview="1" reckey="01010100090G"/>
+<tallcolor id="18" tallstyles="1" name="Sahara Cream" preview="1" reckey="01010100090H"/>
+<tallcolor id="19" tallstyles="1" name="Snow White" preview="1" reckey="01010100090I"/>
+<tallcolor id="20" tallstyles="1" name="Timeless Grey" preview="1" reckey="01010100090J"/>
+<tallcolor id="21" tallstyles="1" name="Глянец Бежевый" preview="1" reckey="01010100090K"/>
+<tallcolor id="22" tallstyles="1" name="Глянец Белый" preview="1" reckey="01010100090L"/>
+<tallcolor id="23" tallstyles="1" name="Глянец Бьянко" preview="1" reckey="01010100090M"/>
+<tallcolor id="24" tallstyles="1" name="Глянец Крем" preview="1" reckey="01010100090N"/>
+<tallcolor id="25" tallstyles="1" name="Суперматовый Белый" preview="1" reckey="01010100090O"/>
+
+<tallcolor id="30" tallstyles="2" name="Antracita Metaldeco" preview="1" reckey="01010100090Q"/>
+<tallcolor id="31" tallstyles="2" name="Antracita Supermat" preview="1" reckey="01010100090R"/>
+<tallcolor id="32" tallstyles="2" name="Antracita Глянец" preview="1" reckey="01010100090S"/>
+<tallcolor id="33" tallstyles="2" name="Basalto Metaldeco" preview="1" reckey="01010100090T"/>
+<tallcolor id="34" tallstyles="2" name="Basalto Pearl Effect Глянец" preview="1" reckey="01010100090U"/>
+<tallcolor id="35" tallstyles="2" name="Basalto Supermat" preview="1" reckey="01010100090V"/>
+<tallcolor id="36" tallstyles="2" name="Basalto Глянец" preview="1" reckey="01010100090W"/>
+<tallcolor id="37" tallstyles="2" name="Blanco Colonial Pearl Effect Глянец" preview="1" reckey="01010100090X"/>
+<tallcolor id="38" tallstyles="2" name="Blanco Metaldeco" preview="1" reckey="01010100090Y"/>
+<tallcolor id="39" tallstyles="2" name="Blanco Polar" preview="1" reckey="01010100090Z"/>
+<tallcolor id="40" tallstyles="2" name="Blanco Supermat" preview="1" reckey="010101000910"/>
+<tallcolor id="41" tallstyles="2" name="Blanco Глянец" preview="1" reckey="010101000911"/>
+<tallcolor id="42" tallstyles="2" name="Cachemir Metaldeco" preview="1" reckey="010101000912"/>
+<tallcolor id="43" tallstyles="2" name="Cachemir Глянец" preview="1" reckey="010101000913"/>
+<tallcolor id="44" tallstyles="2" name="Cashemire Supermat" preview="1" reckey="010101000914"/>
+<tallcolor id="45" tallstyles="2" name="Cuzco Cobre Глянец" preview="1" reckey="010101000915"/>
+<tallcolor id="46" tallstyles="2" name="Cuzco Grafitt Глянец" preview="1" reckey="010101000916"/>
+<tallcolor id="47" tallstyles="2" name="Cuzco Oro Глянец" preview="1" reckey="010101000917"/>
+<tallcolor id="48" tallstyles="2" name="Cuzco Silver Глянец" preview="1" reckey="010101000918"/>
+<tallcolor id="49" tallstyles="2" name="EVORA-3" preview="1" reckey="010101000919"/>
+<tallcolor id="50" tallstyles="2" name="EVORA-3 Гориз" preview="1" reckey="01010100091A"/>
+<tallcolor id="51" tallstyles="2" name="EVORA-4" preview="1" reckey="01010100091B"/>
+<tallcolor id="52" tallstyles="2" name="EVORA-4  Гориз" preview="1" reckey="01010100091C"/>
+<tallcolor id="53" tallstyles="2" name="Gris Nube Metaldeco" preview="1" reckey="01010100091D"/>
+<tallcolor id="54" tallstyles="2" name="Guayana Глянец" preview="1" reckey="01010100091E"/>
+<tallcolor id="55" tallstyles="2" name="Guayana Глянец Гориз" preview="1" reckey="01010100091F"/>
+<tallcolor id="56" tallstyles="2" name="ICE-CREAM-1" preview="1" reckey="01010100091G"/>
+<tallcolor id="57" tallstyles="2" name="ICE-CREAM-1 Гориз" preview="1" reckey="01010100091H"/>
+<tallcolor id="58" tallstyles="2" name="ICE-CREAM-2" preview="1" reckey="01010100091I"/>
+<tallcolor id="59" tallstyles="2" name="ICE-CREAM-2 Гориз" preview="1" reckey="01010100091J"/>
+<tallcolor id="60" tallstyles="2" name="ICE-CREAM-3" preview="1" reckey="01010100091K"/>
+<tallcolor id="61" tallstyles="2" name="ICE-CREAM-3 Гориз" preview="1" reckey="01010100091L"/>
+<tallcolor id="62" tallstyles="2" name="ICE-CREAM-4" preview="1" reckey="01010100091M"/>
+<tallcolor id="63" tallstyles="2" name="ICE-CREAM-4 Гориз" preview="1" reckey="01010100091N"/>
+<tallcolor id="64" tallstyles="2" name="Leather Melange-1" preview="1" reckey="01010100091O"/>
+<tallcolor id="65" tallstyles="2" name="Magnolia Metaldeco" preview="1" reckey="01010100091P"/>
+<tallcolor id="66" tallstyles="2" name="Magnolia Supermat" preview="1" reckey="01010100091Q"/>
+<tallcolor id="67" tallstyles="2" name="Magnolia Глянец" preview="1" reckey="01010100091R"/>
+<tallcolor id="68" tallstyles="2" name="Marfil Pearl Effect Глянец" preview="1" reckey="01010100091S"/>
+<tallcolor id="69" tallstyles="2" name="Melange 1 Глянец" preview="1" reckey="01010100091T"/>
+<tallcolor id="70" tallstyles="2" name="Negro Supermat" preview="1" reckey="01010100091U"/>
+<tallcolor id="71" tallstyles="2" name="Negro Глянец" preview="1" reckey="01010100091V"/>
+<tallcolor id="72" tallstyles="2" name="Olivo Глянец" preview="1" reckey="01010100091W"/>
+<tallcolor id="73" tallstyles="2" name="Olivo глянец Гориз" preview="1" reckey="01010100091X"/>
+<tallcolor id="74" tallstyles="2" name="Oxid-01" preview="1" reckey="01010100091Y"/>
+<tallcolor id="75" tallstyles="2" name="Oxid-04" preview="1" reckey="01010100091Z"/>
+<tallcolor id="76" tallstyles="2" name="Textil Dorado Глянец" preview="1" reckey="010101000920"/>
+<tallcolor id="77" tallstyles="2" name="Textil Plata Глянец" preview="1" reckey="010101000921"/>
+<tallcolor id="78" tallstyles="2" name="Муратти-1" preview="1" reckey="010101000922"/>
+<tallcolor id="79" tallstyles="2" name="Муратти-1 Гориз" preview="1" reckey="010101000923"/>
+<tallcolor id="80" tallstyles="2" name="Муратти-2" preview="1" reckey="010101000924"/>
+<tallcolor id="81" tallstyles="2" name="Муратти-2 Гориз" preview="1" reckey="010101000925"/>
+<tallcolor id="82" tallstyles="2" name="Муратти-3" preview="1" reckey="010101000926"/>
+<tallcolor id="83" tallstyles="2" name="Муратти-3 Гориз" preview="1" reckey="010101000927"/>
+<tallcolor id="84" tallstyles="2" name="Муратти-4" preview="1" reckey="010101000928"/>
+<tallcolor id="85" tallstyles="2" name="Муратти-4 Гориз" preview="1" reckey="010101000929"/>
+
+
+<tallcolor id="90" tallstyles="3" name="Бежевый Песок" preview="1" reckey="01010100092C"/>
+<tallcolor id="91" tallstyles="3" name="Белый Альпийский" preview="1" reckey="01010100092D"/>
+<tallcolor id="92" tallstyles="3" name="Белый Премиум" preview="1" reckey="01010100092E"/>
+<tallcolor id="93" tallstyles="3" name="Коттон Бежевый" preview="1" reckey="01010100092F"/>
+<tallcolor id="94" tallstyles="3" name="Нежный Черный" preview="1" reckey="01010100092G"/>
+<tallcolor id="95" tallstyles="3" name="Оникс Серый" preview="1" reckey="01010100092H"/>
+<tallcolor id="96" tallstyles="3" name="Светло-Серый" preview="1" reckey="01010100092I"/>
+<tallcolor id="97" tallstyles="3" name="Серый Камень" preview="1" reckey="01010100092J"/>
+<tallcolor id="98" tallstyles="3" name="Серый Пыльный" preview="1" reckey="01010100092K"/>
+<tallcolor id="99" tallstyles="3" name="Серый Уголь" preview="1" reckey="01010100092L"/>
+
+<tallcolor id="110" tallstyles="4" name="Бетон Чикаго Светло-Серый" preview="1" reckey="01010100092N"/>
+<tallcolor id="111" tallstyles="4" name="Бетон Чикаго Темно-Серый" preview="1" reckey="01010100092O"/>
+<tallcolor id="112" tallstyles="4" name="Дуб Бардолино Натуральный" preview="1" reckey="01010100092P"/>
+<tallcolor id="113" tallstyles="4" name="Дуб Галифакс Натуральный" preview="1" reckey="01010100092Q"/>
+<tallcolor id="114" tallstyles="4" name="Дуб Галифакс Табак" preview="1" reckey="01010100092R"/>
+<tallcolor id="115" tallstyles="4" name="Камень Пьетра Гриджиа Черный" preview="1" reckey="01010100092S"/>
+
+
+<tallcolor id="116" tallstyles="5;6;7" name="Черный" preview="1" reckey="01010100092X"/>
+<tallcolor id="117" tallstyles="5;6;7" name="Серебро" preview="1" reckey="01010100092Y"/>
+<tallcolor id="118" tallstyles="5;6" name="Графит" preview="1" reckey="01010100092Z"/>
+<tallcolor id="119" tallstyles="5;6;7" name="Золото брашированное" preview="1" reckey="010101000930"/>
+<tallcolor id="120" tallstyles="6" name="Бронза" preview="1" reckey="010101000931"/>
+
+<tallcolor id="121" tallstyles="8" name="нет" preview="1" reckey="01010100092V"/>
+
+<tallcolor id="122" tallstyles="1;2;3;4;5;6;7" name="Кастомный цвет" preview="1" reckey="010101000933"/>
+
+
+	
+
+    </tallcolors>
+	<tallcases>
+<tallcase id="1" name="Бежевый Песок" preview="1" reckey="010101000A0"/>
+<tallcase id="2" name="Белый Альпийский" preview="1" reckey="010101000A1"/>
+<tallcase id="3" name="Белый Премиум" preview="1" reckey="010101000A2"/>
+<tallcase id="4" name="Коттон Бежевый" preview="1" reckey="010101000A3"/>
+<tallcase id="5" name="Нежный Черный" preview="1" reckey="010101000A4"/>
+<tallcase id="6" name="Оникс Серый" preview="1" reckey="010101000A5"/>
+<tallcase id="7" name="Светло-Серый" preview="1" reckey="010101000A6"/>
+<tallcase id="8" name="Серый Камень" preview="1" reckey="010101000A7"/>
+<tallcase id="9" name="Серый Пыльный" preview="1" reckey="010101000A8"/>
+<tallcase id="10" name="Серый Уголь" preview="1" reckey="010101000A9"/>
+<tallcase id="11" name="Белый Базовый" preview="1" reckey="010101000AA"/>
+<tallcase id="12" name="Кастомный цвет" preview="1" reckey="010101000AB"/>
+
+
+
+       		
+    </tallcases>
+	<tallpulls>
+<tallpull id="0" name="Без Ручек" preview="1" reckey="010101000B0"/>
+<tallpull id="1" name="Профиль Gola Алюминий" preview="1" reckey="010101000B1"/>
+<tallpull id="2" name="Профиль Gola Белый" preview="1" reckey="010101000B2"/>
+<tallpull id="3" name="Профиль Gola Золото" preview="1" reckey="010101000B3"/>
+<tallpull id="4" name="Профиль Gola Черный" preview="1" reckey="010101000B4"/>
+<tallpull id="5" name="TIP-ON белый" preview="1" reckey="010101000BG"/>
+<tallpull id="6" name="TIP-ON серый" preview="1" reckey="010101000BH"/>
+<tallpull id="7" name="TIP-ON черный" preview="1" reckey="010101000BI"/>
+<tallpull id="8" name="Ручка С1 Алюминий" preview="1" reckey="010101000B5"/>
+<tallpull id="9" name="Ручка С1 Белый" preview="1" reckey="010101000B6"/>
+<tallpull id="10" name="Ручка С1 Золото" preview="1" reckey="010101000B7"/>
+<tallpull id="11" name="Ручка С1 Черный" preview="1" reckey="010101000B8"/>
+<tallpull id="12" name="Ручка С1 Шампань" preview="1" reckey="010101000B9"/>
+<!-- <tallpull id="13" name="Ручка текстура 5" preview="1" reckey="010101000BA"/> -->
+<!-- <tallpull id="14" name="Ручка текстура 6" preview="1" reckey="010101000BB"/> -->
+<!-- <tallpull id="15" name="Ручка текстура 7" preview="1" reckey="010101000BC"/> -->
+<!-- <tallpull id="16" name="Ручка текстура 8" preview="1" reckey="010101000BD"/> -->
+<!-- <tallpull id="17" name="Ручка текстура 9" preview="1" reckey="010101000BE"/> -->
+<!-- <tallpull id="18" name="Ручка текстура 10" preview="1" reckey="010101000BF"/> -->
+
+
+       		
+    </tallpulls>
+	<tallpospulls>
+<tallpospull id="1" tallpulls="5;6;7" name="5" preview="1" reckey="010101000C0"/>
+<tallpospull id="2" tallpulls="1;2;3;4;5;6;7;8;9;10;11;12" name="6" preview="1" reckey="010101000C2"/>
+<tallpospull id="3" tallpulls="5;6;7" name="8" preview="1" reckey="010101000C3"/>
+<tallpospull id="0" tallpulls="0" name="none" preview="1" reckey="010101000C4"/>
+       		
+    </tallpospulls>
+	<talltypebacks>
+<talltypeback id="1" name="ДВП" preview="1" reckey="010101000D0"/>
+<talltypeback id="2" name="Материал корпуса" preview="1" reckey="010101000D1"/>
+<talltypeback id="3" name="ДСП" preview="1" reckey="010101000D2"/>
+<talltypeback id="4" name="AGT" preview="1" reckey="010101000D3"/>
+<talltypeback id="5" name="Alvic" preview="1" reckey="010101000D4"/>
+<talltypeback id="6" name="Egger" preview="1" reckey="010101000D5"/>
+
+    </talltypebacks>
+	<tallcolorbacks>
+<tallcolorback id="0" talltypebacks="1" name="Белый" preview="1" reckey="010101000E00"/>
+<tallcolorback id="1" talltypebacks="3" name="Бежевый Песок" preview="1" reckey="010101000E01"/>
+<tallcolorback id="2" talltypebacks="3" name="Белый Альпийский" preview="1" reckey="010101000E02"/>
+<tallcolorback id="3" talltypebacks="3" name="Белый Премиум" preview="1" reckey="010101000E03"/>
+<tallcolorback id="4" talltypebacks="3" name="Коттон Бежевый" preview="1" reckey="010101000E04"/>
+<tallcolorback id="5" talltypebacks="3" name="Нежный Черный" preview="1" reckey="010101000E05"/>
+<tallcolorback id="6" talltypebacks="3" name="Оникс Серый" preview="1" reckey="010101000E06"/>
+<tallcolorback id="7" talltypebacks="3" name="Светло-Серый" preview="1" reckey="010101000E07"/>
+<tallcolorback id="8" talltypebacks="3" name="Серый Камень" preview="1" reckey="010101000E08"/>
+<tallcolorback id="9" talltypebacks="3" name="Серый Пыльный" preview="1" reckey="010101000E09"/>
+<tallcolorback id="10" talltypebacks="3" name="Серый Уголь" preview="1" reckey="010101000E0A"/>
+
+<tallcolorback id="20" talltypebacks="4" name="Bitter" preview="1" reckey="010101000E0C"/>
+<tallcolorback id="21" talltypebacks="4" name="Brezee Beige" preview="1" reckey="010101000E0D"/>
+<tallcolorback id="22" talltypebacks="4" name="Cloudy Grey" preview="1" reckey="010101000E0E"/>
+<tallcolorback id="23" talltypebacks="4" name="Dolphin Grey" preview="1" reckey="010101000E0F"/>
+<tallcolorback id="24" talltypebacks="4" name="Forest Green" preview="1" reckey="010101000E0G"/>
+<tallcolorback id="25" talltypebacks="4" name="Glamorous Pacific" preview="1" reckey="010101000E0H"/>
+<tallcolorback id="26" talltypebacks="4" name="Ice Grey" preview="1" reckey="010101000E0I"/>
+<tallcolorback id="27" talltypebacks="4" name="London Blues" preview="1" reckey="010101000E0J"/>
+<tallcolorback id="28" talltypebacks="4" name="Macaron Green" preview="1" reckey="010101000E0K"/>
+<tallcolorback id="29" talltypebacks="4" name="Moonlight" preview="1" reckey="010101000E0L"/>
+<tallcolorback id="30" talltypebacks="4" name="Pearl Black" preview="1" reckey="010101000E0M"/>
+<tallcolorback id="31" talltypebacks="4" name="Pearl White" preview="1" reckey="010101000E0N"/>
+<tallcolorback id="32" talltypebacks="4" name="Pebble Grey" preview="1" reckey="010101000E0O"/>
+<tallcolorback id="33" talltypebacks="4" name="Pinky Daisy" preview="1" reckey="010101000E0P"/>
+<tallcolorback id="34" talltypebacks="4" name="Royal Grey" preview="1" reckey="010101000E0Q"/>
+<tallcolorback id="35" talltypebacks="4" name="Rustic Red" preview="1" reckey="010101000E0R"/>
+<tallcolorback id="36" talltypebacks="4" name="Safari Grey" preview="1" reckey="010101000E0S"/>
+<tallcolorback id="37" talltypebacks="4" name="Sahara Cream" preview="1" reckey="010101000E0T"/>
+<tallcolorback id="38" talltypebacks="4" name="Snow White" preview="1" reckey="010101000E0U"/>
+<tallcolorback id="39" talltypebacks="4" name="Timeless Grey" preview="1" reckey="010101000E0V"/>
+<tallcolorback id="40" talltypebacks="4" name="Глянец Бежевый" preview="1" reckey="010101000E0W"/>
+<tallcolorback id="41" talltypebacks="4" name="Глянец Белый" preview="1" reckey="010101000E0X"/>
+<tallcolorback id="42" talltypebacks="4" name="Глянец Бьянко" preview="1" reckey="010101000E0Y"/>
+<tallcolorback id="43" talltypebacks="4" name="Глянец Крем" preview="1" reckey="010101000E0Z"/>
+<tallcolorback id="44" talltypebacks="4" name="Суперматовый Белый" preview="1" reckey="010101000E10"/>
+
+<tallcolorback id="50" talltypebacks="5" name="Antracita Metaldeco" preview="1" reckey="010101000E12"/>
+<tallcolorback id="51" talltypebacks="5" name="Antracita Supermat" preview="1" reckey="010101000E13"/>
+<tallcolorback id="52" talltypebacks="5" name="Antracita Глянец" preview="1" reckey="010101000E14"/>
+<tallcolorback id="53" talltypebacks="5" name="Basalto Metaldeco" preview="1" reckey="010101000E15"/>
+<tallcolorback id="54" talltypebacks="5" name="Basalto Pearl Effect Глянец" preview="1" reckey="010101000E16"/>
+<tallcolorback id="55" talltypebacks="5" name="Basalto Supermat" preview="1" reckey="010101000E17"/>
+<tallcolorback id="56" talltypebacks="5" name="Basalto Глянец" preview="1" reckey="010101000E18"/>
+<tallcolorback id="57" talltypebacks="5" name="Blanco Colonial Pearl Effect Глянец" preview="1" reckey="010101000E19"/>
+<tallcolorback id="58" talltypebacks="5" name="Blanco Metaldeco" preview="1" reckey="010101000E1A"/>
+<tallcolorback id="59" talltypebacks="5" name="Blanco Polar" preview="1" reckey="010101000E1B"/>
+<tallcolorback id="60" talltypebacks="5" name="Blanco Supermat" preview="1" reckey="010101000E1C"/>
+<tallcolorback id="61" talltypebacks="5" name="Blanco Глянец" preview="1" reckey="010101000E1D"/>
+<tallcolorback id="62" talltypebacks="5" name="Cachemir Metaldeco" preview="1" reckey="010101000E1E"/>
+<tallcolorback id="63" talltypebacks="5" name="Cachemir Глянец" preview="1" reckey="010101000E1F"/>
+<tallcolorback id="64" talltypebacks="5" name="Cashemire Supermat" preview="1" reckey="010101000E1G"/>
+<tallcolorback id="65" talltypebacks="5" name="Cuzco Cobre Глянец" preview="1" reckey="010101000E1H"/>
+<tallcolorback id="66" talltypebacks="5" name="Cuzco Grafitt Глянец" preview="1" reckey="010101000E1I"/>
+<tallcolorback id="67" talltypebacks="5" name="Cuzco Oro Глянец" preview="1" reckey="010101000E1J"/>
+<tallcolorback id="68" talltypebacks="5" name="Cuzco Silver Глянец" preview="1" reckey="010101000E1K"/>
+<tallcolorback id="69" talltypebacks="5" name="EVORA-3" preview="1" reckey="010101000E1L"/>
+<tallcolorback id="70" talltypebacks="5" name="EVORA-3 Гориз" preview="1" reckey="010101000E1M"/>
+<tallcolorback id="71" talltypebacks="5" name="EVORA-4" preview="1" reckey="010101000E1N"/>
+<tallcolorback id="72" talltypebacks="5" name="EVORA-4  Гориз" preview="1" reckey="010101000E1O"/>
+<tallcolorback id="73" talltypebacks="5" name="Gris Nube Metaldeco" preview="1" reckey="010101000E1P"/>
+<tallcolorback id="74" talltypebacks="5" name="Guayana Глянец" preview="1" reckey="010101000E1Q"/>
+<tallcolorback id="75" talltypebacks="5" name="Guayana Глянец Гориз" preview="1" reckey="010101000E1R"/>
+<tallcolorback id="76" talltypebacks="5" name="ICE-CREAM-1" preview="1" reckey="010101000E1S"/>
+<tallcolorback id="77" talltypebacks="5" name="ICE-CREAM-1 Гориз" preview="1" reckey="010101000E1T"/>
+<tallcolorback id="78" talltypebacks="5" name="ICE-CREAM-2" preview="1" reckey="010101000E1U"/>
+<tallcolorback id="79" talltypebacks="5" name="ICE-CREAM-2 Гориз" preview="1" reckey="010101000E1V"/>
+<tallcolorback id="80" talltypebacks="5" name="ICE-CREAM-3" preview="1" reckey="010101000E1W"/>
+<tallcolorback id="81" talltypebacks="5" name="ICE-CREAM-3 Гориз" preview="1" reckey="010101000E1X"/>
+<tallcolorback id="82" talltypebacks="5" name="ICE-CREAM-4" preview="1" reckey="010101000E1Y"/>
+<tallcolorback id="83" talltypebacks="5" name="ICE-CREAM-4 Гориз" preview="1" reckey="010101000E1Z"/>
+<tallcolorback id="84" talltypebacks="5" name="Leather Melange-1" preview="1" reckey="010101000E20"/>
+<tallcolorback id="85" talltypebacks="5" name="Magnolia Metaldeco" preview="1" reckey="010101000E21"/>
+<tallcolorback id="86" talltypebacks="5" name="Magnolia Supermat" preview="1" reckey="010101000E22"/>
+<tallcolorback id="87" talltypebacks="5" name="Magnolia Глянец" preview="1" reckey="010101000E23"/>
+<tallcolorback id="88" talltypebacks="5" name="Marfil Pearl Effect Глянец" preview="1" reckey="010101000E24"/>
+<tallcolorback id="89" talltypebacks="5" name="Melange 1 Глянец" preview="1" reckey="010101000E25"/>
+<tallcolorback id="90" talltypebacks="5" name="Negro Supermat" preview="1" reckey="010101000E26"/>
+<tallcolorback id="91" talltypebacks="5" name="Negro Глянец" preview="1" reckey="010101000E27"/>
+<tallcolorback id="92" talltypebacks="5" name="Olivo Глянец" preview="1" reckey="010101000E28"/>
+<tallcolorback id="93" talltypebacks="5" name="Olivo глянец Гориз" preview="1" reckey="010101000E29"/>
+<tallcolorback id="94" talltypebacks="5" name="Oxid-01" preview="1" reckey="010101000E2A"/>
+<tallcolorback id="95" talltypebacks="5" name="Oxid-04" preview="1" reckey="010101000E2B"/>
+<tallcolorback id="96" talltypebacks="5" name="Textil Dorado Глянец" preview="1" reckey="010101000E2C"/>
+<tallcolorback id="97" talltypebacks="5" name="Textil Plata Глянец" preview="1" reckey="010101000E2D"/>
+<tallcolorback id="98" talltypebacks="5" name="Муратти-1" preview="1" reckey="010101000E2E"/>
+<tallcolorback id="99" talltypebacks="5" name="Муратти-1 Гориз" preview="1" reckey="010101000E2F"/>
+<tallcolorback id="100" talltypebacks="5" name="Муратти-2" preview="1" reckey="010101000E2G"/>
+<tallcolorback id="101" talltypebacks="5" name="Муратти-2 Гориз" preview="1" reckey="010101000E2H"/>
+<tallcolorback id="102" talltypebacks="5" name="Муратти-3" preview="1" reckey="010101000E2I"/>
+<tallcolorback id="103" talltypebacks="5" name="Муратти-3 Гориз" preview="1" reckey="010101000E2J"/>
+<tallcolorback id="104" talltypebacks="5" name="Муратти-4" preview="1" reckey="010101000E2K"/>
+<tallcolorback id="105" talltypebacks="5" name="Муратти-4 Гориз" preview="1" reckey="010101000E2L"/>
+
+<tallcolorback id="110" talltypebacks="6" name="Бетон Чикаго Светло-Серый" preview="1" reckey="010101000E2N"/>
+<tallcolorback id="111" talltypebacks="6" name="Бетон Чикаго Темно-Серый" preview="1" reckey="010101000E2O"/>
+<tallcolorback id="112" talltypebacks="6" name="Дуб Бардолино Натуральный" preview="1" reckey="010101000E2P"/>
+<tallcolorback id="113" talltypebacks="6" name="Дуб Галифакс Натуральный" preview="1" reckey="010101000E2Q"/>
+<tallcolorback id="114" talltypebacks="6" name="Дуб Галифакс Табак" preview="1" reckey="010101000E2R"/>
+<tallcolorback id="115" talltypebacks="6" name="Камень Пьетра Гриджиа Черный" preview="1" reckey="010101000E2S"/>
+<tallcolorback id="116" talltypebacks="6" name="Сосна Пасадена" preview="1" reckey="010101000E2T"/>
+<tallcolorback id="117" talltypebacks="2" name="В цвет корпуса" preview="1" reckey="010101000E30"/>
+       		
+    </tallcolorbacks>
+
+    <wallcolors>      	       
+		
+<wallcolor id="1" wallstyles="1" name="Bitter" preview="1" reckey="010101000H00"/>
+<wallcolor id="2" wallstyles="1" name="Brezee Beige" preview="1" reckey="010101000H01"/>
+<wallcolor id="3" wallstyles="1" name="Cloudy Grey" preview="1" reckey="010101000H02"/>
+<wallcolor id="4" wallstyles="1" name="Dolphin Grey" preview="1" reckey="010101000H03"/>
+<wallcolor id="5" wallstyles="1" name="Forest Green" preview="1" reckey="010101000H04"/>
+<wallcolor id="6" wallstyles="1" name="Glamorous Pacific" preview="1" reckey="010101000H05"/>
+<wallcolor id="7" wallstyles="1" name="Ice Grey" preview="1" reckey="010101000H06"/>
+<wallcolor id="8" wallstyles="1" name="London Blues" preview="1" reckey="010101000H07"/>
+<wallcolor id="9" wallstyles="1" name="Macaron Green" preview="1" reckey="010101000H08"/>
+<wallcolor id="10" wallstyles="1" name="Moonlight" preview="1" reckey="010101000H09"/>
+<wallcolor id="11" wallstyles="1" name="Pearl Black" preview="1" reckey="010101000H0A"/>
+<wallcolor id="12" wallstyles="1" name="Pearl White" preview="1" reckey="010101000H0B"/>
+<wallcolor id="13" wallstyles="1" name="Pebble Grey" preview="1" reckey="010101000H0C"/>
+<wallcolor id="14" wallstyles="1" name="Pinky Daisy" preview="1" reckey="010101000H0D"/>
+<wallcolor id="15" wallstyles="1" name="Royal Grey" preview="1" reckey="010101000H0E"/>
+<wallcolor id="16" wallstyles="1" name="Rustic Red" preview="1" reckey="010101000H0F"/>
+<wallcolor id="17" wallstyles="1" name="Safari Grey" preview="1" reckey="010101000H0G"/>
+<wallcolor id="18" wallstyles="1" name="Sahara Cream" preview="1" reckey="010101000H0H"/>
+<wallcolor id="19" wallstyles="1" name="Snow White" preview="1" reckey="010101000H0I"/>
+<wallcolor id="20" wallstyles="1" name="Timeless Grey" preview="1" reckey="010101000H0J"/>
+<wallcolor id="21" wallstyles="1" name="Глянец Бежевый" preview="1" reckey="010101000H0K"/>
+<wallcolor id="22" wallstyles="1" name="Глянец Белый" preview="1" reckey="010101000H0L"/>
+<wallcolor id="23" wallstyles="1" name="Глянец Бьянко" preview="1" reckey="010101000H0M"/>
+<wallcolor id="24" wallstyles="1" name="Глянец Крем" preview="1" reckey="010101000H0N"/>
+<wallcolor id="25" wallstyles="1" name="Суперматовый Белый" preview="1" reckey="010101000H0O"/>
+
+<wallcolor id="30" wallstyles="2" name="Antracita Metaldeco" preview="1" reckey="010101000H0Q"/>
+<wallcolor id="31" wallstyles="2" name="Antracita Supermat" preview="1" reckey="010101000H0R"/>
+<wallcolor id="32" wallstyles="2" name="Antracita Глянец" preview="1" reckey="010101000H0S"/>
+<wallcolor id="33" wallstyles="2" name="Basalto Metaldeco" preview="1" reckey="010101000H0T"/>
+<wallcolor id="34" wallstyles="2" name="Basalto Pearl Effect Глянец" preview="1" reckey="010101000H0U"/>
+<wallcolor id="35" wallstyles="2" name="Basalto Supermat" preview="1" reckey="010101000H0V"/>
+<wallcolor id="36" wallstyles="2" name="Basalto Глянец" preview="1" reckey="010101000H0W"/>
+<wallcolor id="37" wallstyles="2" name="Blanco Colonial Pearl Effect Глянец" preview="1" reckey="010101000H0X"/>
+<wallcolor id="38" wallstyles="2" name="Blanco Metaldeco" preview="1" reckey="010101000H0Y"/>
+<wallcolor id="39" wallstyles="2" name="Blanco Polar" preview="1" reckey="010101000H0Z"/>
+<wallcolor id="40" wallstyles="2" name="Blanco Supermat" preview="1" reckey="010101000H10"/>
+<wallcolor id="41" wallstyles="2" name="Blanco Глянец" preview="1" reckey="010101000H11"/>
+<wallcolor id="42" wallstyles="2" name="Cachemir Metaldeco" preview="1" reckey="010101000H12"/>
+<wallcolor id="43" wallstyles="2" name="Cachemir Глянец" preview="1" reckey="010101000H13"/>
+<wallcolor id="44" wallstyles="2" name="Cashemire Supermat" preview="1" reckey="010101000H14"/>
+<wallcolor id="45" wallstyles="2" name="Cuzco Cobre Глянец" preview="1" reckey="010101000H15"/>
+<wallcolor id="46" wallstyles="2" name="Cuzco Grafitt Глянец" preview="1" reckey="010101000H16"/>
+<wallcolor id="47" wallstyles="2" name="Cuzco Oro Глянец" preview="1" reckey="010101000H17"/>
+<wallcolor id="48" wallstyles="2" name="Cuzco Silver Глянец" preview="1" reckey="010101000H18"/>
+<wallcolor id="49" wallstyles="2" name="EVORA-3" preview="1" reckey="010101000H19"/>
+<wallcolor id="50" wallstyles="2" name="EVORA-3 Гориз" preview="1" reckey="010101000H1A"/>
+<wallcolor id="51" wallstyles="2" name="EVORA-4" preview="1" reckey="010101000H1B"/>
+<wallcolor id="52" wallstyles="2" name="EVORA-4  Гориз" preview="1" reckey="010101000H1C"/>
+<wallcolor id="53" wallstyles="2" name="Gris Nube Metaldeco" preview="1" reckey="010101000H1D"/>
+<wallcolor id="54" wallstyles="2" name="Guayana Глянец" preview="1" reckey="010101000H1E"/>
+<wallcolor id="55" wallstyles="2" name="Guayana Глянец Гориз" preview="1" reckey="010101000H1F"/>
+<wallcolor id="56" wallstyles="2" name="ICE-CREAM-1" preview="1" reckey="010101000H1G"/>
+<wallcolor id="57" wallstyles="2" name="ICE-CREAM-1 Гориз" preview="1" reckey="010101000H1H"/>
+<wallcolor id="58" wallstyles="2" name="ICE-CREAM-2" preview="1" reckey="010101000H1I"/>
+<wallcolor id="59" wallstyles="2" name="ICE-CREAM-2 Гориз" preview="1" reckey="010101000H1J"/>
+<wallcolor id="60" wallstyles="2" name="ICE-CREAM-3" preview="1" reckey="010101000H1K"/>
+<wallcolor id="61" wallstyles="2" name="ICE-CREAM-3 Гориз" preview="1" reckey="010101000H1L"/>
+<wallcolor id="62" wallstyles="2" name="ICE-CREAM-4" preview="1" reckey="010101000H1M"/>
+<wallcolor id="63" wallstyles="2" name="ICE-CREAM-4 Гориз" preview="1" reckey="010101000H1N"/>
+<wallcolor id="64" wallstyles="2" name="Leather Melange-1" preview="1" reckey="010101000H1O"/>
+<wallcolor id="65" wallstyles="2" name="Magnolia Metaldeco" preview="1" reckey="010101000H1P"/>
+<wallcolor id="66" wallstyles="2" name="Magnolia Supermat" preview="1" reckey="010101000H1Q"/>
+<wallcolor id="67" wallstyles="2" name="Magnolia Глянец" preview="1" reckey="010101000H1R"/>
+<wallcolor id="68" wallstyles="2" name="Marfil Pearl Effect Глянец" preview="1" reckey="010101000H1S"/>
+<wallcolor id="69" wallstyles="2" name="Melange 1 Глянец" preview="1" reckey="010101000H1T"/>
+<wallcolor id="70" wallstyles="2" name="Negro Supermat" preview="1" reckey="010101000H1U"/>
+<wallcolor id="71" wallstyles="2" name="Negro Глянец" preview="1" reckey="010101000H1V"/>
+<wallcolor id="72" wallstyles="2" name="Olivo Глянец" preview="1" reckey="010101000H1W"/>
+<wallcolor id="73" wallstyles="2" name="Olivo глянец Гориз" preview="1" reckey="010101000H1X"/>
+<wallcolor id="74" wallstyles="2" name="Oxid-01" preview="1" reckey="010101000H1Y"/>
+<wallcolor id="75" wallstyles="2" name="Oxid-04" preview="1" reckey="010101000H1Z"/>
+<wallcolor id="76" wallstyles="2" name="Textil Dorado Глянец" preview="1" reckey="010101000H20"/>
+<wallcolor id="77" wallstyles="2" name="Textil Plata Глянец" preview="1" reckey="010101000H21"/>
+<wallcolor id="78" wallstyles="2" name="Муратти-1" preview="1" reckey="010101000H22"/>
+<wallcolor id="79" wallstyles="2" name="Муратти-1 Гориз" preview="1" reckey="010101000H23"/>
+<wallcolor id="80" wallstyles="2" name="Муратти-2" preview="1" reckey="010101000H24"/>
+<wallcolor id="81" wallstyles="2" name="Муратти-2 Гориз" preview="1" reckey="010101000H25"/>
+<wallcolor id="82" wallstyles="2" name="Муратти-3" preview="1" reckey="010101000H26"/>
+<wallcolor id="83" wallstyles="2" name="Муратти-3 Гориз" preview="1" reckey="010101000H27"/>
+<wallcolor id="84" wallstyles="2" name="Муратти-4" preview="1" reckey="010101000H28"/>
+<wallcolor id="85" wallstyles="2" name="Муратти-4 Гориз" preview="1" reckey="010101000H29"/>
+
+
+<wallcolor id="90" wallstyles="3" name="Бежевый Песок" preview="1" reckey="010101000H2C"/>
+<wallcolor id="91" wallstyles="3" name="Белый Альпийский" preview="1" reckey="010101000H2D"/>
+<wallcolor id="92" wallstyles="3" name="Белый Премиум" preview="1" reckey="010101000H2E"/>
+<wallcolor id="93" wallstyles="3" name="Коттон Бежевый" preview="1" reckey="010101000H2F"/>
+<wallcolor id="94" wallstyles="3" name="Нежный Черный" preview="1" reckey="010101000H2G"/>
+<wallcolor id="95" wallstyles="3" name="Оникс Серый" preview="1" reckey="010101000H2H"/>
+<wallcolor id="96" wallstyles="3" name="Светло-Серый" preview="1" reckey="010101000H2I"/>
+<wallcolor id="97" wallstyles="3" name="Серый Камень" preview="1" reckey="010101000H2J"/>
+<wallcolor id="98" wallstyles="3" name="Серый Пыльный" preview="1" reckey="010101000H2K"/>
+<wallcolor id="99" wallstyles="3" name="Серый Уголь" preview="1" reckey="010101000H2L"/>
+
+<wallcolor id="110" wallstyles="4" name="Бетон Чикаго Светло-Серый" preview="1" reckey="010101000H2N"/>
+<wallcolor id="111" wallstyles="4" name="Бетон Чикаго Темно-Серый" preview="1" reckey="010101000H2O"/>
+<wallcolor id="112" wallstyles="4" name="Дуб Бардолино Натуральный" preview="1" reckey="010101000H2P"/>
+<wallcolor id="113" wallstyles="4" name="Дуб Галифакс Натуральный" preview="1" reckey="010101000H2Q"/>
+<wallcolor id="114" wallstyles="4" name="Дуб Галифакс Табак" preview="1" reckey="010101000H2R"/>
+<wallcolor id="115" wallstyles="4" name="Камень Пьетра Гриджиа Черный" preview="1" reckey="010101000H2S"/>
+
+<wallcolor id="116" wallstyles="5;6;7" name="Черный" preview="1" reckey="010101000H2X"/>
+<wallcolor id="117" wallstyles="5;6;7" name="Серебро" preview="1" reckey="010101000H2Y"/>
+<wallcolor id="118" wallstyles="5;6" name="Графит" preview="1" reckey="010101000H2Z"/>
+<wallcolor id="119" wallstyles="5;6;7" name="Золото брашированное" preview="1" reckey="010101000H30"/>
+<wallcolor id="120" wallstyles="6" name="Бронза" preview="1" reckey="010101000H31"/>
+
+<wallcolor id="121" wallstyles="8" name="нет" preview="1" reckey="010101000H2V"/>
+
+<wallcolor id="122" wallstyles="1;2;3;4;5;6;7" name="Кастомный цвет" preview="1" reckey="010101000H33"/>
+</wallcolors>
+
+<wallcases>
+<wallcase id="1" name="Бежевый Песок" preview="1" reckey="010101000I0"/>
+<wallcase id="2" name="Белый Альпийский" preview="1" reckey="010101000I1"/>
+<wallcase id="3" name="Белый Премиум" preview="1" reckey="010101000I2"/>
+<wallcase id="4" name="Коттон Бежевый" preview="1" reckey="010101000I3"/>
+<wallcase id="5" name="Нежный Черный" preview="1" reckey="010101000I4"/>
+<wallcase id="6" name="Оникс Серый" preview="1" reckey="010101000I5"/>
+<wallcase id="7" name="Светло-Серый" preview="1" reckey="010101000I6"/>
+<wallcase id="8" name="Серый Камень" preview="1" reckey="010101000I7"/>
+<wallcase id="9" name="Серый Пыльный" preview="1" reckey="010101000I8"/>
+<wallcase id="10" name="Серый Уголь" preview="1" reckey="010101000I9"/>
+<wallcase id="11" name="Белый Базовый" preview="1" reckey="010101000IA"/>
+<wallcase id="12" name="Кастомный цвет" preview="1" reckey="010101000IB"/>
+</wallcases>
+
+<wallpulls>
+<wallpull id="0" name="Без Ручек" preview="1" reckey="010101000J0"/>
+<wallpull id="1" name="Открывание За Фасад" preview="1" reckey="010101000J1"/>
+<wallpull id="2" name="Профиль Gola Алюминий" preview="1" reckey="010101000J2"/>
+<wallpull id="3" name="Профиль Gola Белый" preview="1" reckey="010101000J3"/>
+<wallpull id="4" name="Профиль Gola Золото" preview="1" reckey="010101000J4"/>
+<wallpull id="5" name="Профиль Gola Черный" preview="1" reckey="010101000J5"/>
+<wallpull id="7" name="TIP-ON белый" reckey="010101000J7"/>
+<wallpull id="8" name="TIP-ON серый" reckey="010101000J8"/>
+<wallpull id="9" name="TIP-ON черный" reckey="010101000J9"/>
+<wallpull id="10" name="Ручка С2 Алюминий" preview="1" reckey="010101000JA"/>
+<wallpull id="11" name="Ручка С2 Белый" preview="1" reckey="010101000JB"/>
+<wallpull id="12" name="Ручка С2 Золото" preview="1" reckey="010101000JC"/>
+<wallpull id="13" name="Ручка С2 Черный" preview="1" reckey="010101000JD"/>
+<wallpull id="14" name="Ручка С2 Шампань" preview="1" reckey="010101000JE"/>
+</wallpulls>
+
+<wallpospulls>
+<wallpospull id="1" wallpulls="7;8;9" name="1" preview="1" reckey="010101000K0"/>
+<wallpospull id="2" wallpulls="7;8;9" name="2" preview="1" reckey="010101000K1"/>
+<wallpospull id="3" wallpulls="2;3;4;5;7;8;9;10;11;12;13;14" name="3" preview="1" reckey="010101000K2"/>
+<wallpospull id="0" wallpulls="0" name="none" preview="1" reckey="010101000K4"/>
+</wallpospulls>
+
+<walltypebacks>
+<walltypeback id="1" name="ДВП" preview="1" reckey="010101000L0"/>
+<walltypeback id="2" name="Материал корпуса" preview="1" reckey="010101000L5"/>
+<walltypeback id="3" name="ДСП" preview="1" reckey="010101000L1"/>
+<walltypeback id="4" name="AGT" preview="1" reckey="010101000L2"/>
+<walltypeback id="5" name="Alvic" preview="1" reckey="010101000L3"/>
+<walltypeback id="6" name="Egger" preview="1" reckey="010101000L4"/>
+</walltypebacks>
+
+<wallcolorbacks>
+<wallcolorback id="0" walltypebacks="1" name="Белый" preview="1" reckey="010101000M00"/>
+<wallcolorback id="1" walltypebacks="3" name="Бежевый Песок" preview="1" reckey="010101000M01"/>
+<wallcolorback id="2" walltypebacks="3" name="Белый Альпийский" preview="1" reckey="010101000M02"/>
+<wallcolorback id="3" walltypebacks="3" name="Белый Премиум" preview="1" reckey="010101000M03"/>
+<wallcolorback id="4" walltypebacks="3" name="Коттон Бежевый" preview="1" reckey="010101000M04"/>
+<wallcolorback id="5" walltypebacks="3" name="Нежный Черный" preview="1" reckey="010101000M05"/>
+<wallcolorback id="6" walltypebacks="3" name="Оникс Серый" preview="1" reckey="010101000M06"/>
+<wallcolorback id="7" walltypebacks="3" name="Светло-Серый" preview="1" reckey="010101000M07"/>
+<wallcolorback id="8" walltypebacks="3" name="Серый Камень" preview="1" reckey="010101000M08"/>
+<wallcolorback id="9" walltypebacks="3" name="Серый Пыльный" preview="1" reckey="010101000M09"/>
+<wallcolorback id="10" walltypebacks="3" name="Серый Уголь" preview="1" reckey="010101000M0A"/>
+
+<wallcolorback id="20" walltypebacks="4" name="Bitter" preview="1" reckey="010101000M0C"/>
+<wallcolorback id="21" walltypebacks="4" name="Brezee Beige" preview="1" reckey="010101000M0D"/>
+<wallcolorback id="22" walltypebacks="4" name="Cloudy Grey" preview="1" reckey="010101000M0E"/>
+<wallcolorback id="23" walltypebacks="4" name="Dolphin Grey" preview="1" reckey="010101000M0F"/>
+<wallcolorback id="24" walltypebacks="4" name="Forest Green" preview="1" reckey="010101000M0G"/>
+<wallcolorback id="25" walltypebacks="4" name="Glamorous Pacific" preview="1" reckey="010101000M0H"/>
+<wallcolorback id="26" walltypebacks="4" name="Ice Grey" preview="1" reckey="010101000M0I"/>
+<wallcolorback id="27" walltypebacks="4" name="London Blues" preview="1" reckey="010101000M0J"/>
+<wallcolorback id="28" walltypebacks="4" name="Macaron Green" preview="1" reckey="010101000M0K"/>
+<wallcolorback id="29" walltypebacks="4" name="Moonlight" preview="1" reckey="010101000M0L"/>
+<wallcolorback id="30" walltypebacks="4" name="Pearl Black" preview="1" reckey="010101000M0M"/>
+<wallcolorback id="31" walltypebacks="4" name="Pearl White" preview="1" reckey="010101000M0N"/>
+<wallcolorback id="32" walltypebacks="4" name="Pebble Grey" preview="1" reckey="010101000M0O"/>
+<wallcolorback id="33" walltypebacks="4" name="Pinky Daisy" preview="1" reckey="010101000M0P"/>
+<wallcolorback id="34" walltypebacks="4" name="Royal Grey" preview="1" reckey="010101000M0Q"/>
+<wallcolorback id="35" walltypebacks="4" name="Rustic Red" preview="1" reckey="010101000M0R"/>
+<wallcolorback id="36" walltypebacks="4" name="Safari Grey" preview="1" reckey="010101000M0S"/>
+<wallcolorback id="37" walltypebacks="4" name="Sahara Cream" preview="1" reckey="010101000M0T"/>
+<wallcolorback id="38" walltypebacks="4" name="Snow White" preview="1" reckey="010101000M0U"/>
+<wallcolorback id="39" walltypebacks="4" name="Timeless Grey" preview="1" reckey="010101000M0V"/>
+<wallcolorback id="40" walltypebacks="4" name="Глянец Бежевый" preview="1" reckey="010101000M0W"/>
+<wallcolorback id="41" walltypebacks="4" name="Глянец Белый" preview="1" reckey="010101000M0X"/>
+<wallcolorback id="42" walltypebacks="4" name="Глянец Бьянко" preview="1" reckey="010101000M0Y"/>
+<wallcolorback id="43" walltypebacks="4" name="Глянец Крем" preview="1" reckey="010101000M0Z"/>
+<wallcolorback id="44" walltypebacks="4" name="Суперматовый Белый" preview="1" reckey="010101000M10"/>
+
+<wallcolorback id="50" walltypebacks="5" name="Antracita Metaldeco" preview="1" reckey="010101000M12"/>
+<wallcolorback id="51" walltypebacks="5" name="Antracita Supermat" preview="1" reckey="010101000M13"/>
+<wallcolorback id="52" walltypebacks="5" name="Antracita Глянец" preview="1" reckey="010101000M14"/>
+<wallcolorback id="53" walltypebacks="5" name="Basalto Metaldeco" preview="1" reckey="010101000M15"/>
+<wallcolorback id="54" walltypebacks="5" name="Basalto Pearl Effect Глянец" preview="1" reckey="010101000M16"/>
+<wallcolorback id="55" walltypebacks="5" name="Basalto Supermat" preview="1" reckey="010101000M17"/>
+<wallcolorback id="56" walltypebacks="5" name="Basalto Глянец" preview="1" reckey="010101000M18"/>
+<wallcolorback id="57" walltypebacks="5" name="Blanco Colonial Pearl Effect Глянец" preview="1" reckey="010101000M19"/>
+<wallcolorback id="58" walltypebacks="5" name="Blanco Metaldeco" preview="1" reckey="010101000M1A"/>
+<wallcolorback id="59" walltypebacks="5" name="Blanco Polar" preview="1" reckey="010101000M1B"/>
+<wallcolorback id="60" walltypebacks="5" name="Blanco Supermat" preview="1" reckey="010101000M1C"/>
+<wallcolorback id="61" walltypebacks="5" name="Blanco Глянец" preview="1" reckey="010101000M1D"/>
+<wallcolorback id="62" walltypebacks="5" name="Cachemir Metaldeco" preview="1" reckey="010101000M1E"/>
+<wallcolorback id="63" walltypebacks="5" name="Cachemir Глянец" preview="1" reckey="010101000M1F"/>
+<wallcolorback id="64" walltypebacks="5" name="Cashemire Supermat" preview="1" reckey="010101000M1G"/>
+<wallcolorback id="65" walltypebacks="5" name="Cuzco Cobre Глянец" preview="1" reckey="010101000M1H"/>
+<wallcolorback id="66" walltypebacks="5" name="Cuzco Grafitt Глянец" preview="1" reckey="010101000M1I"/>
+<wallcolorback id="67" walltypebacks="5" name="Cuzco Oro Глянец" preview="1" reckey="010101000M1J"/>
+<wallcolorback id="68" walltypebacks="5" name="Cuzco Silver Глянец" preview="1" reckey="010101000M1K"/>
+<wallcolorback id="69" walltypebacks="5" name="EVORA-3" preview="1" reckey="010101000M1L"/>
+<wallcolorback id="70" walltypebacks="5" name="EVORA-3 Гориз" preview="1" reckey="010101000M1M"/>
+<wallcolorback id="71" walltypebacks="5" name="EVORA-4" preview="1" reckey="010101000M1N"/>
+<wallcolorback id="72" walltypebacks="5" name="EVORA-4  Гориз" preview="1" reckey="010101000M1O"/>
+<wallcolorback id="73" walltypebacks="5" name="Gris Nube Metaldeco" preview="1" reckey="010101000M1P"/>
+<wallcolorback id="74" walltypebacks="5" name="Guayana Глянец" preview="1" reckey="010101000M1Q"/>
+<wallcolorback id="75" walltypebacks="5" name="Guayana Глянец Гориз" preview="1" reckey="010101000M1R"/>
+<wallcolorback id="76" walltypebacks="5" name="ICE-CREAM-1" preview="1" reckey="010101000M1S"/>
+<wallcolorback id="77" walltypebacks="5" name="ICE-CREAM-1 Гориз" preview="1" reckey="010101000M1T"/>
+<wallcolorback id="78" walltypebacks="5" name="ICE-CREAM-2" preview="1" reckey="010101000M1U"/>
+<wallcolorback id="79" walltypebacks="5" name="ICE-CREAM-2 Гориз" preview="1" reckey="010101000M1V"/>
+<wallcolorback id="80" walltypebacks="5" name="ICE-CREAM-3" preview="1" reckey="010101000M1W"/>
+<wallcolorback id="81" walltypebacks="5" name="ICE-CREAM-3 Гориз" preview="1" reckey="010101000M1X"/>
+<wallcolorback id="82" walltypebacks="5" name="ICE-CREAM-4" preview="1" reckey="010101000M1Y"/>
+<wallcolorback id="83" walltypebacks="5" name="ICE-CREAM-4 Гориз" preview="1" reckey="010101000M1Z"/>
+<wallcolorback id="84" walltypebacks="5" name="Leather Melange-1" preview="1" reckey="010101000M20"/>
+<wallcolorback id="85" walltypebacks="5" name="Magnolia Metaldeco" preview="1" reckey="010101000M21"/>
+<wallcolorback id="86" walltypebacks="5" name="Magnolia Supermat" preview="1" reckey="010101000M22"/>
+<wallcolorback id="87" walltypebacks="5" name="Magnolia Глянец" preview="1" reckey="010101000M23"/>
+<wallcolorback id="88" walltypebacks="5" name="Marfil Pearl Effect Глянец" preview="1" reckey="010101000M24"/>
+<wallcolorback id="89" walltypebacks="5" name="Melange 1 Глянец" preview="1" reckey="010101000M25"/>
+<wallcolorback id="90" walltypebacks="5" name="Negro Supermat" preview="1" reckey="010101000M26"/>
+<wallcolorback id="91" walltypebacks="5" name="Negro Глянец" preview="1" reckey="010101000M27"/>
+<wallcolorback id="92" walltypebacks="5" name="Olivo Глянец" preview="1" reckey="010101000M28"/>
+<wallcolorback id="93" walltypebacks="5" name="Olivo глянец Гориз" preview="1" reckey="010101000M29"/>
+<wallcolorback id="94" walltypebacks="5" name="Oxid-01" preview="1" reckey="010101000M2A"/>
+<wallcolorback id="95" walltypebacks="5" name="Oxid-04" preview="1" reckey="010101000M2B"/>
+<wallcolorback id="96" walltypebacks="5" name="Textil Dorado Глянец" preview="1" reckey="010101000M2C"/>
+<wallcolorback id="97" walltypebacks="5" name="Textil Plata Глянец" preview="1" reckey="010101000M2D"/>
+<wallcolorback id="98" walltypebacks="5" name="Муратти-1" preview="1" reckey="010101000M2E"/>
+<wallcolorback id="99" walltypebacks="5" name="Муратти-1 Гориз" preview="1" reckey="010101000M2F"/>
+<wallcolorback id="100" walltypebacks="5" name="Муратти-2" preview="1" reckey="010101000M2G"/>
+<wallcolorback id="101" walltypebacks="5" name="Муратти-2 Гориз" preview="1" reckey="010101000M2H"/>
+<wallcolorback id="102" walltypebacks="5" name="Муратти-3" preview="1" reckey="010101000M2I"/>
+<wallcolorback id="103" walltypebacks="5" name="Муратти-3 Гориз" preview="1" reckey="010101000M2J"/>
+<wallcolorback id="104" walltypebacks="5" name="Муратти-4" preview="1" reckey="010101000M2K"/>
+<wallcolorback id="105" walltypebacks="5" name="Муратти-4 Гориз" preview="1" reckey="010101000M2L"/>
+
+<wallcolorback id="110" walltypebacks="6" name="Бетон Чикаго Светло-Серый" preview="1" reckey="010101000M2N"/>
+<wallcolorback id="111" walltypebacks="6" name="Бетон Чикаго Темно-Серый" preview="1" reckey="010101000M2O"/>
+<wallcolorback id="112" walltypebacks="6" name="Дуб Бардолино Натуральный" preview="1" reckey="010101000M2P"/>
+<wallcolorback id="113" walltypebacks="6" name="Дуб Галифакс Натуральный" preview="1" reckey="010101000M2Q"/>
+<wallcolorback id="114" walltypebacks="6" name="Дуб Галифакс Табак" preview="1" reckey="010101000M2R"/>
+<wallcolorback id="115" walltypebacks="6" name="Камень Пьетра Гриджиа Черный" preview="1" reckey="010101000M2S"/>
+<wallcolorback id="116" walltypebacks="6" name="Сосна Пасадена" preview="1" reckey="010101000M2T"/>
+<wallcolorback id="117" walltypebacks="2" name="В цвет корпуса" preview="1" reckey="010101000M30"/>>
+</wallcolorbacks>
+
+<walltypeopens>
+<walltypeopen id="1" name="HF Антрацит" preview="1" reckey="010101000N0"/>
+<walltypeopen id="2" name="HF Белый шелк" preview="1" reckey="010101000N1"/>
+<walltypeopen id="3" name="HF Светло-серый" preview="1" reckey="010101000N2"/>
+<!-- <walltypeopen id="4" name="HK Tip-On" preview="1" reckey="010101000N3"/> -->
+<walltypeopen id="5" name="HK Антрацит Tip On" preview="1" reckey="010101000N4"/>
+<walltypeopen id="6" name="HK Антрацит" preview="1" reckey="010101000N5"/>
+<walltypeopen id="7" name="HK Белый шелк Tip on" preview="1" reckey="010101000N6"/>
+<walltypeopen id="8" name="HK Белый шелк" preview="1" reckey="010101000N7"/>
+<walltypeopen id="9" name="HK Светло-Серый Tip on" preview="1" reckey="010101000N8"/>
+<walltypeopen id="10" name="HK Светло-Серый" preview="1" reckey="010101000N9"/>
+<walltypeopen id="11" name="HK-XS Tip-On" preview="1" reckey="010101000NA"/>
+<walltypeopen id="12" name="HK-XS" preview="1" reckey="010101000NB"/>
+<walltypeopen id="13" name="Газлифт" preview="1" reckey="010101000NC"/>
+
+<walltypeopen id="0" name="Без подъемника" preview="1" reckey="010101000NE"/>
+</walltypeopens>
+
+<walllights>
+<walllight id="0" name="Без врезной подсветки" preview="1" reckey="010101000O0"/>
+<walllight id="1" name="Врезная Подсветка Серебро" preview="1" reckey="010101000O1"/>
+<walllight id="2" name="Врезная Подсветка Белый" preview="1" reckey="010101000O2"/>
+<walllight id="3" name="Врезная Подсветка Золото" preview="1" reckey="010101000O3"/>
+<walllight id="4" name="Врезная Подсветка Черный" preview="1" reckey="010101000O4"/>
+</walllights>
+
+<mezzcolors>      	       
+<mezzcolor id="1" mezzstyles="1" name="Bitter" preview="1" reckey="010101000R00"/>
+<mezzcolor id="2" mezzstyles="1" name="Brezee Beige" preview="1" reckey="010101000R01"/>
+<mezzcolor id="3" mezzstyles="1" name="Cloudy Grey" preview="1" reckey="010101000R02"/>
+<mezzcolor id="4" mezzstyles="1" name="Dolphin Grey" preview="1" reckey="010101000R03"/>
+<mezzcolor id="5" mezzstyles="1" name="Forest Green" preview="1" reckey="010101000R04"/>
+<mezzcolor id="6" mezzstyles="1" name="Glamorous Pacific" preview="1" reckey="010101000R05"/>
+<mezzcolor id="7" mezzstyles="1" name="Ice Grey" preview="1" reckey="010101000R06"/>
+<mezzcolor id="8" mezzstyles="1" name="London Blues" preview="1" reckey="010101000R07"/>
+<mezzcolor id="9" mezzstyles="1" name="Macaron Green" preview="1" reckey="010101000R08"/>
+<mezzcolor id="10" mezzstyles="1" name="Moonlight" preview="1" reckey="010101000R09"/>
+<mezzcolor id="11" mezzstyles="1" name="Pearl Black" preview="1" reckey="010101000R0A"/>
+<mezzcolor id="12" mezzstyles="1" name="Pearl White" preview="1" reckey="010101000R0B"/>
+<mezzcolor id="13" mezzstyles="1" name="Pebble Grey" preview="1" reckey="010101000R0C"/>
+<mezzcolor id="14" mezzstyles="1" name="Pinky Daisy" preview="1" reckey="010101000R0D"/>
+<mezzcolor id="15" mezzstyles="1" name="Royal Grey" preview="1" reckey="010101000R0E"/>
+<mezzcolor id="16" mezzstyles="1" name="Rustic Red" preview="1" reckey="010101000R0F"/>
+<mezzcolor id="17" mezzstyles="1" name="Safari Grey" preview="1" reckey="010101000R0G"/>
+<mezzcolor id="18" mezzstyles="1" name="Sahara Cream" preview="1" reckey="010101000R0H"/>
+<mezzcolor id="19" mezzstyles="1" name="Snow White" preview="1" reckey="010101000R0I"/>
+<mezzcolor id="20" mezzstyles="1" name="Timeless Grey" preview="1" reckey="010101000R0J"/>
+<mezzcolor id="21" mezzstyles="1" name="Глянец Бежевый" preview="1" reckey="010101000R0K"/>
+<mezzcolor id="22" mezzstyles="1" name="Глянец Белый" preview="1" reckey="010101000R0L"/>
+<mezzcolor id="23" mezzstyles="1" name="Глянец Бьянко" preview="1" reckey="010101000R0M"/>
+<mezzcolor id="24" mezzstyles="1" name="Глянец Крем" preview="1" reckey="010101000R0N"/>
+<mezzcolor id="25" mezzstyles="1" name="Суперматовый Белый" preview="1" reckey="010101000R0O"/>
+
+<mezzcolor id="30" mezzstyles="2" name="Antracita Metaldeco" preview="1" reckey="010101000R0Q"/>
+<mezzcolor id="31" mezzstyles="2" name="Antracita Supermat" preview="1" reckey="010101000R0R"/>
+<mezzcolor id="32" mezzstyles="2" name="Antracita Глянец" preview="1" reckey="010101000R0S"/>
+<mezzcolor id="33" mezzstyles="2" name="Basalto Metaldeco" preview="1" reckey="010101000R0T"/>
+<mezzcolor id="34" mezzstyles="2" name="Basalto Pearl Effect Глянец" preview="1" reckey="010101000R0U"/>
+<mezzcolor id="35" mezzstyles="2" name="Basalto Supermat" preview="1" reckey="010101000R0V"/>
+<mezzcolor id="36" mezzstyles="2" name="Basalto Глянец" preview="1" reckey="010101000R0W"/>
+<mezzcolor id="37" mezzstyles="2" name="Blanco Colonial Pearl Effect Глянец" preview="1" reckey="010101000R0X"/>
+<mezzcolor id="38" mezzstyles="2" name="Blanco Metaldeco" preview="1" reckey="010101000R0Y"/>
+<mezzcolor id="39" mezzstyles="2" name="Blanco Polar" preview="1" reckey="010101000R0Z"/>
+<mezzcolor id="40" mezzstyles="2" name="Blanco Supermat" preview="1" reckey="010101000R10"/>
+<mezzcolor id="41" mezzstyles="2" name="Blanco Глянец" preview="1" reckey="010101000R11"/>
+<mezzcolor id="42" mezzstyles="2" name="Cachemir Metaldeco" preview="1" reckey="010101000R12"/>
+<mezzcolor id="43" mezzstyles="2" name="Cachemir Глянец" preview="1" reckey="010101000R13"/>
+<mezzcolor id="44" mezzstyles="2" name="Cashemire Supermat" preview="1" reckey="010101000R14"/>
+<mezzcolor id="45" mezzstyles="2" name="Cuzco Cobre Глянец" preview="1" reckey="010101000R15"/>
+<mezzcolor id="46" mezzstyles="2" name="Cuzco Grafitt Глянец" preview="1" reckey="010101000R16"/>
+<mezzcolor id="47" mezzstyles="2" name="Cuzco Oro Глянец" preview="1" reckey="010101000R17"/>
+<mezzcolor id="48" mezzstyles="2" name="Cuzco Silver Глянец" preview="1" reckey="010101000R18"/>
+<mezzcolor id="49" mezzstyles="2" name="EVORA-3" preview="1" reckey="010101000R19"/>
+<mezzcolor id="50" mezzstyles="2" name="EVORA-3 Гориз" preview="1" reckey="010101000R1A"/>
+<mezzcolor id="51" mezzstyles="2" name="EVORA-4" preview="1" reckey="010101000R1B"/>
+<mezzcolor id="52" mezzstyles="2" name="EVORA-4  Гориз" preview="1" reckey="010101000R1C"/>
+<mezzcolor id="53" mezzstyles="2" name="Gris Nube Metaldeco" preview="1" reckey="010101000R1D"/>
+<mezzcolor id="54" mezzstyles="2" name="Guayana Глянец" preview="1" reckey="010101000R1E"/>
+<mezzcolor id="55" mezzstyles="2" name="Guayana Глянец Гориз" preview="1" reckey="010101000R1F"/>
+<mezzcolor id="56" mezzstyles="2" name="ICE-CREAM-1" preview="1" reckey="010101000R1G"/>
+<mezzcolor id="57" mezzstyles="2" name="ICE-CREAM-1 Гориз" preview="1" reckey="010101000R1H"/>
+<mezzcolor id="58" mezzstyles="2" name="ICE-CREAM-2" preview="1" reckey="010101000R1I"/>
+<mezzcolor id="59" mezzstyles="2" name="ICE-CREAM-2 Гориз" preview="1" reckey="010101000R1J"/>
+<mezzcolor id="60" mezzstyles="2" name="ICE-CREAM-3" preview="1" reckey="010101000R1K"/>
+<mezzcolor id="61" mezzstyles="2" name="ICE-CREAM-3 Гориз" preview="1" reckey="010101000R1L"/>
+<mezzcolor id="62" mezzstyles="2" name="ICE-CREAM-4" preview="1" reckey="010101000R1M"/>
+<mezzcolor id="63" mezzstyles="2" name="ICE-CREAM-4 Гориз" preview="1" reckey="010101000R1N"/>
+<mezzcolor id="64" mezzstyles="2" name="Leather Melange-1" preview="1" reckey="010101000R1O"/>
+<mezzcolor id="65" mezzstyles="2" name="Magnolia Metaldeco" preview="1" reckey="010101000R1P"/>
+<mezzcolor id="66" mezzstyles="2" name="Magnolia Supermat" preview="1" reckey="010101000R1Q"/>
+<mezzcolor id="67" mezzstyles="2" name="Magnolia Глянец" preview="1" reckey="010101000R1R"/>
+<mezzcolor id="68" mezzstyles="2" name="Marfil Pearl Effect Глянец" preview="1" reckey="010101000R1S"/>
+<mezzcolor id="69" mezzstyles="2" name="Melange 1 Глянец" preview="1" reckey="010101000R1T"/>
+<mezzcolor id="70" mezzstyles="2" name="Negro Supermat" preview="1" reckey="010101000R1U"/>
+<mezzcolor id="71" mezzstyles="2" name="Negro Глянец" preview="1" reckey="010101000R1V"/>
+<mezzcolor id="72" mezzstyles="2" name="Olivo Глянец" preview="1" reckey="010101000R1W"/>
+<mezzcolor id="73" mezzstyles="2" name="Olivo глянец Гориз" preview="1" reckey="010101000R1X"/>
+<mezzcolor id="74" mezzstyles="2" name="Oxid-01" preview="1" reckey="010101000R1Y"/>
+<mezzcolor id="75" mezzstyles="2" name="Oxid-04" preview="1" reckey="010101000R1Z"/>
+<mezzcolor id="76" mezzstyles="2" name="Textil Dorado Глянец" preview="1" reckey="010101000R20"/>
+<mezzcolor id="77" mezzstyles="2" name="Textil Plata Глянец" preview="1" reckey="010101000R21"/>
+<mezzcolor id="78" mezzstyles="2" name="Муратти-1" preview="1" reckey="010101000R22"/>
+<mezzcolor id="79" mezzstyles="2" name="Муратти-1 Гориз" preview="1" reckey="010101000R23"/>
+<mezzcolor id="80" mezzstyles="2" name="Муратти-2" preview="1" reckey="010101000R24"/>
+<mezzcolor id="81" mezzstyles="2" name="Муратти-2 Гориз" preview="1" reckey="010101000R25"/>
+<mezzcolor id="82" mezzstyles="2" name="Муратти-3" preview="1" reckey="010101000R26"/>
+<mezzcolor id="83" mezzstyles="2" name="Муратти-3 Гориз" preview="1" reckey="010101000R27"/>
+<mezzcolor id="84" mezzstyles="2" name="Муратти-4" preview="1" reckey="010101000R28"/>
+<mezzcolor id="85" mezzstyles="2" name="Муратти-4 Гориз" preview="1" reckey="010101000R29"/>
+
+<mezzcolor id="90" mezzstyles="3" name="Бежевый Песок" preview="1" reckey="010101000R2C"/>
+<mezzcolor id="91" mezzstyles="3" name="Белый Альпийский" preview="1" reckey="010101000R2D"/>
+<mezzcolor id="92" mezzstyles="3" name="Белый Премиум" preview="1" reckey="010101000R2E"/>
+<mezzcolor id="93" mezzstyles="3" name="Коттон Бежевый" preview="1" reckey="010101000R2F"/>
+<mezzcolor id="94" mezzstyles="3" name="Нежный Черный" preview="1" reckey="010101000R2G"/>
+<mezzcolor id="95" mezzstyles="3" name="Оникс Серый" preview="1" reckey="010101000R2H"/>
+<mezzcolor id="96" mezzstyles="3" name="Светло-Серый" preview="1" reckey="010101000R2I"/>
+<mezzcolor id="97" mezzstyles="3" name="Серый Камень" preview="1" reckey="010101000R2J"/>
+<mezzcolor id="98" mezzstyles="3" name="Серый Пыльный" preview="1" reckey="010101000R2K"/>
+<mezzcolor id="99" mezzstyles="3" name="Серый Уголь" preview="1" reckey="010101000R2L"/>
+
+<mezzcolor id="110" mezzstyles="4" name="Бетон Чикаго Светло-Серый" preview="1" reckey="010101000R2N"/>
+<mezzcolor id="111" mezzstyles="4" name="Бетон Чикаго Темно-Серый" preview="1" reckey="010101000R2O"/>
+<mezzcolor id="112" mezzstyles="4" name="Дуб Бардолино Натуральный" preview="1" reckey="010101000R2P"/>
+<mezzcolor id="113" mezzstyles="4" name="Дуб Галифакс Натуральный" preview="1" reckey="010101000R2Q"/>
+<mezzcolor id="114" mezzstyles="4" name="Дуб Галифакс Табак" preview="1" reckey="010101000R2R"/>
+<mezzcolor id="115" mezzstyles="4" name="Камень Пьетра Гриджиа Черный" preview="1" reckey="010101000R2S"/>
+
+<mezzcolor id="116" mezzstyles="5;6;7" name="Черный" preview="1" reckey="010101000R2X"/>
+<mezzcolor id="117" mezzstyles="5;6;7" name="Серебро" preview="1" reckey="010101000R2Y"/>
+<mezzcolor id="118" mezzstyles="5;6" name="Графит" preview="1" reckey="010101000R2Z"/>
+<mezzcolor id="119" mezzstyles="5;6;7" name="Золото брашированное" preview="1" reckey="010101000R30"/>
+<mezzcolor id="120" mezzstyles="6" name="Бронза" preview="1" reckey="010101000R31"/>
+
+<mezzcolor id="121" mezzstyles="8" name="нет" preview="1" reckey="010101000R2V"/>
+
+<mezzcolor id="122" mezzstyles="1;2;3;4;5;6;7" name="Кастомный цвет" preview="1" reckey="010101000R33"/>
+</mezzcolors>
+
+<mezzcases>
+<mezzcase id="1" name="Бежевый Песок" preview="1" reckey="010101000S0"/>
+<mezzcase id="2" name="Белый Альпийский" preview="1" reckey="010101000S1"/>
+<mezzcase id="3" name="Белый Премиум" preview="1" reckey="010101000S2"/>
+<mezzcase id="4" name="Коттон Бежевый" preview="1" reckey="010101000S3"/>
+<mezzcase id="5" name="Нежный Черный" preview="1" reckey="010101000S4"/>
+<mezzcase id="6" name="Оникс Серый" preview="1" reckey="010101000S5"/>
+<mezzcase id="7" name="Светло-Серый" preview="1" reckey="010101000S6"/>
+<mezzcase id="8" name="Серый Камень" preview="1" reckey="010101000S7"/>
+<mezzcase id="9" name="Серый Пыльный" preview="1" reckey="010101000S8"/>
+<mezzcase id="10" name="Серый Уголь" preview="1" reckey="010101000S9"/>
+<mezzcase id="11" name="Белый Базовый" preview="1" reckey="010101000SA"/>
+<mezzcase id="11" name="Кастомный цвет" preview="1" reckey="010101000SB"/>
+</mezzcases>
+
+<mezzpulls>
+<mezzpull id="0" name="Без Ручек" preview="1" reckey="010101000T0"/>
+<mezzpull id="1" name="TIP-ON белый" reckey="010101000T2"/>
+<mezzpull id="2" name="TIP-ON серый" reckey="010101000T3"/>
+<mezzpull id="3" name="TIP-ON черный" reckey="010101000J4"/>
+<mezzpull id="4" name="Ручка С2 Алюминий" preview="1" reckey="010101000T1"/>
+<mezzpull id="5" name="Ручка С2 Белый" preview="1" reckey="010101000T5"/>
+<mezzpull id="6" name="Ручка С2 Золото" preview="1" reckey="010101000T6"/>
+<mezzpull id="7" name="Ручка С2 Черный" preview="1" reckey="010101000T7"/>
+<mezzpull id="8" name="Ручка С2 Шампань" preview="1" reckey="010101000T8"/>
+<!-- <mezzpull id="9" name="Ручка текстура 5" preview="1" reckey="010101000T9"/> -->
+<!-- <mezzpull id="10" name="Ручка текстура 6" preview="1" reckey="010101000TA"/> -->
+<!-- <mezzpull id="11" name="Ручка текстура 7" preview="1" reckey="010101000TB"/> -->
+<!-- <mezzpull id="12" name="Ручка текстура 8" preview="1" reckey="010101000TC"/> -->
+<!-- <mezzpull id="13" name="Ручка текстура 9" preview="1" reckey="010101000TD"/> -->
+<!-- <mezzpull id="14" name="Ручка текстура 10" preview="1" reckey="010101000TE"/> -->
+</mezzpulls>
+
+<mezzpospulls>
+<mezzpospull id="1" mezzpulls="1;2;3" name="1" preview="1" reckey="010101000U0"/>
+<mezzpospull id="2" mezzpulls="1;2;3" name="2" preview="1" reckey="010101000U1"/>
+<mezzpospull id="3" mezzpulls="1;2;3;4;5;6;7;8" name="3" preview="1" reckey="010101000U2"/>
+<mezzpospull id="0" mezzpulls="0" name="none" preview="1" reckey="010101000U4"/>
+</mezzpospulls>
+
+<mezztypebacks>
+<mezztypeback id="1" name="ДВП" preview="1" reckey="010101000V0"/>
+<mezztypeback id="2" name="Материал корпуса" preview="1" reckey="010101000V5"/>
+<mezztypeback id="3" name="ДСП" preview="1" reckey="010101000V1"/>
+<mezztypeback id="4" name="AGT" preview="1" reckey="010101000V2"/>
+<mezztypeback id="5" name="Alvic" preview="1" reckey="010101000V3"/>
+<mezztypeback id="6" name="Egger" preview="1" reckey="010101000V4"/>
+</mezztypebacks>
+
+<mezzcolorbacks>
+<mezzcolorback id="0" mezztypebacks="1" name="Белый" preview="1" reckey="010101000W00"/>
+<mezzcolorback id="1" mezztypebacks="3" name="Бежевый Песок" preview="1" reckey="010101000W01"/>
+<mezzcolorback id="2" mezztypebacks="3" name="Белый Альпийский" preview="1" reckey="010101000W02"/>
+<mezzcolorback id="3" mezztypebacks="3" name="Белый Премиум" preview="1" reckey="010101000W03"/>
+<mezzcolorback id="4" mezztypebacks="3" name="Коттон Бежевый" preview="1" reckey="010101000W04"/>
+<mezzcolorback id="5" mezztypebacks="3" name="Нежный Черный" preview="1" reckey="010101000W05"/>
+<mezzcolorback id="6" mezztypebacks="3" name="Оникс Серый" preview="1" reckey="010101000W06"/>
+<mezzcolorback id="7" mezztypebacks="3" name="Светло-Серый" preview="1" reckey="010101000W07"/>
+<mezzcolorback id="8" mezztypebacks="3" name="Серый Камень" preview="1" reckey="010101000W08"/>
+<mezzcolorback id="9" mezztypebacks="3" name="Серый Пыльный" preview="1" reckey="010101000W09"/>
+<mezzcolorback id="10" mezztypebacks="3" name="Серый Уголь" preview="1" reckey="010101000W0A"/>
+
+<mezzcolorback id="20" mezztypebacks="4" name="Bitter" preview="1" reckey="010101000W0C"/>
+<mezzcolorback id="21" mezztypebacks="4" name="Brezee Beige" preview="1" reckey="010101000W0D"/>
+<mezzcolorback id="22" mezztypebacks="4" name="Cloudy Grey" preview="1" reckey="010101000W0E"/>
+<mezzcolorback id="23" mezztypebacks="4" name="Dolphin Grey" preview="1" reckey="010101000W0F"/>
+<mezzcolorback id="24" mezztypebacks="4" name="Forest Green" preview="1" reckey="010101000W0G"/>
+<mezzcolorback id="25" mezztypebacks="4" name="Glamorous Pacific" preview="1" reckey="010101000W0H"/>
+<mezzcolorback id="26" mezztypebacks="4" name="Ice Grey" preview="1" reckey="010101000W0I"/>
+<mezzcolorback id="27" mezztypebacks="4" name="London Blues" preview="1" reckey="010101000W0J"/>
+<mezzcolorback id="28" mezztypebacks="4" name="Macaron Green" preview="1" reckey="010101000W0K"/>
+<mezzcolorback id="29" mezztypebacks="4" name="Moonlight" preview="1" reckey="010101000W0L"/>
+<mezzcolorback id="30" mezztypebacks="4" name="Pearl Black" preview="1" reckey="010101000W0M"/>
+<mezzcolorback id="31" mezztypebacks="4" name="Pearl White" preview="1" reckey="010101000W0N"/>
+<mezzcolorback id="32" mezztypebacks="4" name="Pebble Grey" preview="1" reckey="010101000W0O"/>
+<mezzcolorback id="33" mezztypebacks="4" name="Pinky Daisy" preview="1" reckey="010101000W0P"/>
+<mezzcolorback id="34" mezztypebacks="4" name="Royal Grey" preview="1" reckey="010101000W0Q"/>
+<mezzcolorback id="35" mezztypebacks="4" name="Rustic Red" preview="1" reckey="010101000W0R"/>
+<mezzcolorback id="36" mezztypebacks="4" name="Safari Grey" preview="1" reckey="010101000W0S"/>
+<mezzcolorback id="37" mezztypebacks="4" name="Sahara Cream" preview="1" reckey="010101000W0T"/>
+<mezzcolorback id="38" mezztypebacks="4" name="Snow White" preview="1" reckey="010101000W0U"/>
+<mezzcolorback id="39" mezztypebacks="4" name="Timeless Grey" preview="1" reckey="010101000W0V"/>
+<mezzcolorback id="40" mezztypebacks="4" name="Глянец Бежевый" preview="1" reckey="010101000W0W"/>
+<mezzcolorback id="41" mezztypebacks="4" name="Глянец Белый" preview="1" reckey="010101000W0X"/>
+<mezzcolorback id="42" mezztypebacks="4" name="Глянец Бьянко" preview="1" reckey="010101000W0Y"/>
+<mezzcolorback id="43" mezztypebacks="4" name="Глянец Крем" preview="1" reckey="010101000W0Z"/>
+<mezzcolorback id="44" mezztypebacks="4" name="Суперматовый Белый" preview="1" reckey="010101000W10"/>
+
+<mezzcolorback id="50" mezztypebacks="5" name="Antracita Metaldeco" preview="1" reckey="010101000W12"/>
+<mezzcolorback id="51" mezztypebacks="5" name="Antracita Supermat" preview="1" reckey="010101000W13"/>
+<mezzcolorback id="52" mezztypebacks="5" name="Antracita Глянец" preview="1" reckey="010101000W14"/>
+<mezzcolorback id="53" mezztypebacks="5" name="Basalto Metaldeco" preview="1" reckey="010101000W15"/>
+<mezzcolorback id="54" mezztypebacks="5" name="Basalto Pearl Effect Глянец" preview="1" reckey="010101000W16"/>
+<mezzcolorback id="55" mezztypebacks="5" name="Basalto Supermat" preview="1" reckey="010101000W17"/>
+<mezzcolorback id="56" mezztypebacks="5" name="Basalto Глянец" preview="1" reckey="010101000W18"/>
+<mezzcolorback id="57" mezztypebacks="5" name="Blanco Colonial Pearl Effect Глянец" preview="1" reckey="010101000W19"/>
+<mezzcolorback id="58" mezztypebacks="5" name="Blanco Metaldeco" preview="1" reckey="010101000W1A"/>
+<mezzcolorback id="59" mezztypebacks="5" name="Blanco Polar" preview="1" reckey="010101000W1B"/>
+<mezzcolorback id="60" mezztypebacks="5" name="Blanco Supermat" preview="1" reckey="010101000W1C"/>
+<mezzcolorback id="61" mezztypebacks="5" name="Blanco Глянец" preview="1" reckey="010101000W1D"/>
+<mezzcolorback id="62" mezztypebacks="5" name="Cachemir Metaldeco" preview="1" reckey="010101000W1E"/>
+<mezzcolorback id="63" mezztypebacks="5" name="Cachemir Глянец" preview="1" reckey="010101000W1F"/>
+<mezzcolorback id="64" mezztypebacks="5" name="Cashemire Supermat" preview="1" reckey="010101000W1G"/>
+<mezzcolorback id="65" mezztypebacks="5" name="Cuzco Cobre Глянец" preview="1" reckey="010101000W1H"/>
+<mezzcolorback id="66" mezztypebacks="5" name="Cuzco Grafitt Глянец" preview="1" reckey="010101000W1I"/>
+<mezzcolorback id="67" mezztypebacks="5" name="Cuzco Oro Глянец" preview="1" reckey="010101000W1J"/>
+<mezzcolorback id="68" mezztypebacks="5" name="Cuzco Silver Глянец" preview="1" reckey="010101000W1K"/>
+<mezzcolorback id="69" mezztypebacks="5" name="EVORA-3" preview="1" reckey="010101000W1L"/>
+<mezzcolorback id="70" mezztypebacks="5" name="EVORA-3 Гориз" preview="1" reckey="010101000W1M"/>
+<mezzcolorback id="71" mezztypebacks="5" name="EVORA-4" preview="1" reckey="010101000W1N"/>
+<mezzcolorback id="72" mezztypebacks="5" name="EVORA-4  Гориз" preview="1" reckey="010101000W1O"/>
+<mezzcolorback id="73" mezztypebacks="5" name="Gris Nube Metaldeco" preview="1" reckey="010101000W1P"/>
+<mezzcolorback id="74" mezztypebacks="5" name="Guayana Глянец" preview="1" reckey="010101000W1Q"/>
+<mezzcolorback id="75" mezztypebacks="5" name="Guayana Глянец Гориз" preview="1" reckey="010101000W1R"/>
+<mezzcolorback id="76" mezztypebacks="5" name="ICE-CREAM-1" preview="1" reckey="010101000W1S"/>
+<mezzcolorback id="77" mezztypebacks="5" name="ICE-CREAM-1 Гориз" preview="1" reckey="010101000W1T"/>
+<mezzcolorback id="78" mezztypebacks="5" name="ICE-CREAM-2" preview="1" reckey="010101000W1U"/>
+<mezzcolorback id="79" mezztypebacks="5" name="ICE-CREAM-2 Гориз" preview="1" reckey="010101000W1V"/>
+<mezzcolorback id="80" mezztypebacks="5" name="ICE-CREAM-3" preview="1" reckey="010101000W1W"/>
+<mezzcolorback id="81" mezztypebacks="5" name="ICE-CREAM-3 Гориз" preview="1" reckey="010101000W1X"/>
+<mezzcolorback id="82" mezztypebacks="5" name="ICE-CREAM-4" preview="1" reckey="010101000W1Y"/>
+<mezzcolorback id="83" mezztypebacks="5" name="ICE-CREAM-4 Гориз" preview="1" reckey="010101000W1Z"/>
+<mezzcolorback id="84" mezztypebacks="5" name="Leather Melange-1" preview="1" reckey="010101000W20"/>
+<mezzcolorback id="85" mezztypebacks="5" name="Magnolia Metaldeco" preview="1" reckey="010101000W21"/>
+<mezzcolorback id="86" mezztypebacks="5" name="Magnolia Supermat" preview="1" reckey="010101000W22"/>
+<mezzcolorback id="87" mezztypebacks="5" name="Magnolia Глянец" preview="1" reckey="010101000W23"/>
+<mezzcolorback id="88" mezztypebacks="5" name="Marfil Pearl Effect Глянец" preview="1" reckey="010101000W24"/>
+<mezzcolorback id="89" mezztypebacks="5" name="Melange 1 Глянец" preview="1" reckey="010101000W25"/>
+<mezzcolorback id="90" mezztypebacks="5" name="Negro Supermat" preview="1" reckey="010101000W26"/>
+<mezzcolorback id="91" mezztypebacks="5" name="Negro Глянец" preview="1" reckey="010101000W27"/>
+<mezzcolorback id="92" mezztypebacks="5" name="Olivo Глянец" preview="1" reckey="010101000W28"/>
+<mezzcolorback id="93" mezztypebacks="5" name="Olivo глянец Гориз" preview="1" reckey="010101000W29"/>
+<mezzcolorback id="94" mezztypebacks="5" name="Oxid-01" preview="1" reckey="010101000W2A"/>
+<mezzcolorback id="95" mezztypebacks="5" name="Oxid-04" preview="1" reckey="010101000W2B"/>
+<mezzcolorback id="96" mezztypebacks="5" name="Textil Dorado Глянец" preview="1" reckey="010101000W2C"/>
+<mezzcolorback id="97" mezztypebacks="5" name="Textil Plata Глянец" preview="1" reckey="010101000W2D"/>
+<mezzcolorback id="98" mezztypebacks="5" name="Муратти-1" preview="1" reckey="010101000W2E"/>
+<mezzcolorback id="99" mezztypebacks="5" name="Муратти-1 Гориз" preview="1" reckey="010101000W2F"/>
+<mezzcolorback id="100" mezztypebacks="5" name="Муратти-2" preview="1" reckey="010101000W2G"/>
+<mezzcolorback id="101" mezztypebacks="5" name="Муратти-2 Гориз" preview="1" reckey="010101000W2H"/>
+<mezzcolorback id="102" mezztypebacks="5" name="Муратти-3" preview="1" reckey="010101000W2I"/>
+<mezzcolorback id="103" mezztypebacks="5" name="Муратти-3 Гориз" preview="1" reckey="010101000W2J"/>
+<mezzcolorback id="104" mezztypebacks="5" name="Муратти-4" preview="1" reckey="010101000W2K"/>
+<mezzcolorback id="105" mezztypebacks="5" name="Муратти-4 Гориз" preview="1" reckey="010101000W2L"/>
+
+<mezzcolorback id="110" mezztypebacks="6" name="Бетон Чикаго Светло-Серый" preview="1" reckey="010101000W2N"/>
+<mezzcolorback id="111" mezztypebacks="6" name="Бетон Чикаго Темно-Серый" preview="1" reckey="010101000W2O"/>
+<mezzcolorback id="112" mezztypebacks="6" name="Дуб Бардолино Натуральный" preview="1" reckey="010101000W2P"/>
+<mezzcolorback id="113" mezztypebacks="6" name="Дуб Галифакс Натуральный" preview="1" reckey="010101000W2Q"/>
+<mezzcolorback id="114" mezztypebacks="6" name="Дуб Галифакс Табак" preview="1" reckey="010101000W2R"/>
+<mezzcolorback id="115" mezztypebacks="6" name="Камень Пьетра Гриджиа Черный" preview="1" reckey="010101000W2S"/>
+<mezzcolorback id="116" mezztypebacks="6" name="Сосна Пасадена" preview="1" reckey="010101000W2T"/>
+<mezzcolorback id="117" mezztypebacks="2" name="В цвет корпуса" preview="1" reckey="010101000W30"/>
+</mezzcolorbacks>
+
+<mezztypeopens>
+<mezztypeopen id="1" name="HK Антрацит Tip On" preview="1" reckey="010101000X0"/>
+<mezztypeopen id="2" name="HK Антрацит" preview="1" reckey="010101000X1"/>
+<mezztypeopen id="3" name="HK Белый шелк Tip on" preview="1" reckey="010101000X2"/>
+<mezztypeopen id="4" name="HK Белый шелк" preview="1" reckey="010101000X3"/>
+<mezztypeopen id="5" name="HK Светло-Серый Tip on" preview="1" reckey="010101000X4"/>
+<mezztypeopen id="6" name="HK Светло-Серый" preview="1" reckey="010101000X5"/>
+<mezztypeopen id="7" name="HK-XS Tip-On" preview="1" reckey="010101000X6"/>
+<mezztypeopen id="8" name="HK-XS" preview="1" reckey="010101000X7"/>
+<mezztypeopen id="9" name="Газлифт" preview="1" reckey="010101000X8"/>
+
+<mezztypeopen id="0" name="Без подъемника" preview="1" reckey="010101000XA"/>
+</mezztypeopens>
+   
+<supportcolors>
+<supportcolor id="1" name="Полкодержатель Антрацит" preview="1" reckey="01010100110"/>
+<supportcolor id="2" name="Полкодержатель Белый" preview="1" reckey="01010100111"/>
+<supportcolor id="3" name="Полкодержатель Коричневый" preview="1" reckey="01010100112"/>
+<supportcolor id="4" name="Полкодержатель Прозрачный" preview="1" reckey="01010100113"/>
+<supportcolor id="5" name="Полкодержатель Серый" preview="1" reckey="01010100114"/>
+<supportcolor id="6" name="Полкодержатель Черный" preview="1" reckey="01010100115"/>
+</supportcolors>
+
+<drawertypes>
+<drawertype id="1" name="TANDEM" preview="1" reckey="010101000Z1"/>
+<drawertype id="2" name="LEGRABOX pure tip on Белый шелк" preview="1" reckey="010101000Z3"/>
+<drawertype id="3" name="LEGRABOX pure tip on Серый орион" preview="1" reckey="010101000Z4"/>
+<drawertype id="4" name="LEGRABOX pure tip on Терра черный" preview="1" reckey="010101000Z5"/>
+<drawertype id="5" name="LEGRABOX pure Белый шелк" preview="1" reckey="010101000Z6"/>
+<drawertype id="6" name="LEGRABOX pure Серый орион" preview="1" reckey="010101000Z7"/>
+<drawertype id="7" name="LEGRABOX pure Терра черный" preview="1" reckey="010101000Z8"/>
+<drawertype id="8" name="TANDEMBOX Белый шелк" preview="1" reckey="010101000Z9"/>
+<drawertype id="9" name="TANDEMBOX Antaro серый" preview="1" reckey="010101000ZA"/>
+<!-- <drawertype id="10" name="TANDEMBOX Antaro Терра черный" preview="1" reckey="010101000ZB"/> -->
+<drawertype id="0" name="Без ящиков" preview="1" reckey="010101000ZE"/>
+</drawertypes>
+
+<drawercolors>
+<drawercolor id="0" drawertypes="1;2;3;4;5;6;7;8;9" name="В цвет корпуса" preview="1" reckey="01010100109"/>
+<drawercolor id="1" drawertypes="1;2;3;4;5;6;7;8;9" name="Бежевый песок" preview="1" reckey="0101010010J"/>
+<drawercolor id="2" drawertypes="1;2;3;4;5;6;7;8;9" name="Белый Альпийский" preview="1" reckey="0101010010A"/>
+<drawercolor id="3" drawertypes="1;2;3;4;5;6;7;8;9" name="Белый Премиум" preview="1" reckey="0101010010B"/>
+<drawercolor id="4" drawertypes="1;2;3;4;5;6;7;8;9" name="Коттон бежевый" preview="1" reckey="0101010010C"/>
+<drawercolor id="5" drawertypes="1;2;3;4;5;6;7;8;9" name="Нежный черный" preview="1" reckey="0101010010D"/>
+<drawercolor id="6" drawertypes="1;2;3;4;5;6;7;8;9" name="Оникс Серый" preview="1" reckey="0101010010E"/>
+<drawercolor id="7" drawertypes="1;2;3;4;5;6;7;8;9" name="Светло-серый" preview="1" reckey="0101010010F"/>
+<drawercolor id="8" drawertypes="1;2;3;4;5;6;7;8;9" name="Серый камень" preview="1" reckey="0101010010G"/>
+<drawercolor id="9" drawertypes="1;2;3;4;5;6;7;8;9" name="Серый пыльный" preview="1" reckey="0101010010H"/>
+<drawercolor id="10" drawertypes="1;2;3;4;5;6;7;8;9" name="Серый уголь" preview="1" reckey="0101010010I"/>
+<drawercolor id="999" drawertypes="0" name="Нет" preview="1" reckey="0101010010L"/>
+</drawercolors>
+	
+<toetypes>
+<toetype id="1" name="ДСП-16мм" preview="1" reckey="010101001D0"/>
+<toetype id="2" name="Пластик" preview="1" reckey="010101001D1"/>
+<toetype id="3" name="Декоративные ножки" preview="1" reckey="010101001D2"/>
+<toetype id="4" name="Цоколь клиента" preview="1" reckey="010101001D3"/>
+<toetype id="0" name="Без цоколя" preview="1" reckey="010101001D4"/>
+</toetypes>
+
+<toecolors>
+<toecolor id="1" toetypes="2;4" name="Алюминий матовый" preview="1" reckey="010101001E0"/>
+<toecolor id="2" toetypes="1" name="Бежевый Песок" preview="1" reckey="010101001E1"/>
+<toecolor id="3" toetypes="1" name="Белый Альпийский" preview="1" reckey="010101001E2"/>
+<toecolor id="4" toetypes="2;4" name="Белый глянец" preview="1" reckey="010101001E3"/>
+<toecolor id="5" toetypes="2" name="Белый матовый" preview="1" reckey="010101001E4"/>
+<toecolor id="6" toetypes="1" name="Белый Премиум" preview="1" reckey="010101001E5"/>
+<toecolor id="7" toetypes="2;4" name="Ваниль" preview="1" reckey="010101001E6"/>
+<toecolor id="8" toetypes="2" name="Зеркальный" preview="1" reckey="010101001E7"/>
+<toecolor id="9" toetypes="1" name="Коттон Бежевый" preview="1" reckey="010101001E8"/>
+<toecolor id="10" toetypes="1" name="Нежный Черный" preview="1" reckey="010101001E9"/>
+<toecolor id="11" toetypes="1" name="Оникс Серый" preview="1" reckey="010101001EA"/>
+<toecolor id="12" toetypes="1" name="Светло-Серый" preview="1" reckey="010101001EB"/>
+<toecolor id="13" toetypes="1" name="Серый Камень" preview="1" reckey="010101001EC"/>
+<toecolor id="14" toetypes="2;4" name="Серый Лондон" preview="1" reckey="010101001ED"/>
+<toecolor id="15" toetypes="1" name="Серый Пыльный" preview="1" reckey="010101001EE"/>
+<toecolor id="16" toetypes="1" name="Серый Уголь" preview="1" reckey="010101001EF"/>
+<toecolor id="17" toetypes="2;4" name="Тортора" preview="1" reckey="010101001EG"/>
+<toecolor id="18" toetypes="2;4" name="Черный глянец" preview="1" reckey="010101001EH"/>
+<toecolor id="19" toetypes="2;4" name="Черный матовый" preview="1" reckey="010101001EI"/>
+<toecolor id="20" toetypes="2;4" name="Черный" preview="1" reckey="010101001EJ"/>
+
+<toecolor id="30" toetypes="3" name="Ножка текстура 1" preview="1" reckey="010101001EK"/>
+<toecolor id="31" toetypes="3" name="Ножка текстура 2" preview="1" reckey="010101001EL"/>
+<toecolor id="32" toetypes="3" name="Ножка текстура 3" preview="1" reckey="010101001EM"/>
+<toecolor id="33" toetypes="3" name="Ножка текстура 4" preview="1" reckey="010101001EN"/>
+<toecolor id="34" toetypes="3" name="Ножка текстура 5" preview="1" reckey="010101001EO"/>
+<toecolor id="35" toetypes="3" name="Ножка текстура 6" preview="1" reckey="010101001EP"/>
+<toecolor id="36" toetypes="3" name="Ножка текстура 7" preview="1" reckey="010101001EQ"/>
+<toecolor id="37" toetypes="3" name="Ножка текстура 8" preview="1" reckey="010101001ER"/>
+<toecolor id="38" toetypes="3" name="Ножка текстура 9" preview="1" reckey="010101001ES"/>
+<toecolor id="39" toetypes="3" name="Ножка текстура 10" preview="1" reckey="010101001ET"/>
+<toecolor id="40" toetypes="3" name="Ножка текстура 11" preview="1" reckey="010101001EU"/>
+<toecolor id="41" toetypes="3" name="Ножка текстура 12" preview="1" reckey="010101001EV"/>
+<toecolor id="42" toetypes="3" name="Ножка текстура 13" preview="1" reckey="010101001EW"/>
+<toecolor id="0" toetypes="0" name="нет" preview="1" reckey="010101001EX"/>
+</toecolors>
+
+<toeheights>
+<toeheight id="1" toetypes="0;1;2;3;4" name="100" preview="1" reckey="010101001F0"/>
+<toeheight id="2" toetypes="0;1;2;3;4" name="120" preview="1" reckey="010101001F1"/>
+<toeheight id="3" toetypes="0;1;2;3;4" name="150" preview="1" reckey="010101001F2"/>
+</toeheights>
+	
+<basehinges>
+<basehinge id="1" basepulls="0;1;2;3;4;8;9;10;11;12" name="Blum никель" preview="1" reckey="010101001Y0"/>
+<basehinge id="2" basepulls="0;1;2;3;4;8;9;10;11;12" name="Blum черный оникс" preview="1" reckey="010101001Y1"/>
+<basehinge id="3" basepulls="5;6;7" name="Blum никель без пружины" preview="1" reckey="010101001Y2"/>
+<!-- <basehinge id="4" basepulls="5;6;7" name="Blum черный оникс без пружины" preview="1" reckey="010101001Y3"/> -->
+</basehinges>
+
+<tallhinges>
+<tallhinge id="1" name="Blum никель" preview="1" reckey="010101001Z0"/>
+<tallhinge id="2" name="Blum черный оникс" preview="1" reckey="010101001Z1"/>
+<tallhinge id="3" name="Blum никель без пружины" preview="1" reckey="010101001Z2"/>
+<!-- <tallhinge id="4" name="Blum черный оникс без пружины" preview="1" reckey="010101001Z3"/> -->
+</tallhinges>
+
+<wallhinges>
+<wallhinge id="1" name="Blum никель" preview="1" reckey="01010100200"/>
+<wallhinge id="2" name="Blum черный оникс" preview="1" reckey="01010100201"/>
+<wallhinge id="3" name="Blum никель без пружины" preview="1" reckey="01010100202"/>
+<!-- <wallhinge id="4" name="Blum черный оникс без пружины" preview="1" reckey="01010100203"/> -->
+</wallhinges>
+
+<mezzhinges>
+<mezzhinge id="1" name="Blum никель" preview="1" reckey="01010100210"/>
+<mezzhinge id="2" name="Blum черный оникс" preview="1" reckey="01010100211"/>
+<mezzhinge id="3" name="Blum никель без пружины" preview="1" reckey="01010100212"/>
+<!-- <mezzhinge id="4" name="Blum черный оникс без пружины" preview="1" reckey="01010100213"/> -->
+</mezzhinges>
+	
+<cttypes>
+<cttype id="1" name="Столешница с завалом" preview="1" reckey="01010100130"/>
+<cttype id="2" name="Столешница с кромкой" preview="1" reckey="01010100131"/>
+<cttype id="0" name="Без Столешницы" preview="1" reckey="01010100132"/>
+</cttypes>
+	
+<ctcolors>
+<!-- <ctcolor id="1" name="HPL" preview="1" reckey="010101001400"/> -->
+<ctcolor id="2" name="1237 Орегонская Сосна" preview="1" reckey="010101001401"/>
+<ctcolor id="3" name="1264 Артемидий Благородный" preview="1" reckey="010101001402"/>
+<ctcolor id="4" name="1504 Мрамор Градо" preview="1" reckey="010101001403"/>
+<ctcolor id="5" name="2107 Пульпис Бронзато" preview="1" reckey="010101001404"/>
+<ctcolor id="6" name="2108 Каломато" preview="1" reckey="010101001405"/>
+<ctcolor id="7" name="2109 Мрамор Нуар" preview="1" reckey="010101001406"/>
+<ctcolor id="8" name="2110 Милано" preview="1" reckey="010101001407"/>
+<ctcolor id="9" name="2111 Монтабелла" preview="1" reckey="010101001408"/>
+<ctcolor id="10" name="2112 Эльбрус" preview="1" reckey="010101001409"/>
+<ctcolor id="11" name="2125 Пиния Норвежская" preview="1" reckey="01010100140A"/>
+<ctcolor id="12" name="2126 Апулия Марми" preview="1" reckey="01010100140B"/>
+<ctcolor id="13" name="2127 Пульпис Сильвер" preview="1" reckey="01010100140C"/>
+<ctcolor id="14" name="2128 Пиаченто" preview="1" reckey="01010100140D"/>
+<ctcolor id="15" name="2129 Дуб Осиновый" preview="1" reckey="01010100140E"/>
+<ctcolor id="16" name="2130 Королайна Стоун" preview="1" reckey="01010100140F"/>
+<ctcolor id="17" name="2132 Ирландский Дуб" preview="1" reckey="01010100140G"/>
+<ctcolor id="18" name="3026 Каменное Дерево" preview="1" reckey="01010100140H"/>
+<ctcolor id="19" name="3027 Винтажный Дуб" preview="1" reckey="01010100140I"/>
+<ctcolor id="20" name="3028 Дуб Прованс" preview="1" reckey="01010100140J"/>
+<ctcolor id="21" name="4040 Британский Дуб" preview="1" reckey="01010100140K"/>
+<ctcolor id="22" name="5064 Ремесленный Бук" preview="1" reckey="01010100140L"/>
+<ctcolor id="23" name="5068 Азмэра" preview="1" reckey="01010100140M"/>
+<ctcolor id="24" name="121 Морёный Дуб" preview="1" reckey="01010100140N"/>
+<ctcolor id="25" name="134 Венера" preview="1" reckey="01010100140O"/>
+<ctcolor id="26" name="146 Опера Фантастико" preview="1" reckey="01010100140P"/>
+<ctcolor id="27" name="204 Бежевая Фантазия" preview="1" reckey="01010100140Q"/>
+<ctcolor id="28" name="235 Чёрный Гранит" preview="1" reckey="01010100140R"/>
+<ctcolor id="29" name="347 Уни Бланко" preview="1" reckey="01010100140S"/>
+<ctcolor id="30" name="947 Солнечная Альгамбра" preview="1" reckey="01010100140T"/>
+<ctcolor id="31" name="1103 Металло" preview="1" reckey="01010100140U"/>
+<ctcolor id="32" name="1104 Мэш" preview="1" reckey="01010100140V"/>
+<ctcolor id="33" name="1105 Терраццо" preview="1" reckey="01010100140W"/>
+<ctcolor id="34" name="1106 Гиза" preview="1" reckey="01010100140X"/>
+<ctcolor id="35" name="1107 Рома Статуарио" preview="1" reckey="01010100140Y"/>
+<!-- <ctcolor id="36" name="____" preview="1" reckey="01010100140Z"/> -->
+<!-- <ctcolor id="37" name="Laminat Plus" preview="1" reckey="010101001410"/> -->
+<ctcolor id="38" name="418 Легно Скуро" preview="1" reckey="010101001411"/>
+<ctcolor id="39" name="419 Легно Киаро" preview="1" reckey="010101001412"/>
+<ctcolor id="40" name="423 Инканто" preview="1" reckey="010101001413"/>
+<ctcolor id="41" name="424 Оксидо Моро" preview="1" reckey="010101001414"/>
+<ctcolor id="42" name="879 Кверца Жиалло" preview="1" reckey="010101001415"/>
+<ctcolor id="43" name="1100 Латера" preview="1" reckey="010101001416"/>
+<ctcolor id="44" name="1109 Бергамо Стоун" preview="1" reckey="010101001417"/>
+<ctcolor id="45" name="1110 Фиоренци Стоун" preview="1" reckey="010101001418"/>
+<ctcolor id="46" name="1232 Интерченто" preview="1" reckey="010101001419"/>
+<ctcolor id="47" name="1233 Борозио" preview="1" reckey="01010100141A"/>
+<ctcolor id="48" name="1234 Крашстоун" preview="1" reckey="01010100141B"/>
+<ctcolor id="49" name="1235 Троя" preview="1" reckey="01010100141C"/>
+<ctcolor id="50" name="1236 Орваленто" preview="1" reckey="01010100141D"/>
+<ctcolor id="51" name="1238 Лакшери Вуд" preview="1" reckey="01010100141E"/>
+<ctcolor id="52" name="1239 Керавуд" preview="1" reckey="01010100141F"/>
+<ctcolor id="53" name="1377 Ватиканское Сокровище" preview="1" reckey="01010100141G"/>
+<ctcolor id="54" name="1482 Артграу" preview="1" reckey="01010100141H"/>
+<ctcolor id="55" name="2113 Жемчужный Терраццо" preview="1" reckey="01010100141I"/>
+<ctcolor id="56" name="2114 Серебряный Венге" preview="1" reckey="01010100141J"/>
+<ctcolor id="57" name="2115 Мультиколоре" preview="1" reckey="01010100141K"/>
+<ctcolor id="58" name="2116 Дип Слэйт" preview="1" reckey="01010100141L"/>
+<ctcolor id="59" name="2117 Глэма Вуд" preview="1" reckey="01010100141M"/>
+<ctcolor id="60" name="2118 Томление Кедра" preview="1" reckey="01010100141N"/>
+<ctcolor id="61" name="2120 Терраццо Витра" preview="1" reckey="01010100141O"/>
+<ctcolor id="62" name="2121 Каталунья" preview="1" reckey="01010100141P"/>
+<ctcolor id="63" name="2133 Дуб Великобритания" preview="1" reckey="01010100141Q"/>
+<ctcolor id="64" name="2134 Канада Виктория" preview="1" reckey="01010100141R"/>
+<ctcolor id="65" name="2135 Сахара Гамильтон" preview="1" reckey="01010100141S"/>
+<ctcolor id="66" name="2136 Бразилиано" preview="1" reckey="01010100141T"/>
+<ctcolor id="67" name="2137 Мрамор Эрмитаж" preview="1" reckey="01010100141U"/>
+<ctcolor id="68" name="2138 Персиано" preview="1" reckey="01010100141V"/>
+<ctcolor id="69" name="2139 Гренландия" preview="1" reckey="01010100141W"/>
+<ctcolor id="70" name="2166 Дальберга" preview="1" reckey="01010100141X"/>
+<ctcolor id="71" name="3024 Стоун" preview="1" reckey="01010100141Y"/>
+<ctcolor id="72" name="4060 Пиетра Грэй" preview="1" reckey="01010100141Z"/>
+<ctcolor id="73" name="5066 Миллениум" preview="1" reckey="010101001420"/>
+<ctcolor id="74" name="5069 Саленто" preview="1" reckey="010101001421"/>
+<ctcolor id="75" name="5076 Стайл" preview="1" reckey="010101001422"/>
+<!-- <ctcolor id="76" name="____" preview="1" reckey="010101001423"/> -->
+<ctcolor id="77" name="Nano Top" preview="1" reckey="010101001424"/>
+<ctcolor id="78" name="3030 Сатинато Неро" preview="1" reckey="010101001425"/>
+<ctcolor id="79" name="1369 Мистер Вайт" preview="1" reckey="010101001426"/>
+<!-- <ctcolor id="80" name="____" preview="1" reckey="010101001427"/> -->
+<!-- <ctcolor id="81" name="Touch Line" preview="1" reckey="010101001428"/> -->
+<ctcolor id="82" name="142 Чёрный" preview="1" reckey="010101001429"/>
+<ctcolor id="83" name="154 Кристалл Вайт" preview="1" reckey="01010100142A"/>
+<ctcolor id="84" name="155 Кристалл Кремо" preview="1" reckey="01010100142B"/>
+<ctcolor id="85" name="1116 Риччоли" preview="1" reckey="01010100142C"/>
+<ctcolor id="86" name="1117 Абетти" preview="1" reckey="01010100142D"/>
+<ctcolor id="87" name="1118 Торичелли" preview="1" reckey="01010100142E"/>
+<ctcolor id="88" name="1126 Тенерифе" preview="1" reckey="01010100142F"/>
+<ctcolor id="89" name="1228 Имперадорио" preview="1" reckey="01010100142G"/>
+<ctcolor id="90" name="1229 Валерио" preview="1" reckey="01010100142H"/>
+<ctcolor id="91" name="1230 Ривьера" preview="1" reckey="01010100142I"/>
+<ctcolor id="92" name="1378 Дуб Лионский" preview="1" reckey="01010100142J"/>
+<ctcolor id="93" name="2119 Терраццо Панда" preview="1" reckey="01010100142K"/>
+<ctcolor id="94" name="2122 Сицилия" preview="1" reckey="01010100142L"/>
+<ctcolor id="95" name="2123 Сардения" preview="1" reckey="01010100142M"/>
+<ctcolor id="96" name="2131 Брома Гриджио" preview="1" reckey="01010100142N"/>
+<ctcolor id="97" name="4064 Керамо Черсаи" preview="1" reckey="01010100142O"/>
+<ctcolor id="98" name="4065 Керамо Графит" preview="1" reckey="01010100142P"/>
+<ctcolor id="99" name="9042 Картье Скуро" preview="1" reckey="01010100142Q"/>
+<ctcolor id="100" name="9043 Гранити Вулкано" preview="1" reckey="01010100142R"/>
+<!-- <ctcolor id="101" name="____" preview="1" reckey="01010100142S"/> -->
+<!-- <ctcolor id="102" name="Глянцевая Линия" preview="1" reckey="01010100142T"/> -->
+<ctcolor id="103" name="1114 Марми Армани" preview="1" reckey="01010100142U"/>
+<ctcolor id="104" name="1115 Каррара Беллиссима" preview="1" reckey="01010100142V"/>
+<ctcolor id="105" name="2124 Лунный Мрамор" preview="1" reckey="01010100142W"/>
+<ctcolor id="106" name="5062 Марфил Аликанте" preview="1" reckey="01010100142X"/>
+<ctcolor id="107" name="318 Мрамор Бианко" preview="1" reckey="01010100142Y"/>
+<ctcolor id="108" name="325 Травертино Аргенто" preview="1" reckey="01010100142Z"/>
+<ctcolor id="109" name="326 Бреския" preview="1" reckey="010101001430"/>
+<ctcolor id="110" name="527 Альгамбра" preview="1" reckey="010101001431"/>
+<ctcolor id="111" name="528 Италико" preview="1" reckey="010101001432"/>
+<ctcolor id="112" name="533 Травертин" preview="1" reckey="010101001433"/>
+<ctcolor id="113" name="534 Арктика" preview="1" reckey="010101001434"/>
+<ctcolor id="114" name="1111 Золото Ацтеков" preview="1" reckey="010101001435"/>
+<ctcolor id="115" name="1112 Арабескато" preview="1" reckey="010101001436"/>
+<ctcolor id="116" name="1113 Григио Лидо" preview="1" reckey="010101001437"/>
+
+<ctcolor id="0" name="нет" preview="1" reckey="01010100143D"/>
+</ctcolors>
+	
+<plinthtypes>
+<plinthtype id="1" name="Треугольный" preview="1" reckey="01010100150"/>
+<plinthtype id="2" name="Отбортовка клиента" preview="1" reckey="01010100151"/>
+<plinthtype id="0" name="Без отбортовки" preview="1" reckey="01010100152"/>
+</plinthtypes>
+	
+<plinthcolors>
+<!-- <plinthcolor id="1" plinthtypes="1" name="HPL" preview="1" reckey="010101001600"/> -->
+<plinthcolor id="2" plinthtypes="1" name="1237 Орегонская Сосна" preview="1" reckey="010101001601"/>
+<plinthcolor id="3" plinthtypes="1" name="1264 Артемидий Благородный" preview="1" reckey="010101001602"/>
+<plinthcolor id="4" plinthtypes="1" name="1504 Мрамор Градо" preview="1" reckey="010101001603"/>
+<plinthcolor id="5" plinthtypes="1" name="2107 Пульпис Бронзато" preview="1" reckey="010101001604"/>
+<plinthcolor id="6" plinthtypes="1" name="2108 Каломато" preview="1" reckey="010101001605"/>
+<plinthcolor id="7" plinthtypes="1" name="2109 Мрамор Нуар" preview="1" reckey="010101001606"/>
+<plinthcolor id="8" plinthtypes="1" name="2110 Милано" preview="1" reckey="010101001607"/>
+<plinthcolor id="9" plinthtypes="1" name="2111 Монтабелла" preview="1" reckey="010101001608"/>
+<plinthcolor id="10" plinthtypes="1" name="2112 Эльбрус" preview="1" reckey="010101001609"/>
+<plinthcolor id="11" plinthtypes="1" name="2125 Пиния Норвежская" preview="1" reckey="01010100160A"/>
+<plinthcolor id="12" plinthtypes="1" name="2126 Апулия Марми" preview="1" reckey="01010100160B"/>
+<plinthcolor id="13" plinthtypes="1" name="2127 Пульпис Сильвер" preview="1" reckey="01010100160C"/>
+<plinthcolor id="14" plinthtypes="1" name="2128 Пиаченто" preview="1" reckey="01010100160D"/>
+<plinthcolor id="15" plinthtypes="1" name="2129 Дуб Осиновый" preview="1" reckey="01010100160E"/>
+<plinthcolor id="16" plinthtypes="1" name="2130 Королайна Стоун" preview="1" reckey="01010100160F"/>
+<plinthcolor id="17" plinthtypes="1" name="2132 Ирландский Дуб" preview="1" reckey="01010100160G"/>
+<plinthcolor id="18" plinthtypes="1" name="3026 Каменное Дерево" preview="1" reckey="01010100160H"/>
+<plinthcolor id="19" plinthtypes="1" name="3027 Винтажный Дуб" preview="1" reckey="01010100160I"/>
+<plinthcolor id="20" plinthtypes="1" name="3028 Дуб Прованс" preview="1" reckey="01010100160J"/>
+<plinthcolor id="21" plinthtypes="1" name="4040 Британский Дуб" preview="1" reckey="01010100160K"/>
+<plinthcolor id="22" plinthtypes="1" name="5064 Ремесленный Бук" preview="1" reckey="01010100160L"/>
+<plinthcolor id="23" plinthtypes="1" name="5068 Азмэра" preview="1" reckey="01010100160M"/>
+<plinthcolor id="24" plinthtypes="1" name="121 Морёный Дуб" preview="1" reckey="01010100160N"/>
+<plinthcolor id="25" plinthtypes="1" name="134 Венера" preview="1" reckey="01010100160O"/>
+<plinthcolor id="26" plinthtypes="1" name="146 Опера Фантастико" preview="1" reckey="01010100160P"/>
+<plinthcolor id="27" plinthtypes="1" name="204 Бежевая Фантазия" preview="1" reckey="01010100160Q"/>
+<plinthcolor id="28" plinthtypes="1" name="235 Чёрный Гранит" preview="1" reckey="01010100160R"/>
+<plinthcolor id="29" plinthtypes="1" name="347 Уни Бланко" preview="1" reckey="01010100160S"/>
+<plinthcolor id="30" plinthtypes="1" name="947 Солнечная Альгамбра" preview="1" reckey="01010100160T"/>
+<plinthcolor id="31" plinthtypes="1" name="1103 Металло" preview="1" reckey="01010100160U"/>
+<plinthcolor id="32" plinthtypes="1" name="1104 Мэш" preview="1" reckey="01010100160V"/>
+<plinthcolor id="33" plinthtypes="1" name="1105 Терраццо" preview="1" reckey="01010100160W"/>
+<plinthcolor id="34" plinthtypes="1" name="1106 Гиза" preview="1" reckey="01010100160X"/>
+<plinthcolor id="35" plinthtypes="1" name="1107 Рома Статуарио" preview="1" reckey="01010100160Y"/>
+<!-- <plinthcolor id="36" plinthtypes="1" name="____" preview="1" reckey="01010100160Z"/>
+<plinthcolor id="37" plinthtypes="1" name="Laminat Plus" preview="1" reckey="010101001610"/> -->
+<plinthcolor id="38" plinthtypes="1" name="418 Легно Скуро" preview="1" reckey="010101001611"/>
+<plinthcolor id="39" plinthtypes="1" name="419 Легно Киаро" preview="1" reckey="010101001612"/>
+<plinthcolor id="40" plinthtypes="1" name="423 Инканто" preview="1" reckey="010101001613"/>
+<plinthcolor id="41" plinthtypes="1" name="424 Оксидо Моро" preview="1" reckey="010101001614"/>
+<plinthcolor id="42" plinthtypes="1" name="879 Кверца Жиалло" preview="1" reckey="010101001615"/>
+<plinthcolor id="43" plinthtypes="1" name="1100 Латера" preview="1" reckey="010101001616"/>
+<plinthcolor id="44" plinthtypes="1" name="1109 Бергамо Стоун" preview="1" reckey="010101001617"/>
+<plinthcolor id="45" plinthtypes="1" name="1110 Фиоренци Стоун" preview="1" reckey="010101001618"/>
+<plinthcolor id="46" plinthtypes="1" name="1232 Интерченто" preview="1" reckey="010101001619"/>
+<plinthcolor id="47" plinthtypes="1" name="1233 Борозио" preview="1" reckey="01010100161A"/>
+<plinthcolor id="48" plinthtypes="1" name="1234 Крашстоун" preview="1" reckey="01010100161B"/>
+<plinthcolor id="49" plinthtypes="1" name="1235 Троя" preview="1" reckey="01010100161C"/>
+<plinthcolor id="50" plinthtypes="1" name="1236 Орваленто" preview="1" reckey="01010100161D"/>
+<plinthcolor id="51" plinthtypes="1" name="1238 Лакшери Вуд" preview="1" reckey="01010100161E"/>
+<plinthcolor id="52" plinthtypes="1" name="1239 Керавуд" preview="1" reckey="01010100161F"/>
+<plinthcolor id="53" plinthtypes="1" name="1377 Ватиканское Сокровище" preview="1" reckey="01010100161G"/>
+<plinthcolor id="54" plinthtypes="1" name="1482 Артграу" preview="1" reckey="01010100161H"/>
+<plinthcolor id="55" plinthtypes="1" name="2113 Жемчужный Терраццо" preview="1" reckey="01010100161I"/>
+<plinthcolor id="56" plinthtypes="1" name="2114 Серебряный Венге" preview="1" reckey="01010100161J"/>
+<plinthcolor id="57" plinthtypes="1" name="2115 Мультиколоре" preview="1" reckey="01010100161K"/>
+<plinthcolor id="58" plinthtypes="1" name="2116 Дип Слэйт" preview="1" reckey="01010100161L"/>
+<plinthcolor id="59" plinthtypes="1" name="2117 Глэма Вуд" preview="1" reckey="01010100161M"/>
+<plinthcolor id="60" plinthtypes="1" name="2118 Томление Кедра" preview="1" reckey="01010100161N"/>
+<plinthcolor id="61" plinthtypes="1" name="2120 Терраццо Витра" preview="1" reckey="01010100161O"/>
+<plinthcolor id="62" plinthtypes="1" name="2121 Каталунья" preview="1" reckey="01010100161P"/>
+<plinthcolor id="63" plinthtypes="1" name="2133 Дуб Великобритания" preview="1" reckey="01010100161Q"/>
+<plinthcolor id="64" plinthtypes="1" name="2134 Канада Виктория" preview="1" reckey="01010100161R"/>
+<plinthcolor id="65" plinthtypes="1" name="2135 Сахара Гамильтон" preview="1" reckey="01010100161S"/>
+<plinthcolor id="66" plinthtypes="1" name="2136 Бразилиано" preview="1" reckey="01010100161T"/>
+<plinthcolor id="67" plinthtypes="1" name="2137 Мрамор Эрмитаж" preview="1" reckey="01010100161U"/>
+<plinthcolor id="68" plinthtypes="1" name="2138 Персиано" preview="1" reckey="01010100161V"/>
+<plinthcolor id="69" plinthtypes="1" name="2139 Гренландия" preview="1" reckey="01010100161W"/>
+<plinthcolor id="70" plinthtypes="1" name="2166 Дальберга" preview="1" reckey="01010100161X"/>
+<plinthcolor id="71" plinthtypes="1" name="3024 Стоун" preview="1" reckey="01010100161Y"/>
+<plinthcolor id="72" plinthtypes="1" name="4060 Пиетра Грэй" preview="1" reckey="01010100161Z"/>
+<plinthcolor id="73" plinthtypes="1" name="5066 Миллениум" preview="1" reckey="010101001620"/>
+<plinthcolor id="74" plinthtypes="1" name="5069 Саленто" preview="1" reckey="010101001621"/>
+<plinthcolor id="75" plinthtypes="1" name="5076 Стайл" preview="1" reckey="010101001622"/>
+<!-- <plinthcolor id="76" plinthtypes="1" name="____" preview="1" reckey="010101001623"/>
+<plinthcolor id="77" plinthtypes="1" name="Nano Top" preview="1" reckey="010101001624"/> -->
+<plinthcolor id="78" plinthtypes="1" name="3030 Сатинато Неро" preview="1" reckey="010101001625"/>
+<plinthcolor id="79" plinthtypes="1" name="1369 Мистер Вайт" preview="1" reckey="010101001626"/>
+<!-- <plinthcolor id="80" plinthtypes="1" name="____" preview="1" reckey="010101001627"/>
+<plinthcolor id="81" plinthtypes="1" name="Touch Line" preview="1" reckey="010101001628"/> -->
+<plinthcolor id="82" plinthtypes="1" name="142 Чёрный" preview="1" reckey="010101001629"/>
+<plinthcolor id="83" plinthtypes="1" name="154 Кристалл Вайт" preview="1" reckey="01010100162A"/>
+<plinthcolor id="84" plinthtypes="1" name="155 Кристалл Кремо" preview="1" reckey="01010100162B"/>
+<plinthcolor id="85" plinthtypes="1" name="1116 Риччоли" preview="1" reckey="01010100162C"/>
+<plinthcolor id="86" plinthtypes="1" name="1117 Абетти" preview="1" reckey="01010100162D"/>
+<plinthcolor id="87" plinthtypes="1" name="1118 Торичелли" preview="1" reckey="01010100162E"/>
+<plinthcolor id="88" plinthtypes="1" name="1126 Тенерифе" preview="1" reckey="01010100162F"/>
+<plinthcolor id="89" plinthtypes="1" name="1228 Имперадорио" preview="1" reckey="01010100162G"/>
+<plinthcolor id="90" plinthtypes="1" name="1229 Валерио" preview="1" reckey="01010100162H"/>
+<plinthcolor id="91" plinthtypes="1" name="1230 Ривьера" preview="1" reckey="01010100162I"/>
+<plinthcolor id="92" plinthtypes="1" name="1378 Дуб Лионский" preview="1" reckey="01010100162J"/>
+<plinthcolor id="93" plinthtypes="1" name="2119 Терраццо Панда" preview="1" reckey="01010100162K"/>
+<plinthcolor id="94" plinthtypes="1" name="2122 Сицилия" preview="1" reckey="01010100162L"/>
+<plinthcolor id="95" plinthtypes="1" name="2123 Сардения" preview="1" reckey="01010100162M"/>
+<plinthcolor id="96" plinthtypes="1" name="2131 Брома Гриджио" preview="1" reckey="01010100162N"/>
+<plinthcolor id="97" plinthtypes="1" name="4064 Керамо Черсаи" preview="1" reckey="01010100162O"/>
+<plinthcolor id="98" plinthtypes="1" name="4065 Керамо Графит" preview="1" reckey="01010100162P"/>
+<plinthcolor id="99" plinthtypes="1" name="9042 Картье Скуро" preview="1" reckey="01010100162Q"/>
+<plinthcolor id="100" plinthtypes="1" name="9043 Гранити Вулкано" preview="1" reckey="01010100162R"/>
+<!-- <plinthcolor id="101" plinthtypes="1" name="____" preview="1" reckey="01010100162S"/>
+<plinthcolor id="102" plinthtypes="1" name="Глянцевая Линия" preview="1" reckey="01010100162T"/> -->
+<plinthcolor id="103" plinthtypes="1" name="1114 Марми Армани" preview="1" reckey="01010100162U"/>
+<plinthcolor id="104" plinthtypes="1" name="1115 Каррара Беллиссима" preview="1" reckey="01010100162V"/>
+<plinthcolor id="105" plinthtypes="1" name="2124 Лунный Мрамор" preview="1" reckey="01010100162W"/>
+<plinthcolor id="106" plinthtypes="1" name="5062 Марфил Аликанте" preview="1" reckey="01010100162X"/>
+<plinthcolor id="107" plinthtypes="1" name="318 Мрамор Бианко" preview="1" reckey="01010100162Y"/>
+<plinthcolor id="108" plinthtypes="1" name="325 Травертино Аргенто" preview="1" reckey="01010100162Z"/>
+<plinthcolor id="109" plinthtypes="1" name="326 Бреския" preview="1" reckey="010101001630"/>
+<plinthcolor id="110" plinthtypes="1" name="527 Альгамбра" preview="1" reckey="010101001631"/>
+<plinthcolor id="111" plinthtypes="1" name="528 Италико" preview="1" reckey="010101001632"/>
+<plinthcolor id="112" plinthtypes="1" name="533 Травертин" preview="1" reckey="010101001633"/>
+<plinthcolor id="113" plinthtypes="1" name="534 Арктика" preview="1" reckey="010101001634"/>
+<plinthcolor id="114" plinthtypes="1" name="1111 Золото Ацтеков" preview="1" reckey="010101001635"/>
+<plinthcolor id="115" plinthtypes="1" name="1112 Арабескато" preview="1" reckey="010101001636"/>
+<plinthcolor id="116" plinthtypes="1" name="1113 Григио Лидо" preview="1" reckey="010101001637"/>
+
+<plinthcolor id="150" plinthtypes="2" name="Алюминий матовый" preview="1" reckey="010101001639"/>
+<plinthcolor id="151" plinthtypes="2" name="Белый матовый" preview="1" reckey="01010100163A"/>
+<plinthcolor id="152" plinthtypes="2" name="Черный матовый" preview="1" reckey="01010100163B"/>
+
+<plinthcolor id="0" plinthtypes="0" name="нет" preview="1" reckey="01010100163C"/>
+</plinthcolors>
+	
+<panelcolors>
+<!-- <panelcolor id="1" name="Алюминий мелкоматированный" preview="1" reckey="010101001900"/> -->
+<!-- <panelcolor id="1" name="HPL" preview="1" reckey="010101001900"/> -->
+<panelcolor id="2" name="1237 Орегонская Сосна" preview="1" reckey="010101001901"/>
+<panelcolor id="3" name="1264 Артемидий Благородный" preview="1" reckey="010101001902"/>
+<panelcolor id="4" name="1504 Мрамор Градо" preview="1" reckey="010101001903"/>
+<panelcolor id="5" name="2107 Пульпис Бронзато" preview="1" reckey="010101001904"/>
+<panelcolor id="6" name="2108 Каломато" preview="1" reckey="010101001905"/>
+<panelcolor id="7" name="2109 Мрамор Нуар" preview="1" reckey="010101001906"/>
+<panelcolor id="8" name="2110 Милано" preview="1" reckey="010101001907"/>
+<panelcolor id="9" name="2111 Монтабелла" preview="1" reckey="010101001908"/>
+<panelcolor id="10" name="2112 Эльбрус" preview="1" reckey="010101001909"/>
+<panelcolor id="11" name="2125 Пиния Норвежская" preview="1" reckey="01010100190A"/>
+<panelcolor id="12" name="2126 Апулия Марми" preview="1" reckey="01010100190B"/>
+<panelcolor id="13" name="2127 Пульпис Сильвер" preview="1" reckey="01010100190C"/>
+<panelcolor id="14" name="2128 Пиаченто" preview="1" reckey="01010100190D"/>
+<panelcolor id="15" name="2129 Дуб Осиновый" preview="1" reckey="01010100190E"/>
+<panelcolor id="16" name="2130 Королайна Стоун" preview="1" reckey="01010100190F"/>
+<panelcolor id="17" name="2132 Ирландский Дуб" preview="1" reckey="01010100190G"/>
+<panelcolor id="18" name="3026 Каменное Дерево" preview="1" reckey="01010100190H"/>
+<panelcolor id="19" name="3027 Винтажный Дуб" preview="1" reckey="01010100190I"/>
+<panelcolor id="20" name="3028 Дуб Прованс" preview="1" reckey="01010100190J"/>
+<panelcolor id="21" name="4040 Британский Дуб" preview="1" reckey="01010100190K"/>
+<panelcolor id="22" name="5064 Ремесленный Бук" preview="1" reckey="01010100190L"/>
+<panelcolor id="23" name="5068 Азмэра" preview="1" reckey="01010100190M"/>
+<panelcolor id="24" name="121 Морёный Дуб" preview="1" reckey="01010100190N"/>
+<panelcolor id="25" name="134 Венера" preview="1" reckey="01010100190O"/>
+<panelcolor id="26" name="146 Опера Фантастико" preview="1" reckey="01010100190P"/>
+<panelcolor id="27" name="204 Бежевая Фантазия" preview="1" reckey="01010100190Q"/>
+<panelcolor id="28" name="235 Чёрный Гранит" preview="1" reckey="01010100190R"/>
+<panelcolor id="29" name="347 Уни Бланко" preview="1" reckey="01010100190S"/>
+<panelcolor id="30" name="947 Солнечная Альгамбра" preview="1" reckey="01010100190T"/>
+<panelcolor id="31" name="1103 Металло" preview="1" reckey="01010100190U"/>
+<panelcolor id="32" name="1104 Мэш" preview="1" reckey="01010100190V"/>
+<panelcolor id="33" name="1105 Терраццо" preview="1" reckey="01010100190W"/>
+<panelcolor id="34" name="1106 Гиза" preview="1" reckey="01010100190X"/>
+<panelcolor id="35" name="1107 Рома Статуарио" preview="1" reckey="01010100190Y"/>
+<!-- <panelcolor id="36" name="____" preview="1" reckey="01010100190Z"/> -->
+<!-- <panelcolor id="37" name="Laminat Plus" preview="1" reckey="010101001910"/> -->
+<panelcolor id="38" name="418 Легно Скуро" preview="1" reckey="010101001911"/>
+<panelcolor id="39" name="419 Легно Киаро" preview="1" reckey="010101001912"/>
+<panelcolor id="40" name="423 Инканто" preview="1" reckey="010101001913"/>
+<panelcolor id="41" name="424 Оксидо Моро" preview="1" reckey="010101001914"/>
+<panelcolor id="42" name="879 Кверца Жиалло" preview="1" reckey="010101001915"/>
+<panelcolor id="43" name="1100 Латера" preview="1" reckey="010101001916"/>
+<panelcolor id="44" name="1109 Бергамо Стоун" preview="1" reckey="010101001917"/>
+<panelcolor id="45" name="1110 Фиоренци Стоун" preview="1" reckey="010101001918"/>
+<panelcolor id="46" name="1232 Интерченто" preview="1" reckey="010101001919"/>
+<panelcolor id="47" name="1233 Борозио" preview="1" reckey="01010100191A"/>
+<panelcolor id="48" name="1234 Крашстоун" preview="1" reckey="01010100191B"/>
+<panelcolor id="49" name="1235 Троя" preview="1" reckey="01010100191C"/>
+<panelcolor id="50" name="1236 Орваленто" preview="1" reckey="01010100191D"/>
+<panelcolor id="51" name="1238 Лакшери Вуд" preview="1" reckey="01010100191E"/>
+<panelcolor id="52" name="1239 Керавуд" preview="1" reckey="01010100191F"/>
+<panelcolor id="53" name="1377 Ватиканское Сокровище" preview="1" reckey="01010100191G"/>
+<panelcolor id="54" name="1482 Артграу" preview="1" reckey="01010100191H"/>
+<panelcolor id="55" name="2113 Жемчужный Терраццо" preview="1" reckey="01010100191I"/>
+<panelcolor id="56" name="2114 Серебряный Венге" preview="1" reckey="01010100191J"/>
+<panelcolor id="57" name="2115 Мультиколоре" preview="1" reckey="01010100191K"/>
+<panelcolor id="58" name="2116 Дип Слэйт" preview="1" reckey="01010100191L"/>
+<panelcolor id="59" name="2117 Глэма Вуд" preview="1" reckey="01010100191M"/>
+<panelcolor id="60" name="2118 Томление Кедра" preview="1" reckey="01010100191N"/>
+<panelcolor id="61" name="2120 Терраццо Витра" preview="1" reckey="01010100191O"/>
+<panelcolor id="62" name="2121 Каталунья" preview="1" reckey="01010100191P"/>
+<panelcolor id="63" name="2133 Дуб Великобритания" preview="1" reckey="01010100191Q"/>
+<panelcolor id="64" name="2134 Канада Виктория" preview="1" reckey="01010100191R"/>
+<panelcolor id="65" name="2135 Сахара Гамильтон" preview="1" reckey="01010100191S"/>
+<panelcolor id="66" name="2136 Бразилиано" preview="1" reckey="01010100191T"/>
+<panelcolor id="67" name="2137 Мрамор Эрмитаж" preview="1" reckey="01010100191U"/>
+<panelcolor id="68" name="2138 Персиано" preview="1" reckey="01010100191V"/>
+<panelcolor id="69" name="2139 Гренландия" preview="1" reckey="01010100191W"/>
+<panelcolor id="70" name="2166 Дальберга" preview="1" reckey="01010100191X"/>
+<panelcolor id="71" name="3024 Стоун" preview="1" reckey="01010100191Y"/>
+<panelcolor id="72" name="4060 Пиетра Грэй" preview="1" reckey="01010100191Z"/>
+<panelcolor id="73" name="5066 Миллениум" preview="1" reckey="010101001920"/>
+<panelcolor id="74" name="5069 Саленто" preview="1" reckey="010101001921"/>
+<panelcolor id="75" name="5076 Стайл" preview="1" reckey="010101001922"/>
+<!-- <panelcolor id="76" name="____" preview="1" reckey="010101001923"/> -->
+<panelcolor id="77" name="Nano Top" preview="1" reckey="010101001924"/>
+<panelcolor id="78" name="3030 Сатинато Неро" preview="1" reckey="010101001925"/>
+<panelcolor id="79" name="1369 Мистер Вайт" preview="1" reckey="010101001926"/>
+<!-- <panelcolor id="80" name="____" preview="1" reckey="010101001927"/> -->
+<!-- <panelcolor id="81" name="Touch Line" preview="1" reckey="010101001928"/> -->
+<panelcolor id="82" name="142 Чёрный" preview="1" reckey="010101001929"/>
+<panelcolor id="83" name="154 Кристалл Вайт" preview="1" reckey="01010100192A"/>
+<panelcolor id="84" name="155 Кристалл Кремо" preview="1" reckey="01010100192B"/>
+<panelcolor id="85" name="1116 Риччоли" preview="1" reckey="01010100192C"/>
+<panelcolor id="86" name="1117 Абетти" preview="1" reckey="01010100192D"/>
+<panelcolor id="87" name="1118 Торичелли" preview="1" reckey="01010100192E"/>
+<panelcolor id="88" name="1126 Тенерифе" preview="1" reckey="01010100192F"/>
+<panelcolor id="89" name="1228 Имперадорио" preview="1" reckey="01010100192G"/>
+<panelcolor id="90" name="1229 Валерио" preview="1" reckey="01010100192H"/>
+<panelcolor id="91" name="1230 Ривьера" preview="1" reckey="01010100192I"/>
+<panelcolor id="92" name="1378 Дуб Лионский" preview="1" reckey="01010100192J"/>
+<panelcolor id="93" name="2119 Терраццо Панда" preview="1" reckey="01010100192K"/>
+<panelcolor id="94" name="2122 Сицилия" preview="1" reckey="01010100192L"/>
+<panelcolor id="95" name="2123 Сардения" preview="1" reckey="01010100192M"/>
+<panelcolor id="96" name="2131 Брома Гриджио" preview="1" reckey="01010100192N"/>
+<panelcolor id="97" name="4064 Керамо Черсаи" preview="1" reckey="01010100192O"/>
+<panelcolor id="98" name="4065 Керамо Графит" preview="1" reckey="01010100192P"/>
+<panelcolor id="99" name="9042 Картье Скуро" preview="1" reckey="01010100192Q"/>
+<panelcolor id="100" name="9043 Гранити Вулкано" preview="1" reckey="01010100192R"/>
+<!-- <panelcolor id="101" name="____" preview="1" reckey="01010100192S"/> -->
+<!-- <panelcolor id="102" name="Глянцевая Линия" preview="1" reckey="01010100192T"/> -->
+<panelcolor id="103" name="1114 Марми Армани" preview="1" reckey="01010100192U"/>
+<panelcolor id="104" name="1115 Каррара Беллиссима" preview="1" reckey="01010100192V"/>
+<panelcolor id="105" name="2124 Лунный Мрамор" preview="1" reckey="01010100192W"/>
+<panelcolor id="106" name="5062 Марфил Аликанте" preview="1" reckey="01010100192X"/>
+<panelcolor id="107" name="318 Мрамор Бианко" preview="1" reckey="01010100192Y"/>
+<panelcolor id="108" name="325 Травертино Аргенто" preview="1" reckey="01010100192Z"/>
+<panelcolor id="109" name="326 Бреския" preview="1" reckey="010101001930"/>
+<panelcolor id="110" name="527 Альгамбра" preview="1" reckey="010101001931"/>
+<panelcolor id="111" name="528 Италико" preview="1" reckey="010101001932"/>
+<panelcolor id="112" name="533 Травертин" preview="1" reckey="010101001933"/>
+<panelcolor id="113" name="534 Арктика" preview="1" reckey="010101001934"/>
+<panelcolor id="114" name="1111 Золото Ацтеков" preview="1" reckey="010101001935"/>
+<panelcolor id="115" name="1112 Арабескато" preview="1" reckey="010101001936"/>
+<panelcolor id="116" name="1113 Григио Лидо" preview="1" reckey="010101001937"/>
+
+<panelcolor id="0" name="Без Стеновой панели" preview="1" reckey="010101001939"/>
+</panelcolors>
+
+</root>
