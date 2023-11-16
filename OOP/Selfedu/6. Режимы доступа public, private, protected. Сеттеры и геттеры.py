@@ -5,6 +5,7 @@ class Rectangle:
             self.__x = x
             self.__y = y
 
+    # @protected
     @classmethod
     def __check_value(cls, x):
         return type(x) in (int, float)
@@ -20,10 +21,7 @@ class Rectangle:
         return self.__x, self.__y
 
 
-rect_1 = Rectangle(0, 500)
+rect_1 = Rectangle(50, 500)
 print(rect_1.get_coord())
 rect_1.set_coord(1, 15)
 print(rect_1.get_coord())
-rect_1.set_coord(10, 150)
-print(rect_1.get_coord())
-print(dir(rect_1))
